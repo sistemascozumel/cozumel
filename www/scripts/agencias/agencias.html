@@ -1,0 +1,19 @@
+<ion-view view-title="Agencias">
+  <ion-content class="padding">
+
+    <br>
+    <input type="text" ng-model="buscar" placeholder="Buscar...">
+    
+    <div class="list">
+
+
+      <a ng-repeat="agencia in ctrl.agencias|orderBy:'nombre'|filter:buscar" class="item item-avatar" href="#">
+        <img src="venkman.jpg">
+        <h2>{{::agencia.nombre}}</h2>
+        <p>{{::agencia.horarios}}.</p>
+      </a>
+
+    </div>
+
+  </ion-content>
+</ion-view>

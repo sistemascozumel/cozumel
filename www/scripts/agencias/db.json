@@ -1,0 +1,81 @@
+[
+  {
+    "nombre":"CARIBEAN TOURS",
+    "responsable":"Laura Cardenas Urbina",
+    "direccion":"Calle 5 sur #241/10 y 15",
+    "telefono":"(987) 8724318",
+    "horarios":"Lunes a Sabados de 9 a 2 pm y 4 a 8 pm",
+    "servicios":[
+      "Tours a zonas Arqueologicas",
+      "Tours acuaticos (buceo, snuba, snorkel, etc)",
+      "Vuelos a Europa y paquetes a Orlando"
+    ]
+  },
+  {
+    "nombre":"FANTASY TRAVEL EXPRESS",
+    "responsable":"Ivonne Opalin",
+    "direccion":"20 Av. # 1200 / 19 y 21",
+    "telefono":"(987) 8726138",
+    "horarios":"Lunes a Lunes de 8am a 8 pm",
+    "servicios":[
+      "Tours Regionales y Locales"
+    ]
+  },
+  {
+    "nombre":"FERINCO TRAVELS AND TOURS",
+    "responsable":"Alejandro Tep",
+    "telefono":"(987) 8721781",
+    "direccion":"Pedro Joaquin C. # 509 / 5 sur e Hidalgo",
+    "horarios":"Lunes a Viernes de 8am a 7 pm y Sabados de 8am a 3 pm",
+    "servicios":[
+      "Excursiones Nacionales e Internacionales",
+      "Hospedaje en Diversos hoteles",
+      "Renta de autos"
+    ]
+  },
+  {
+    "nombre":"HOLIDAYS",
+    "responsable":"Alfredo Alcerreca",
+    "direccion":"11 sur x Av. Pedro J. C # 598",
+    "telefono":"(987) 8720433",
+    "horarios":"Lunes a Sabados de 9am a 2 pm y de 4pm a 8 pm",
+    "servicios":[
+      "Excursiones Locales e Internacionales",
+      "Renta de autos"
+    ]
+  },
+  {
+    "nombre":"LOMAS TRAVEL",
+    "responsable":"Pedro Chan",
+    "direccion":"5 Av. Sur / 13 y 15 #961",
+    "telefono":"(987) 8723609",
+    "horarios":"Lunes a Domingo 7am a 9 pm",
+    "servicios":[
+      "Agencia de viajes tipo receptivo ( Suncountry, funjet)"
+    ]
+  },
+  {
+    "nombre":"OLYMPUS TOURS",
+    "responsable":"Alex Rodriguez",
+    "direccion":"10 Av. Con 7 sur",
+    "telefono":"(987) 8722454",
+    "horarios":"Lunes a Domingo de 8am a 8 pm",
+    "servicios":[
+      "Agencia de viajes tipo receptivo (Travel Ocity, Viator, Gogo, Liberty Travel)"
+    ]
+  },
+  {
+    "nombre":"MARPLAY",
+    "responsable":"",
+    "direccion":"CALLE 6 NORTE/15 Y 20 AV #391",
+    "telefono":"(987)8725247",
+    "horarios":"Lunes a viernes de 9:30 a 2:00 y de 4:00 a 7:00 pm sabados de 10am - 2 pm",
+    "servicios":[
+      "Venta de boletos aereos nacionales e internacionales",
+      "Hoteles a cualquier parte del mundo",
+      "Paquetes vacacionales",
+      "Cruceros",
+      "Renta de autos"
+    ]
+  }
+]

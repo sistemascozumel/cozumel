@@ -1,0 +1,17 @@
+<ion-view view-title="Hoteles">
+  <ion-content class="padding">
+
+    <br>
+    <input type="text" ng-model="buscar" placeholder="Buscar...">
+
+    <div class="list">
+      <a class="item item-thumbnail-left"
+        ng-repeat="hotel in ctrl.hoteles|orderBy:'nombre'|filter:buscar"
+        href="#/app/servicios/hoteles/{{::hotel.nombre}}" >
+          <img src="cover.jpg">
+          <h2>{{::hotel.nombre}}</h2>
+          <p>{{::hotel.direccion}}</p>
+      </a>
+    </div>
+  </ion-content>
+</ion-view>

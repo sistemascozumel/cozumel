@@ -1,0 +1,464 @@
+[
+  {
+    "nombre":"Hotel Caribe",
+    "direccion":"Centro Downtown /Calle 2 Norte entre 15ª y 20ª Av. ",
+    "telefonos":[
+      "(987)872-4283",
+      "(987)872-0325"
+    ],
+    "fax":"987-872-6122",
+    "correo":"manuelbrito_estrella@hotmail.com",
+    "website":"",
+    "cuartos":14,
+    "plan":"Plan Europeo",
+    "categoria":"1",
+    "incluye":[
+      "a/a",
+      "TV cable",
+      "agua",
+      "alberca",
+      "estacionamiento",
+      "wifi"
+    ],
+    "foto":"img/hoteles/hotel_caribe.jpg"
+  },
+  {
+    "nombre":"Hotel Costa Brava",
+    "direccion":"Centro Downtown/Av. Rafael E. Melgar # 601 Sur",
+    "telefonos":[
+      "(987)872-1453",
+      "+52(987)872-1453"
+    ],
+    "fax":"987-872-1290",
+    "correo":"cosbrava@prodigy.net.mx",
+    "website":"www.cozumel.net/hotels/costa_brava/",
+    "cuartos":17,
+    "plan":"Plan Europeo",
+    "categoria":"1",
+    "incluye":[
+      "A/A",
+      "VENTILADOR",
+      "TV-CABLE",
+      "ALBERCA",
+      "BAR",
+      "CONCESIÓN DE RENTADORA DE CARROS",
+      "TIENDA DE BUCEO",
+      "AGUA C-F"
+    ],
+    "foto":"img/hoteles/costa_brava.jpg"
+  },
+  {
+    "nombre":"Hotel Isla Esmeralda",
+    "direccion":"Centro Downtown/Calle 2 norte s/n entre 20 y 25 avenida",
+    "telefonos":[
+      "(987)872-3255",
+      "+52(987)872-3255"
+    ],
+    "fax":"(987)872-3255",
+    "correo":"isla_esmeralda_@hotmail.com",
+    "cuartos":16,
+    "plan":"Plan Europeo",
+    "categoria":"1",
+    "foto":"img/hoteles/costa_brava.jpg"
+  },
+  {
+    "nombre":"Hotel Kary",
+    "direccion":"Centro Downtown/Ave. 25 Sur entre Adolfo Rosado Salas y 3 Sur",
+    "telefonos":[
+      "(987)872-22011",
+      "+52(987)872-22011"
+    ],
+    "correo":"hotelkary@gmail.com",
+    "website":"www.cozumel.net/hotels/costa_brava/",
+    "cuartos":16,
+    "plan":"Plan Europeo",
+    "categoria":"1",
+    "incluye":[
+      "VENTILADOR",
+      "A/A",
+      "TV-CABLE",
+      "WIFI",
+      "ALBERCA",
+      "AGUA C/F"
+    ],
+    "foto":"img/hoteles/kary.png"
+  },
+  {
+    "nombre":"Hotel Saolima",
+    "direccion":"Downtown/Adolfo Rosado Salas entre 10ª y 15ª Av.",
+    "telefonos":[
+      "(987)872-5185",
+      "+52(987)872-5185"
+    ],
+    "correo":"bernymarybernal@hotmail.com",
+    "cuartos":16,
+    "plan":"Plan Europeo",
+    "categoria":"1",
+    "incluye":[
+      "VENTILADOR",
+      "TV-CABLE",
+      "AGUA",
+      "C/F"
+    ],
+    "foto":"img/hoteles/saolima.png"
+  },
+  {
+    "nombre":"Hotel Pepita",
+    "direccion":"Centro Downtown/15ª Av. Entre Calle 1ª Sur y Adolfo Rosado Salas",
+    "telefonos":[
+      "(987)872-0098",
+      "+52(987)872-0098"
+    ],
+    "website":"www.hotelpepitacozumel.com/",
+    "cuartos":26,
+    "plan":"Plan europeo",
+    "categoria":"1",
+    "incluye":[
+      "TV-CABLE",
+      "A/A",
+      "FRIGO BAR",
+      "AGUA C/F",
+      "COMEDOR COMUNAL"
+    ],
+    "foto":"img/hoteles/pepita.png"
+  },
+  {
+    "nombre":"Hotel Almarestel",
+    "direccion":"Centro Downtown/Calle 10 Norte esquina 25ª Av.",
+    "telefonos":[
+      "(987)872-0822",
+      "+52(987)872-0822"
+    ],
+    "fax":"+52(987)872-0822",
+    "correo":"almarestel@prodigy.net.mx",
+    "website":"",
+    "cuartos":24,
+    "plan":"Plan europeo",
+    "categoria":2,
+    "incluye":[
+      "BAR",
+      "A/A",
+      "TV-CABLE"
+    ]
+  },
+  {
+    "nombre":"Hotel Asfur",
+    "direccion":"Centro Downtown/Adolfo Rosado Salas entre 5ª Av. Y Rafael E. Melgar",
+    "telefonos":[
+      "(987)8691192",
+      "+52(987)8691192"
+    ],
+    "correo":"asfurhotel@hotmail.com",
+    "cuartos":23,
+    "plan":"Plan europeo",
+    "categoria":2,
+    "incluye":[
+      "TV/CABLE",
+      "A/A",
+      "WIFI",
+      "SERVICIO DE LAVANDERIA (CON COSTO EXTRA)",
+      "COCINA COMUNAL"
+    ],
+    "foto":"img/hoteles/asfur.png"
+  },
+  {
+    "nombre":"Hotel El Pirata",
+    "direccion":"Centro Downtown/5ª Av. Entre Calle 1ª Sur y Adolfo Rosado Salas ",
+    "telefonos":[
+      "(987)872-0051",
+      "+52(987)872-0051"
+    ],
+    "fax":"(987)872-0051",
+    "cuartos":27,
+    "plan":"Plan Europeo",
+    "categoria":2,
+    "incluye":[
+      "A/A",
+      "TV-CABLE",
+      "VENTILADOR",
+      "AGUA F/C"
+    ],
+    "foto":"img/hoteles/pirata.png"
+  },
+  {
+    "nombre":"Hotel Flamingo",
+    "direccion":"Centro Downtown/ Calle 6 Norte # 81 entre Av. Rafael E. Melgar y 5ª",
+    "telefonos":[
+      "(987)872-7061",
+      "+52(987)872-1264"
+    ],
+    "fax":"+52(987)872-1264",
+    "correo":"flamingo@hotelflamingo.com",
+    "website":"www.hotelflamingo.com",
+    "cuartos":17,
+    "plan":"Plan europeo",
+    "categoria":2,
+    "incluye":[
+      "WIFI", "BAR", "COCINA", "SPA", "A/A", "TV-CABLE", "MINI BAR DENTRO DE LA HABITACION", "AGUA C/F"
+    ],
+    "foto":"img/hoteles/flamingo.jpg"
+  },
+  {
+    "nombre":"Hotel Mary Carmen",
+    "direccion":"Centro Downtown/ 5ª Av Sur entre Calle 1ª y Adolfo Rosado Salas",
+    "telefonos":[
+      "(987)872-0581",
+      "+52(987)872-0581"
+    ],
+    "fax":"987-872-7561",
+    "correo":"hotel_marycarmen@hotmail.com",
+    "website":"www.cozumelisla.com/hotelmarycarmen",
+    "cuartos":26,
+    "plan":"Plan europeo",
+    "categoria":2,
+    "incluye":[
+      "TV-CABLE", "AGUA C/F", "WIFI", "A/A", "VENTILADOR"
+    ],
+    "foto":"img/hoteles/marycarmen.jpg"
+  },
+  {
+    "nombre":"Hotel Zuanayoli",
+    "direccion":"Centro Downtown/ Calle 6 Norte entre 10ª y 15ª Av. ",
+    "telefonos":[
+      "(987)872-0690",
+      "+52(987)872-0690"
+    ],
+    "correo":"cozumelmike@hotmail.com",
+    "cuartos":16,
+    "plan":"Plan Europeo",
+    "categoria":2,
+    "incluye":[
+      "A/A", "VENTILADOR", "AGUA F/C"
+    ],
+    "foto":"img/hoteles/zuanayoli.png"
+  },
+  {
+    "nombre":"Hotel Aguilar",
+    "direccion":"Centro Downtown/ Calle 3 Sur # 98, entre 5ª. Av. Y Av. Rafael E. Melgar. ",
+    "telefonos":[
+      "(987)872-0307.",
+      "+52(987)872-0307"
+    ],
+    "fax":"987-872-0769 ",
+    "correo":"hhaguilar@prodigy.net.mx ",
+    "website":"www.hotelaguilar.com",
+    "cuartos":32,
+    "plan":"Plan Europeo",
+    "categoria":3,
+    "incluye":[
+      "A/A","VENTILADOR", "TV-CABLE","WIFI", "ALBERCA", "ESTACIONAMIENTO"
+    ],
+    "foto":"img/hoteles/aguilar.jpg"
+  },
+  {
+    "nombre":"Hotel Barracuda",
+    "direccion":"Centro Downtown/ Ave. Rafael E. Melgar # 628",
+    "telefonos":[
+      "(987)872-1243",
+      "+52(987)872-0002"
+    ],
+    "correo":"barracudahotelczm@prodigy.net.mx",
+    "cuartos":38,
+    "plan":"Plan Europeo",
+    "categoria":3,
+    "incluye":[
+      "TV-CABLE", "VENTILADOR","A/A", "SERVICIO DE BAR", "WIFI", "TIENDA DE BUCEO", "TIENDA", "PICINA","BAR-RESTAURANTE", "MUELLE PROPIO"
+    ],
+    "foto":"img/hoteles/barracuda.jpg"
+  },
+  {
+    "nombre":"Casa Del Mar",
+    "direccion":"Zona Sur South Zone/ Carretera Costera Sur Km. 4",
+    "telefonos":[
+      "(987)872-1900",
+      "+52(987)872-1900"
+    ],
+    "fax":" (987)872-1855",
+    "correo":"management@casadelmarcozumel.com",
+    "website":"www.casadelmarcozumel.com",
+    "cuartos":106,
+    "plan":"Plan Europeo",
+    "categoria":3,
+    "incluye":[
+      "TV-CABLE", "A/A","WIFI( CARGO EXTRA)", "CANCHA DE TENIS","ALBERCA"," PLAYA", "RESTAURANTE","JACUZI COMUNAL"
+
+    ],
+    "foto":"img/hoteles/casadelmar.jpg"
+  },
+  {
+    "nombre":"El Marqués",
+    "direccion":"Centro Downtown/ 5ª Av. Sur # 180 entre 1ª Sur y Adolfo Rosado Salas.",
+    "telefonos":[
+      "(987)872-0537",
+      "+52(987)872-0537"
+    ],
+    "fax":"987-872-0677",
+    "correo":"hotel_el_marques@hotmail.com",
+    "website":"www.cozumel-hotels.net/el_marques/",
+    "cuartos":34,
+    "plan":"Plan Europeo",
+    "categoria":3,
+    "incluye":[
+      "TV-CABLE"," A/A", "AGUA F/C", "SERVICIO DE BAR"
+
+    ],
+    "foto":"img/hoteles/marques.jpg"
+  },
+  {
+    "nombre":"Hacienda San Miguel Suites & Hotel",
+    "direccion":"Centro Downtown/ Calle 10 norte # 500 entre 5ª Av. Y Av. Rafael E. Melgar",
+    "telefonos":[
+      "(987)87-21986",
+      " +52(987)87-21986",
+      "USA toll free: 1-866-712-6387"
+    ],
+    "fax":"987-87-27043",
+    "correo":"info@haciendasanmiguel.com ",
+    "website":"www.haciendasanmiguel.com",
+    "cuartos":11,
+    "plan":"Plan Europeo",
+    "categoria":3,
+    "incluye":[
+      "A/A","DESAYUNO CONTINENTAL","WIFI", "TV-CABLE", "AGUA F/C", "INSTALACIONES PARA BBQ","COCINETA"
+    ],
+    "foto":"img/hoteles/haciendasanmiguel.jpg"
+  },
+  {
+    "nombre":"La Casona Real",
+    "direccion":"Centro Downtown/ Av. Juárez esquina 25ª Av. ",
+    "telefonos":[
+      "(987)872-5471",
+      "+52(987)872-5471"
+    ],
+    "fax":"(987)872-5471",
+    "correo":"hccasonareal@hotmail.com",
+    "cuartos":14,
+    "plan":"Plan Europeo",
+    "categoria":3,
+    "incluye":[
+      "A/A" , "VENTILADOR", "TV-CABLE","AGUA C/F", "ALBERCA", "WIFI"
+    ],
+    "foto":"img/hoteles/casonareal.jpg"
+  },
+  {
+    "nombre":"Plaza Cozumel",
+    "direccion":"Centro Downtown/ Calle 2 Norte entre Av. Rafael E. Melgar y 5ª Av.",
+    "telefonos":[
+      "(987)872-2711",
+      "+52(987)872-2711"
+    ],
+    "fax":" 987-872-0066",
+    "correo":"hotplaco@prodigy.net.mx",
+    "website":"www.hotelplazacozumel.com",
+    "cuartos":57,
+    "plan":"Plan Europeo",
+    "categoria":3,
+    "incluye":[
+      "DESAYUNO", "CONTINENTAL", "A/A", "TV-CABLE", "WIFI", "AGUA F/C", "ALBERCA"
+    ],
+    "foto":"img/hoteles/plazacozumel.jpg"
+  },
+  {
+    "nombre":"Suites Bahía",
+    "direccion":"Centro Downtown/ Av. Rafael E. Melgar esq. Calle 3 sur.",
+    "telefonos":[
+      "(987)8721791",
+      "+52(987)8721791"
+    ],
+    "correo":"reservaciones@suitesbahia.com",
+    "website":"www.suitesbahia.com",
+    "cuartos":27,
+    "plan":"Plan Europeo",
+    "categoria":3,
+    "incluye":[
+      "A/A", "TV-CABLE", "DESAYUNO BUFET","WIFI"
+    ],
+    "foto":"img/hoteles/suitesbahia.jpg"
+  },
+  {
+    "nombre":"Suites Colonial",
+    "direccion":"Centro Downtown/ 5ª. Avenida Sur # 9 entre calles 1ª sur y Adolfo Rosado Salas. ",
+    "telefonos":[
+      " (987)8720506",
+      " +52(987)8720506"
+    ],
+    "correo":"reservaciones@suitescolonial.com",
+    "website":"www.suitescolonial.com",
+    "cuartos":28,
+    "plan":"Plan Europeo",
+    "categoria":3,
+    "incluye":[
+      "A/A", "TV-CABLE", "DESAYUNO BUFET","WIFI"
+    ],
+    "foto":"img/hoteles/suites_colonial.jpg"
+  },
+  {
+    "nombre":"Villa Blanca Beach Garden",
+    "direccion":" Zona Sur South Zone/ Carretera costera sur Km. 3",
+    "telefonos":[
+      "(987)872-0730 ",
+      "+52(987)872-0730 "
+    ],
+    "fax":"987-872-0865",
+    "correo":"jorge@villablanca.net",
+    "website":"www.villablanca.net",
+    "cuartos":40,
+    "plan":"Plan Europeo",
+    "categoria":3,
+    "incluye":[
+      "A/A", "TV-CABLE", "REFRI", "AGUA F/C", "DESAYUNO INCLUIDO", "RESTAURANTE", "PISCINA Y JACUZI"
+    ],
+    "foto":"img/hoteles/villablanca.jpg"
+  },
+  {
+    "nombre":"Carmens Villa",
+    "direccion":"Centro Downtown/ Avenida 11 Sur # 460",
+    "telefonos":[
+      "(987)8690086",
+      "+52(987)8690086"
+    ],
+    "cuartos":43,
+    "plan":"Plan Europeo",
+    "categoria":3,
+    "incluye":[
+      "A/A", "TV-CABLE", "PISCINA"," RESTAURANTE", "REFRI."
+    ],
+    "foto":"img/hoteles/carmenvilla.jpg"
+  },
+  {
+    "nombre":"Villas Las Anclas",
+    "direccion":"Centro Downtown/ 5ª Avenida Sur # 325 entre Calles 3 y 5 Sur",
+    "telefonos":[
+      "(987)872-6103",
+      "+52(987)872-5476"
+    ],
+    "correo":"villaslasanclas@yahoo.com",
+    "website":"www.hotelvillalasanclas.com",
+    "cuartos":7,
+    "plan":"Plan Europeo",
+    "categoria":3,
+    "incluye":[
+      "AGUA F/C", "TV-CABLE","REFRI","A/A", "WIFI", "PISCINA", "SALA DE DESCANSO COMUNAL"
+    ],
+    "foto":"img/hoteles/villaslasanclas.jpg"
+  },
+  {
+    "nombre":"Vista del Mar Boutique Hotel",
+    "direccion":"Centro Downtown/ Av. Rafael E. Melgar # 45 entre calles 5 y 7 sur.",
+    "telefonos":[
+      " (987)872-0545",
+      "+52(987)872-0545",
+      "USA toll free: 1-888-309-9988 "
+    ],
+    "fax":"987-872-7035",
+    "correo":"info@hotelvistadelmar.com",
+    "website":"www.hotelvistadelmar.com",
+    "cuartos":20,
+    "plan":"Plan Europeo",
+    "categoria":3,
+    "incluye":[
+      "A/A", "TV-CABLE"," AGUA F/C", "DESAYUNO CONTINENTAL", "PISCINA."
+    ],
+    "foto":"img/hoteles/vistadelmar.jpg"
+  }
+]

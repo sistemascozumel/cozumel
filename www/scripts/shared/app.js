@@ -9,7 +9,10 @@ angular.module('starter', [
   'ionic',
   'starter.controllers',
   'app.services',
-  'app.ferry.controller'
+  'app.ferry',
+  'app.hoteles',
+  'app.agencias',
+  'app.rentadoras'
 ])
 
 .run(function($ionicPlatform) {
@@ -37,14 +40,54 @@ angular.module('starter', [
   $stateProvider
 
   // setup an abstract state for the tabs directive
+  .state('inicio', {
+    url: '/app',
+    templateUrl: 'templates/inicio.html'
+  })
   .state('servicios', {
-    url: '/servicios',
+    url: '/app/servicios',
     templateUrl: 'templates/servicios.html'
   })
   .state('ferry', {
-    url: '/servicios/ferry',
+    url: '/app/servicios/ferry',
     templateUrl: 'scripts/ferry/ferry.html',
     controller:'FerryCtrl',
+    controllerAs:'ctrl'
+  })
+  .state('aeropuerto', {
+    url: '/app/servicios/aeropuerto',
+    templateUrl: 'scripts/servicios/aeropuerto.html',
+    controller:'FerryCtrl',
+    controllerAs:'ctrl'
+  })
+  .state('puente-aereo', {
+    url: '/app/servicios/puente-aereo',
+    templateUrl: 'scripts/servicios/puente-aereo.html',
+    controller:'FerryCtrl',
+    controllerAs:'ctrl'
+  })
+  .state('hoteles', {
+    url: '/app/servicios/hoteles',
+    templateUrl: 'scripts/hoteles/hoteles.html',
+    controller:'HotelesCtrl',
+    controllerAs:'ctrl'
+  })
+  .state('hotel', {
+    url: '/app/servicios/hoteles/:id',
+    templateUrl: 'scripts/hoteles/hotel.html',
+    controller:'HotelCtrl',
+    controllerAs:'ctrl'
+  })
+  .state('agencias', {
+    url: '/app/servicios/agencias',
+    templateUrl: 'scripts/agencias/agencias.html',
+    controller:'AgenciasCtrl',
+    controllerAs:'ctrl'
+  })
+  .state('rentadoras', {
+    url: '/app/servicios/rentadoras',
+    templateUrl: 'scripts/rentadoras/rentadoras.html',
+    controller:'RentadorasCtrl',
     controllerAs:'ctrl'
   })
 
@@ -98,6 +141,6 @@ angular.module('starter', [
     });
 
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/tab/dash');
+  $urlRouterProvider.otherwise('/app');
 
 });

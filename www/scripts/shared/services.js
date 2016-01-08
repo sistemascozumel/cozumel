@@ -35,20 +35,38 @@ angular.module('app.services', [])
     all: function() {
       return chats;
     },
+    agencias:function () {
+      return $http.get('scripts/agencias/db.json');
+    },
     atractivos:function () {
       return $http.get('scripts/eventos/db.json');
     },
+    bancos:function () {
+      return $http.get('scripts/bancos/db.json');
+    },
     emergencias:function () {
+      return $http.get('scripts/eventos/db.json');
+    },
+    eventos:function () {
       return $http.get('scripts/eventos/db.json');
     },
     ferry:function () {
       return $http.get('scripts/ferry/db.json');
     },
-    eventos:function () {
-      return $http.get('scripts/eventos/db.json');
+    hoteles:function () {
+      return $http.get('scripts/hoteles/db.json');
     },
     remove: function(chat) {
       chats.splice(chats.indexOf(chat), 1);
+    },
+    rentadoras: function(chat) {
+      return $http.get('scripts/rentadoras/db.json');
+    },
+    restaurantes: function(chat) {
+      return $http.get('scripts/restaurantes/db.json');
+    },
+    tours: function(chat) {
+      return $http.get('scripts/tours/db.json');
     },
     get: function(chatId) {
       for (var i = 0; i < chats.length; i++) {

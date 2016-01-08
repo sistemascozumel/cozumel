@@ -1,15 +1,15 @@
 (function () {
   'use strict';
   angular
-    .module('app.ferry',[])
-      .controller('FerryCtrl',function (Cozumel,$scope) {
+    .module('app.hoteles.detalle',[])
+      .controller('HotelCtrl',function (Cozumel,$scope,$stateParams) {
 
         var vm = this;
         $scope.$on('$ionicView.enter', function(e) {
-          Cozumel.ferry()
+          Cozumel.getHotel($stateParams.id)
             .success(function (data) {
 
-              vm.horarios = data;
+              vm.hotel = data;
 
             })
             .error(function (err) {

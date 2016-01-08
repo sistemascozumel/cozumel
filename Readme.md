@@ -1,6 +1,22 @@
 # Cozumel
+## TODO
+- Splash
+- Icono
+- Google Developer Console
+
 ## Secciones
 - Servicios turísticos
+  - Ferry
+  - puente
+  - aeropuerto
+  - hoteles
+  - spas
+  - agencias
+  - rentadoras
+  - bancos
+  - restaurantes
+  - tours  
+
 - Atracciones turísticas
   - playas
   - arrecifes
@@ -43,6 +59,4 @@
 - Mapa
 
 ## Desarrollo
-export ANDROID_HOME="/Users/donny/Documents/android/sdk"
-/home/cedric/Android/Sdk/tools/android
-
+export ANDROID_HOME="/Users/donny/Documents/android/sdk" /home/cedric/Android/Sdk/tools/android
