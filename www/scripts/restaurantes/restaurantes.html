@@ -1,34 +1,48 @@
-<ion-view view-title="Dashboard">
+<ion-view view-title="Restaurantes">
   <ion-content class="padding">
+
+    <div class="list list-inset">
+      <label class="item item-input">
+        <i class="icon ion-search placeholder-icon"></i>
+        <input type="text" ng-model="buscar" placeholder="Buscar...">
+      </label>
+    </div>
+
 
     <div class="list">
 
-      <a class="item item-icon-left" href="#/servicios/ferry">
-        <i class="icon ion-email"></i>
-        Ferry
-      </a>
+      <div class="card" ng-repeat="restaurante in ctrl.restaurantes|orderBy:'nombre'|filter:buscar">
 
-      <a class="item item-icon-left item-icon-right" href="#">
-        <i class="icon ion-chatbubble-working"></i>
-        Call Ma
-        <i class="icon ion-ios-telephone-outline"></i>
-      </a>
+          <div class="item item-body">
+            <h2>{{::restaurante.nombre|uppercase}}</h2>
+            <p><strong>Dirección:</strong> {{::restaurante.direccion}}</p>
+            <p ng-if="restaurante.horario"><strong>Horarios:</strong> {{::restaurante.horario}}</p>
+            <button class="button button-small button-assertive" ng-repeat="item in restaurante.producto">
+              {{item}}
+            </button>
+            <p >
+              <a href="{{::restaurante.website}}"
+                ng-if="restaurante.website"
+                class="button button-assertive button-small"><i class="fa fa-globe"></i> Ver sitio web</a>
+              <a href="{{::restaurante.facebook}}"
+                ng-if="restaurante.facebook"
+                class="button button-positive button-small"><i class="fa fa-facebook"></i> Ir a la página de facebook</a>
+            </p>
+            <p>
+              <a ng-if="restaurante.telefonos[0]" class="subdued">Teléfono: {{::restaurante.telefonos[0]}}</a>
+            </p>
+          </div>
+      </div>
 
-      <a class="item item-icon-left" href="#">
-        <i class="icon ion-mic-a"></i>
-        Record album
-        <span class="item-note">
-          Grammy
-        </span>
-      </a>
 
-      <a class="item item-icon-left" href="#">
-        <i class="icon ion-person-stalker"></i>
-        Friends
-        <span class="badge badge-assertive">0</span>
-      </a>
 
     </div>
 
   </ion-content>
 </ion-view>
+
+<style>
+  .button{
+    margin-right: 5px;
+  }
+</style>

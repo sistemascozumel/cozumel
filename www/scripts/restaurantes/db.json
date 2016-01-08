@@ -1,0 +1,810 @@
+[
+  {
+    "nombre":"Al pie del carbon",
+    "direccion":"CALLE 6 NORTE ESQUINA 5A. AV",
+    "horario":"12PM - 11 PM",
+    "telefonos":[
+      "(987)120-1874"
+    ],
+    "facebook":"http://www.facebook.com/alpie.delcarbon.5"
+  },
+  {
+    "nombre":"Del Sur",
+    "direccion":"5A. AV. SUR ESQUINA CALLE 3",
+    "horario":"Horario: 5PM - 11 PM",
+    "telefonos":[
+      "(987)869-0050"
+    ],
+    "facebook":"http://www.facebook.com/delsur.empanadasargentinas"
+  },
+  {
+    "nombre":"Kondesa",
+    "horario":"5PM - 11 PM",
+    "direccion":"5A. AV. SUR ENTRE CALLES 5 Y 7 SUR",
+    "telefonos":[
+      "(987)869-1086"
+    ],
+    "website":"http://kondesacozumel.com/es/"
+  },
+  {
+    "nombre":"Buccanos y Buccanos at night",
+    "horario":"",
+    "direccion":"CARRETERA SAN JUAN",
+    "telefonos":[
+      "(987)872-0100"
+    ],
+    "website":"http://www.buccanos.com"
+  },
+  {
+    "nombre":"Ile",
+    "horario":"",
+    "direccion":"AV. RAFAEL E. MELGAR # 125 ENTRE 2 Y 4",
+    "telefonos":[
+      "(987)869-2315"
+    ],
+    "website":"http://www.ilerestaurante.com.mx"
+  },
+  {
+    "nombre":"La Kinta",
+    "horario":"5:30PM - 11 PM",
+    "direccion":"5ª AV. #148 ENTRE 2 Y 4 NORTE",
+    "telefonos":[
+      "(987)869-0544"
+    ],
+    "website":"http://www.kintacozumel.com"
+  },
+  {
+    "nombre":"Burger King",
+    "horario":"8AM - 11 PM",
+    "direccion":"AV. P.J. COLDWELL ESQ. CALLE 1 SUR",
+    "telefonos":[
+      "(987)869-0600"
+    ],
+    "facebook":""
+  },
+  {
+    "nombre":"Domino´s pizza",
+    "horario":" 9 - 12 AM",
+    "direccion":"AV. P.J. COLDWELL ESQ. A.R. SALAS",
+    "telefonos":[
+      "(987)872-1635"
+    ],
+    "facebook":""
+  },
+  {
+    "nombre":"Fellini´s pizza",
+    "horario":"",
+    "direccion":"2 NTE. ENTRE 5ª y 10ª AV",
+    "telefonos":[
+      "(987)878-4794"
+    ],
+    "facebook":""
+  },
+  {
+    "nombre":"Nino´s pizza",
+    "horario":"",
+    "direccion":"10ª AV.#284 ENTRE CALLE 3 y A.R.S.",
+    "telefonos":[
+      "(987)872-4166"
+    ],
+    "facebook":""
+  },
+  {
+    "nombre":"Mc Donald´s",
+    "horario":"8AM - 11 PM",
+    "direccion":"AV ANDRES QUINTANA ROO X 70 Y 75",
+    "telefonos":[
+      "(987)869-5030"
+    ],
+    "facebook":""
+  },
+  {
+    "nombre":"SubWay",
+    "horario":"9AM - 11 PM",
+    "direccion":"11AV ESQ CON REM",
+    "telefonos":[
+      "(987)872-5194"
+    ],
+    "facebook":"http://www.facebook.com/subwaycozumel.qroo"
+  },
+  {
+    "nombre":"Pizza hut",
+    "horario":"",
+    "direccion":"CALLE 3 ENTRE RAFAEL MELGAR Y 5ª AV",
+    "telefonos":[
+      "(987)872-5055"
+    ],
+    "facebook":""
+  },
+  {
+    "nombre":"Casa Mission",
+    "horario":"8AM - 10 PM",
+    "direccion":"55 AV. ENTRE JUAREZ Y CALLE 1ª",
+    "telefonos":[
+      "(987)872-1641"
+    ],
+    "website":"http://www.missioncoz.com"
+  },
+  {
+    "nombre":"Sr. Frogs",
+    "horario":"",
+    "direccion":"PLAZA PUNTA LANGOSTA, AV. RAFAEL E. MELGAR # 551",
+    "telefonos":[
+      "(987)869-1658"
+    ],
+    "website":"http://www.senorfrogs.com"
+  },
+  {
+    "nombre":"Ohana",
+    "horario":"7AM - 11 PM",
+    "direccion":"5TA AV / 6 Y 8 NTE",
+    "telefonos":[
+      "(987)105-5164"
+    ],
+    "website":"http://www.ohanacozumel.com"
+  },
+  {
+    "nombre":"Especias Restaubar",
+    "horario":"6PM - 11:30 PM",
+    "direccion":"CALLE 3 SUR / 5A Y 10A. AV. PLANTA ALTA",
+    "telefonos":[
+      "(987)869-7947"
+    ],
+    "facebook":"http://www.facebook.com/NewEspecias"
+  },
+  {
+    "nombre":"Palmeras",
+    "horario":"7AM - 11 PM",
+    "direccion":"REM ESQUINA AV. JUAREZ",
+    "telefonos":[
+      "(987)872-0532"
+    ],
+    "website":"http://www.restaurantepalmeras.com"
+  },
+  {
+    "nombre":"Margaritaville Jimmy Buffet",
+    "horario":"9AM - 11 PM",
+    "direccion":"RAFAEL MELGAR  CON 11 AV #799",
+    "telefonos":[
+      "(987)872-0256"
+    ],
+    "facebook":"http://www.facebook.com/mvcozumel"
+  },
+  {
+    "nombre":"Nemo",
+    "horario":"4:30PM - 7:30 PM",
+    "direccion":"INTERIOR HOTEL VILLABLANCA",
+    "telefonos":[
+      "(987)872-0730"
+    ],
+    "facebook":""
+  },
+  {
+    "nombre":"Wet Wendy´s",
+    "horario":"9AM - 9 PM",
+    "direccion":"5 AV #53 ENTRE CALLE 2 Y AV JUAREZ",
+    "telefonos":[
+      "(987)872-4970"
+    ],
+    "website":"http://www.wetwendys.com"
+  },
+  {
+    "nombre":"Pepe´s Grill",
+    "horario":"6PM - 12 AM",
+    "direccion":"RAFAEL MELGAR ESQUINA A.R.S.",
+    "telefonos":[
+      "(987)872-0213"
+    ],
+    "website":"http://www.pepescozumel.com"
+  },
+  {
+    "nombre":"La Casa del Habano",
+    "horario":"10AM - 11:30 PM",
+    "direccion":"RAFAEL E. MELGAR & AV. BENITO JUAREZ",
+    "telefonos":[
+      "(987)872-7456"
+    ],
+    "facebook":"https://www.facebook.com/la.delhabano"
+  },
+  {
+    "nombre":"Napa Grill",
+    "horario":"",
+    "direccion":"INTERIOR HOTEL PRESIDENTE INTERCONTINENTAL",
+    "telefonos":[
+      "(987)8729500"
+    ],
+    "website":"http://www.ihg.com/intercontinental/hotels/gb/en/cozumel/czmha/hoteldetail"
+  },
+  {
+    "nombre":"Rock & Java",
+    "horario":"7AM - 10 PM",
+    "direccion":"AV. R. MELGAR #602, EDIF. COLON",
+    "telefonos":[
+      "(987)872-4405"
+    ],
+    "website":"http://www.rocknjavacozumel.com"
+  },
+  {
+    "nombre":"Alfredo Di Roma",
+    "horario":"6PM - 11PM",
+    "direccion":"INTERIOR HOTEL PRESIDENTE INTERCONTINENTAL",
+    "telefonos":[
+      "(987)872-9500"
+    ],
+    "website":"http://www.alfredodiroma.com.mx"
+  },
+  {
+    "nombre":"Guido´s",
+    "horario":"11AM - 11PM",
+    "direccion":"RAFAEL MELGAR #23 ENTRE 6 Y 8 NTE.",
+    "telefonos":[
+      "(987)872-0946"
+    ],
+    "website":"http://www.guidoscozumel.com"
+  },
+  {
+    "nombre":"Prima Trattoria",
+    "horario":"7AM - 10PM",
+    "direccion":"CONDOMINIOS EL CANTIL, PENTHOUSE",
+    "telefonos":[
+      "(987)872-4242"
+    ],
+    "website":"http://www.primacozumel.com"
+  },
+  {
+    "nombre":"Rolandi´s pizzeria",
+    "horario":"",
+    "direccion":"RAFAEL MELGAR # 799 CON CALLE 11 SUR",
+    "telefonos":[
+      "(987)872-1097"
+    ],
+    "website":"http://www.rolandirestaurants.com/"
+  },
+  {
+    "nombre":"Sorrisi",
+    "horario":"11AM - 11PM",
+    "direccion":"CALLE 3 SUR #317 / AV REM Y 5ª AV. ",
+    "telefonos":[
+      "(987)869-0961"
+    ],
+    "facebook":"http://www.facebook.com/pages/Sorrisi/110399542364065"
+  },
+  {
+    "nombre":"Albino´s",
+    "horario":"",
+    "direccion":"20 AV. ENTRE CALLES 10 Y 12 NTE.",
+    "telefonos":[
+      ""
+    ],
+    "facebook":""
+  },
+  {
+    "nombre":"Albertos",
+    "horario":"8AM - 10PM",
+    "direccion":"AV REM / CALLE 5 SUR  DENTRO DEL HOTEL COSTA BRAVA",
+    "telefonos":[
+      "(987)869-1228"
+    ],
+    "website":"http://www.albertosbeachbar.com"
+  },
+  {
+    "nombre":"El Muellecito",
+    "horario":"1PM - 12PM",
+    "direccion":"A. RAFAEL E. MELGAR ESQUINA 11 AV.",
+    "telefonos":[
+      "(987)872-4421"
+    ],
+    "facebook":"http://www.facebook.com/ElMuellecitoCozumel"
+  },
+  {
+    "nombre":"Lobster House",
+    "horario":"",
+    "direccion":"CARRETERA SAN JUAN KM 4.5",
+    "telefonos":[
+      "(987)107 3116"
+    ],
+    "facebook":"http://www.facebook.com/pages/The-Lobster-House-Cozumel/171896646195615"
+  },
+  {
+    "nombre":"Camilo´s",
+    "horario":"",
+    "direccion":"5ª AV. #99 ENTRE CALLES 2 Y 4 NTE.",
+    "telefonos":[
+      "(987)872-6161"
+    ],
+    "facebook":"",
+    "website":"http://www.mariscoscamilos.com.mx"
+  },
+  {
+    "nombre":"La Conchita del Caribe",
+    "horario":"11:30AM - 8PM",
+    "direccion":"65 AV. ENTRE CALLES 13 y 15",
+    "telefonos":[
+      "(987)872-5888"
+    ],
+    "facebook":"",
+    "website":"http://www.laconchitadelcaribe.com"
+  },
+  {
+    "nombre":"La Perlita Pescaderia y Cockteleria",
+    "horario":"8AM - 9PM",
+    "direccion":"CALLE 10 N. #499 ENTRE 65BIS Y 70 AV.",
+    "telefonos":[
+      "(987)869-8343"
+    ],
+    "facebook":"",
+    "website":"http://www.laperlitacozumel.com"
+  },
+  {
+    "nombre":"El Cocktelito",
+    "horario":"12PM - 8PM",
+    "direccion":"20 AV. / 17 Y 19 ANTES DE LA CORPUS",
+    "telefonos":[
+      "(987)120-1503"
+    ],
+    "facebook":"http://www.facebook.com/pages/El-Coctelito/250344031733157",
+    "website":""
+  },
+  {
+    "nombre":"Popeye El Marino",
+    "horario":"10AM - 8PM",
+    "direccion":"CALLE 2 NTE. #543 ENTRE 25 Y 30 AV",
+    "telefonos":[
+      "(987)872-0271"
+    ],
+    "facebook":"",
+    "website":""
+  },
+  {
+    "nombre":"Jerusalen",
+    "horario":"8:30AM - 10PM",
+    "direccion":"RAFAEL E. MELGAR & CALLE 10 SUR FORUM SHOP 2nd FLOOR",
+    "telefonos":[
+      "(987)869-5333"
+    ],
+    "facebook":"",
+    "website":"http://www.chabadcozumel.com/es/jerusalem-restaurant-store"
+  },
+  {
+    "nombre":"Le Chef",
+    "horario":"12PM - 11PM",
+    "direccion":"5TA AV. #398 EN LA ESQ.C 5 SUR",
+    "telefonos":[
+      "(987)878-4391"
+    ],
+    "facebook":"http://www.facebook.com/lechefcozumel",
+    "website":""
+  },
+  {
+    "nombre":"La Cocay",
+    "horario":"6:30 - 11:30PM",
+    "direccion":"CALLE 8 NTE #208 ENTRE 10ª Y 15 AV",
+    "telefonos":[
+      "(987)872-5533"
+    ],
+    "facebook":"",
+    "website":"http://www.lacocay.com"
+  },
+  {
+    "nombre":"El Abuelo Gerardo",
+    "horario":"7:30AM - 11PM",
+    "direccion":"10ª AV. ENTRE JUAREZ Y 2 NORTE",
+    "telefonos":[
+      "(987)872-1012"
+    ],
+    "facebook":"http://www.facebook.com/pages/El-abuelo-Gerardo/229321940462973?rf=123522341063597",
+    "website":""
+  },
+  {
+    "nombre":"Paprika",
+    "horario":"",
+    "direccion":"CARRETERA COSTERA SUR KM 4.5",
+    "telefonos":[
+      "(987)8722404"
+    ],
+    "facebook":"http://www.facebook.com/PaprikaRest",
+    "website":""
+  },
+  {
+    "nombre":"Casa Mission",
+    "horario":"",
+    "direccion":"55 AV ENTRE AV JUAREZ Y 1ra",
+    "telefonos":[
+      "(987)872-1641"
+    ],
+    "facebook":"",
+    "website":"http://www.missioncoz.com"
+  },
+  {
+    "nombre":"Girasoles",
+    "horario":"",
+    "direccion":"CALLE 3 SUR # 198 ENTRE 5a Y 10a AV.",
+    "telefonos":[
+      "(987)869-1932"
+    ],
+    "facebook":"",
+    "website":"http://www.restaurantelosgirasoles.com"
+  },
+  {
+    "nombre":"Casa Dennis",
+    "horario":"7AM - 11PM",
+    "direccion":"CALLE 1 SUR #132 ENTRE 5ª Y 10ª AV",
+    "telefonos":[
+      "(987)872-0067"
+    ],
+    "facebook":"",
+    "website":"http://www.casadenis.com"
+  },
+  {
+    "nombre":"Ernesto´s Fajitas Factory",
+    "horario":"",
+    "direccion":"RAFAEL E. MELGAR # 141 COSTERA SUR",
+    "telefonos":[
+      "(987)872-1154"
+    ],
+    "facebook":"",
+    "website":"http://www.cozumelrestaurantguide.com/ernestos-fajita-factory.htm"
+  },
+  {
+    "nombre":"Costa Brava",
+    "horario":"",
+    "direccion":"CALLE 5 SUR / AV. RAFAEL MELGAR Y 5A.",
+    "telefonos":[
+      "(987)120-0323"
+    ],
+    "facebook":"",
+    "website":"http://www.islacozumel.net/food/costa_brava/"
+  },
+  {
+    "nombre":"Museo",
+    "horario":"7AM - 11PMDomingo 7AM a 3PM",
+    "direccion":"PLANTA ALTA MUSEO DE LA ISLA",
+    "telefonos":[
+      "(987)120-2255"
+    ],
+    "facebook":"",
+    "website":"http://www.restaurantedelmuseo.com"
+  },
+  {
+    "nombre":"La Choza",
+    "horario":"7AM - 10:30PM",
+    "direccion":"10ª AV. ENTRE CALLE 3 SUR Y ROSADO SALAS",
+    "telefonos":[
+      "(987)872-0958"
+    ],
+    "facebook":"http://www.facebook.com/lachozacozumel",
+    "website":""
+  },
+  {
+    "nombre":"La Mission",
+    "horario":"11AM - 10PM",
+    "direccion":"ARS ENTRE RAFAEL MELGAR Y 5ª AV.",
+    "telefonos":[
+      "(987)872-6340"
+    ],
+    "facebook":"",
+    "website":"http://www.lamisioncozumel.com"
+  },
+  {
+    "nombre":"Las Tortugas",
+    "horario":"11AM - 10PM",
+    "direccion":"AV. P.J. COLDWELL ESQUINA CALLE 19 SUR",
+    "telefonos":[
+      "(987)872-1242"
+    ],
+    "facebook":"",
+    "website":"http://www.casadenis.com/index_tortugas.htm"
+  },
+  {
+    "nombre":"Los Dorados de Villa",
+    "horario":"8AM - 11PM",
+    "direccion":"CALLE 1 SUR #72 ENTRE RAFAEL MELGAR Y 5ª AV.",
+    "telefonos":[
+      "(987)872-0196"
+    ],
+    "facebook":"",
+    "website":"http://thisiscozumel.com/mexican/90-mexican/439-los-dorados-de-villa"
+  },
+  {
+    "nombre":"Los Molcajetes",
+    "horario":"7AM - 7PM",
+    "direccion":"30 AV. ENTRE CALLES 12 Y 14 NORTE",
+    "telefonos":[
+      "(987)872-0473",
+      "(987)872-6520"
+    ],
+    "facebook":"http://www.facebook.com/losmolcajetes.cozumel",
+    "website":""
+  },
+  {
+    "nombre":"Pancho´s Backyard",
+    "horario":"10:30AM - 11PM",
+    "direccion":"AV. R. MELGAR ENTRE CALLE 8 Y 10",
+    "telefonos":[
+      "(987)872-2141"
+    ],
+    "facebook":"",
+    "website":"http://www.panchosbackyard.com"
+  },
+  {
+    "nombre":"Parrilla la Mission",
+    "horario":"3PM - 11PM",
+    "direccion":"30 AV. ENTRE CALLES 2 Y 4 NORTE",
+    "telefonos":[
+      "(987)872-3581"
+    ],
+    "facebook":"",
+    "website":"http://www.parillamission.com"
+  },
+  {
+    "nombre":"Plaza Leza",
+    "horario":"8 - 11AM",
+    "direccion":"CALLE 1 SUR #58 X R. MELGAR & 5AV",
+    "telefonos":[
+      "(987)872-1041"
+    ],
+    "facebook":"",
+    "website":"http://www.islacozumel.net/food/plaza-leza/"
+  },
+  {
+    "nombre":"Corazón Contento",
+    "horario":"7AM - 2PM",
+    "direccion":"CALLE 2 NORTE ESQ.  DECIMA AV",
+    "telefonos":[
+      "(987)872-0838"
+    ],
+    "facebook":"",
+    "website":""
+  },
+  {
+    "nombre":"Midori Sushi",
+    "horario":"10AM - 10PM",
+    "direccion":"C.3 SUR / REM Y 5 AV",
+    "telefonos":[
+      "(987)869-3093"
+    ],
+    "facebook":"",
+    "website":"http://www.midorisushi.com.mx"
+  },
+  {
+    "nombre":"Chi",
+    "horario":"",
+    "direccion":"AV. R. MELGAR x 3 SUR (ALTOS)",
+    "telefonos":[
+      "(987)869-8156"
+    ],
+    "facebook":"",
+    "website":"http://www.chicozumel.com"
+  },
+  {
+    "nombre":"Sushi and Breakfast",
+    "horario":"",
+    "direccion":"AV. PEDRO JOAQUIN  / CALLE HIDALGO Y 5 SUR",
+    "telefonos":[
+      "(987)869-0303"
+    ],
+    "facebook":"http://www.facebook.com/pages/SUSHI-Breakfast/371031733023961",
+    "website":""
+  },
+  {
+    "nombre":"Ai Sushi",
+    "horario":"",
+    "direccion":"20 AV NORTE ENTRE 6 Y 8",
+    "telefonos":[
+      "(987)872-6209"
+    ],
+    "facebook":"http://www.facebook.com/pages/AI-SUSHI-Cozumel/433574360096941",
+    "website":""
+  },
+  {
+    "nombre":"China Express",
+    "horario":"",
+    "direccion":"ROSADO SALAS #174 ENTRE 5a y 10a AV",
+    "telefonos":[
+      "(987)869-0433"
+    ],
+    "facebook":"",
+    "website":"http://thisiscozumel.com/asian/109-asian/1217-china-express"
+  },
+  {
+    "nombre":"Thai Noodle Bar",
+    "horario":"10AM - 10PM",
+    "direccion":"INTERIOR TIENDA MEGA",
+    "telefonos":[
+      "(987)869-2794"
+    ],
+    "facebook":"",
+    "website":"http://www.rokandjavacozumel.com"
+  },
+  {
+    "nombre":"Jeanie´s",
+    "horario":"7AM - 10PM",
+    "direccion":"AV. RAFAEL E. MELGAR ENTRE AV. ANDRES QUINTANA ROO Y 7 SUR",
+    "telefonos":[
+      "(987)878-4647"
+    ],
+    "facebook":"",
+    "website":"http://www.jeaniescozumel.com"
+  },
+  {
+    "nombre":"The Thristy Cougar",
+    "horario":"9AM - 11PM",
+    "direccion":"AV. RAFAEL E. MELGAR ENTRE  3 y 5",
+    "telefonos":[
+      "(987)869-0214"
+    ],
+    "facebook":"http://www.facebook.com/Thethirstycougar",
+    "website":""
+  },
+  {
+    "nombre":"Viva México",
+    "horario":"10AM - 6PM",
+    "direccion":"AV. RAFAEL E. MELGAR & ADOLFO ROSADO SALAS.",
+    "telefonos":[
+      "(987)872-0799"
+    ],
+    "facebook":"http://www.facebook.com/VivaMexicoBar",
+    "website":""
+  },
+  {
+    "nombre":"Fat Tuesday",
+    "horario":"8:30AM - 11PM",
+    "direccion":"AV. JUAREZ #2 / RAFAEL MELGAR Y 5ª AV.",
+    "telefonos":[
+      "(987)872-5130"
+    ],
+    "facebook":"http://www.facebook.com/fattuesdaycozumel",
+    "website":""
+  },
+  {
+    "nombre":"El Moro",
+    "horario":"1PM - 10:30PM Jueves off",
+    "direccion":"75BIS. #124 ENTRE CALLES 2 Y 4 NTE",
+    "telefonos":[
+      "(987)872-3029",
+      "(987)872-9029"
+    ],
+    "facebook":"http://www.facebook.com/RestauranteElMoroCozumel",
+    "website":""
+  },
+  {
+    "nombre":"Fogo Do Brasil",
+    "horario":"7AM - 11PM",
+    "direccion":"AV RAFAEL E. MELGAR ESQ. CON 5 ALTOS # 8",
+    "telefonos":[
+      "(987)869-0864"
+    ],
+    "facebook":"",
+    "website":"http://www.czm4you.com/portfolio/fogo-brasil-restaurant-cozumel/"
+  },
+  {
+    "nombre":"Mamá Linda",
+    "horario":"7AM - 5PM",
+    "direccion":"25 AV CALLE 2 NORTE / 2 Y 4 NTE",
+    "telefonos":[
+      "(987)869-1053"
+    ],
+    "facebook":"",
+    "website":"http://www.facebook.com/mama.linda.9?fref=ts"
+  },
+  {
+    "nombre":"Tiki Tok",
+    "horario":"7AM - 3PM",
+    "direccion":"AV. RAFAEL E. MELGAR ENTRE 2 Y 4 NORTE",
+    "telefonos":[
+      "(987)869-8119"
+    ],
+    "facebook":"http://www.facebook.com/tikitokcozumel?sk=wall",
+    "website":""
+  },
+  {
+    "nombre":"Woody´s",
+    "horario":"",
+    "direccion":"AV BENITO JUAREZ   ENTRE  5ª Y 10ª AV.",
+    "telefonos":[
+      "(987)869-8119"
+    ],
+    "facebook":"",
+    "website":"http://www.woodyscozumel.net"
+  },
+  {
+    "nombre":"Kelley´s",
+    "horario":"2PM - 11PM",
+    "direccion":"10ª AV. ENTRE ADOLFO R. SALAS Y CALLE 1ª SUR",
+    "telefonos":[
+      "(987)878-4738"
+    ],
+    "facebook":"",
+    "website":"http://www.kelleyscozumel.com/"
+  },
+  {
+    "nombre":"El Volado",
+    "horario":"",
+    "direccion":"AV XEL-HA ENTRE 20 Y 25",
+    "telefonos":[
+      "(987)872-3701"
+    ],
+    "facebook":"",
+    "website":"http://elvolado.com/Sitio_web/PRINCIPAL.html"
+  },
+  {
+    "nombre":"La Hach",
+    "horario":"",
+    "direccion":"RAFAEL E. MELGAR KM 2.9 COSTERA SUR",
+    "telefonos":[
+      "(987)120-1806"
+    ],
+    "facebook":"",
+    "website":"http://www.lahachcozumel.com"
+  },
+  {
+    "nombre":"Casa Cuzamil",
+    "horario":"9AM - 11PM",
+    "direccion":"5ª Av. ENTRE A. R. S. Y CALLE 3",
+    "telefonos":[
+      "(987)872-6321"
+    ],
+    "facebook":"http://www.facebook.com/casa.cuzamil?fref=ts",
+    "website":""
+  },
+  {
+    "nombre":"Hooters",
+    "horario":"",
+    "direccion":"AV. RAFAEL E. MELGAR INTERIOR PLAZA PUNTA LANGOSTA.",
+    "telefonos":[
+      "(987)869-1465"
+    ],
+    "facebook":"",
+    "website":"http://www.hooterscozumel.com"
+  },
+  {
+    "nombre":"El Coffee",
+    "horario":"",
+    "direccion":"CALLE 3 SUR ENTRE RAFAEL E. MELGAR Y 5a AV.",
+    "telefonos":[
+      "(987)869-0456"
+    ],
+    "facebook":"http://www.facebook.com/pages/El-Coffee-Cozumel/136935209712331",
+    "website":""
+  },
+  {
+    "nombre":"Tapioka Café",
+    "horario":"",
+    "direccion":"CALLE 3 SUR ENTRE RAFAEL E. MELGAR Y 5a AV.",
+    "telefonos":[
+      "(987)118-6108"
+    ],
+    "facebook":"http://www.facebook.com/pages/Tapioka-Cafe-Cozumel-Bubble-Tea-Coffee-Shop/254698407895781",
+    "website":""
+  },
+  {
+    "nombre":"Starbucks Café",
+    "horario":"",
+    "direccion":"AV. RAFAEL E. MELGAR INTERIOR PLAZA PUNTA LANGOSTA.",
+    "telefonos":[
+      "(987)872-6437"
+    ],
+    "facebook":"",
+    "website":""
+  },
+  {
+    "nombre":"La Cuisine",
+    "horario":"",
+    "direccion":"11 AV ENTRE 5a Y 10a AV.",
+    "telefonos":[
+      "(987)872-0738"
+    ],
+    "facebook":"http://www.facebook.com/CuisineCozumel",
+    "website":""
+  },
+  {
+    "nombre":"Be Natural",
+    "horario":"",
+    "direccion":"Avenida Juárez entre 55 y 60 - local C",
+    "telefonos":[
+      "(987)869-0499"
+    ],
+    "facebook":"http://www.facebook.com/benaturalcozumel",
+    "website":""
+  }
+]
