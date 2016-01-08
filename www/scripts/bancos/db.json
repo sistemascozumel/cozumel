@@ -1,0 +1,141 @@
+[
+  {
+    "nombre":"Bancomer",
+    "direccion":"5a Av. #51 Edificio Plaza del Sol",
+    "telefonos":[
+      "(987)8720550",
+      "(987)8722969",
+      "+529878720550"
+    ],
+    "horarios":"Lunes a Viernes 9:00 a 4 pm",
+    "servicios":[
+      "Servicios: Cambio de Divisas","Cuenta con cajero Automatico"
+    ]
+  },
+  {
+    "nombre":"Banorte",
+    "direccion":"5a Av. / Juarez y 2 #9",
+    "telefonos":[
+      "(987)8720318",
+      "(987)8720718"
+    ],
+    "horarios":"Lunes a Viernes 9a 5 pm Sabados de 9 a 2 pm",
+    "servicios":[
+      "Cambio de Divisas", "Cuenta con cajero Automatico"
+    ]
+  },
+  {
+    "nombre":"Banamex",
+    "direccion":"30 Av Esq. 1era Sur int. Plaza Leones",
+    "telefonos":[
+      "(987)8723411",
+      "+52(987)8723411"
+    ],
+    "horarios":"Lunes a Viernes 9a 5 pm Sabados de 9 a 2 pm",
+    "servicios":[
+      "Cambio de Divisas","Cuenta con cajero Automatico"
+    ]
+  },
+  {
+    "nombre":"Santander Serfin",
+    "direccion":"Calle 3 Sur esq. 10 Av. #198",
+    "telefonos":[
+      "(987)8720807"
+    ],
+    "horarios":"Lunes a Viernes    9:00 a 4 pm<",
+    "servicios":[
+      "Cambio de Divisas","Cuenta con cajero Automatico"
+    ]
+  },
+  {
+    "nombre":"HSBC",
+    "direccion":"5a Av. Esq. 1era Sur 30 Av. Esq. Con 11 Av",
+    "telefonos":[
+      "(987)8720142",
+      "(987)8720182",
+      "(987)8723080"
+    ],
+    "horarios":"Lunes a Viernes    9:00 a 4 pm",
+    "servicios":[
+      "Cambio de Divisas","Cuenta con cajero Automatico"
+    ]
+  },
+  {
+    "nombre":"Scotiabank",
+    "direccion":"5a Av. Con 2 nte",
+    "telefonos":[
+      "(987)8729001"
+    ],
+    "horarios":"Lunes a Viernes    9:00 a 4 pm",
+    "servicios":[
+      "Cambio de Divisas","Cuenta con cajero Automatico"
+    ]
+  },
+  {
+    "nombre":"Banco Azteca",
+    "direccion":"Av Juarez entre 15 y 20 av",
+    "telefonos":[
+      "(987)8730802"
+    ],
+    "horarios":"Lunes a Domingo de 9 am a 9 pm",
+    "servicios":[
+      "Cambio de Divisas","Cuenta con cajero Automatico"
+    ]
+  },
+  {
+    "nombre":"Bancoppel",
+    "direccion":"65 av esquina con Av Juarez",
+    "telefonos":[
+      "(987)8691910"
+
+    ],
+    "horarios":"Lunes a domingo de11 am a 9 pm",
+    "servicios":[
+      "Cambio de Divisas","Cuenta con cajero Automatico"
+    ]
+  },
+  {
+    "nombre":"Cibanco",
+    "direccion":"Av. Pedro Joaquín Coldwell No.621-C",
+    "telefonos":[
+      "(987)8697679"
+    ],
+    "horarios":"Lunes a domingo de11 am a 9 pm",
+    "servicios":[
+      "Cambio de Divisas","Cuenta con cajero Automatico"
+    ]
+  },
+  {
+    "nombre":"Casa de cambio",
+    "direccion":"Calle Adolfo Rosado Salas # 85 entre Rafael E. Melgar y 5ª Av. Cozumel centro",
+    "telefonos":[
+      "(987)8725322"
+    ],
+    "horarios":"Lunes a domingo de 10 am a 9 pm",
+    "servicios":[
+      "Cambio de Divisas"
+    ]
+  },
+  {
+    "nombre":"Caseta telefonica",
+    "direccion":"10 Av. Entre Av. Juarez y Calle 2 Norte",
+    "telefonos":[
+      ""
+    ],
+    "horarios":"Lunes a Sabado de 9 am a 8 pm",
+    "servicios":[
+      "Internet","Teléfono"
+    ]
+  },
+  {
+    "nombre":"Caseta telefonica",
+    "direccion":"Av. Rafael E. Melgar Esquina Calle 3 Sur",
+    "telefonos":[
+      "(987)8721417"
+    ],
+    "horarios":"Lunes a Sabado de 9 am a 8 pm",
+    "servicios":[
+      "Internet","Teléfono"
+    ]
+  }
+]

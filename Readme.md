@@ -10,10 +10,10 @@
   - puente
   - aeropuerto
   - hoteles
-  - spas
-  - agencias
-  - rentadoras
-  - bancos
+  - ? spas
+  - ✓ agencias
+  - ✓ rentadoras
+  - ✓ bancos
   - restaurantes
   - tours  
 

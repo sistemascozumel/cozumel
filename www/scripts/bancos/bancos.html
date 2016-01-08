@@ -1,34 +1,41 @@
-<ion-view view-title="Dashboard">
+<ion-view view-title="Bancos">
   <ion-content class="padding">
+
+    <div class="list list-inset">
+      <label class="item item-input">
+        <i class="icon ion-search placeholder-icon"></i>
+        <input type="text" ng-model="buscar" placeholder="Buscar...">
+      </label>
+    </div>
+
 
     <div class="list">
 
-      <a class="item item-icon-left" href="#/servicios/ferry">
-        <i class="icon ion-email"></i>
-        Ferry
-      </a>
+      <div class="card" ng-repeat="banco in ctrl.bancos|orderBy:'nombre'|filter:buscar">
+          <div class="item item-body">
+            <h2>{{::banco.nombre}}</h2>
+            <p>
+              <strong>Dirección: </strong>{{::banco.direccion}}
+            </p>
+            <p><strong>Horarios: </strong> {{::banco.horarios}}.</p>
+            <button class="button button-small button-assertive" ng-repeat="servicio in banco.servicios">
+              {{servicio}}
+            </button>
+            <p>
+              Teléfonos: <a href="#" class="subdued" ng-repeat="telefono in banco.telefonos">: {{::telefono}}</a>              
+            </p>
+          </div>
+      </div>
 
-      <a class="item item-icon-left item-icon-right" href="#">
-        <i class="icon ion-chatbubble-working"></i>
-        Call Ma
-        <i class="icon ion-ios-telephone-outline"></i>
-      </a>
 
-      <a class="item item-icon-left" href="#">
-        <i class="icon ion-mic-a"></i>
-        Record album
-        <span class="item-note">
-          Grammy
-        </span>
-      </a>
-
-      <a class="item item-icon-left" href="#">
-        <i class="icon ion-person-stalker"></i>
-        Friends
-        <span class="badge badge-assertive">0</span>
-      </a>
 
     </div>
 
   </ion-content>
 </ion-view>
+
+<style>
+  .button{
+    margin-right: 5px;
+  }
+</style>

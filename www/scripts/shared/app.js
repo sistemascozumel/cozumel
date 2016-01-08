@@ -12,7 +12,8 @@ angular.module('starter', [
   'app.ferry',
   'app.hoteles',
   'app.agencias',
-  'app.rentadoras'
+  'app.rentadoras',
+  'app.bancos'
 ])
 
 .run(function($ionicPlatform) {
@@ -88,6 +89,12 @@ angular.module('starter', [
     url: '/app/servicios/rentadoras',
     templateUrl: 'scripts/rentadoras/rentadoras.html',
     controller:'RentadorasCtrl',
+    controllerAs:'ctrl'
+  })
+  .state('bancos', {
+    url: '/app/servicios/bancos',
+    templateUrl: 'scripts/bancos/bancos.html',
+    controller:'BancosCtrl',
     controllerAs:'ctrl'
   })
 

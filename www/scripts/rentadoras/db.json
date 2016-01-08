@@ -1,0 +1,273 @@
+[
+  {
+    "nombre":"AGUILAR",
+    "producto":[
+      "autos","motos"
+    ],
+    "direccion":"Calle 3 sur No.98 Hotel Aguilar",
+    "telefono":"9878720307",
+    "correo":"aguilar1rentals@hotmail.com"
+  },
+  {
+    "nombre":"4º y 5º",
+    "producto":[
+      "autos","motos"
+    ],
+    "direccion":"Adolfo R. Salas No. 30 entre R.E.M y 5a Av.",
+    "telefono":" 9878691328",
+    "correo":""
+  },
+  {
+    "nombre":"Maalo Kin",
+    "producto":[
+      "autos","motos"
+    ],
+    "direccion":"C.105 entre 1a. Y A.R.S.",
+    "telefono":"9871018550",
+    "correo":""
+  },
+  {
+    "nombre":"SHARKRIDER",
+    "producto":[
+      "autos","motos"
+    ],
+    "direccion":" 5 av. Entre Juarez y 2 nte. Lc.2",
+    "telefono":"987449871",
+    "correo":""
+  },
+  {
+    "nombre":"DORADO",
+    "producto":[
+      "autos","motos"
+    ],
+    "direccion":"C. 4 / 20 y 25",
+    "telefono":"9878722383",
+    "correo":""
+  },
+  {
+    "nombre":"CABALLITO",
+    "producto":[
+      "autos","motos"
+    ],
+    "direccion":"Calle 2 Nte. Entre 15 y 10a. Av.",
+    "telefono":"9871055891",
+    "correo":""
+  },
+  {
+    "nombre":"Explora",
+    "producto":[
+      "autos","motos"
+    ],
+    "direccion":"10 av. Entre av. Júarez y 2 Norte",
+    "telefono":" 9878690020",
+    "correo":""
+  },
+  {
+    "nombre":"HPRental",
+    "producto":[
+      "autos","motos"
+    ],
+    "direccion":"10 av. Entre av. Júarez y 2 Norte",
+    "telefono":"987871171589",
+    "correo":""
+  },
+  {
+    "nombre":"Isis",
+    "producto":[
+      "autos","motos"
+    ],
+    "direccion":"5a.AV.No.181 entre calles 2 y 4 Norte",
+    "telefono":"987871073427",
+    "correo":""
+  },
+  {
+    "nombre":"JM",
+    "producto":[
+      "autos","motos"
+    ],
+    "direccion":"Calle 4 Norte entre Av. R. E. M. y 5a. Av.",
+    "telefono":"9871073427",
+    "correo":""
+  },
+  {
+    "nombre":"LESS PAY",
+    "producto":[
+      "autos","motos"
+    ],
+    "direccion":"Av. R. E. M. Bajos Hotel Barracuda",
+    "telefono":"9878724744",
+    "correo":""
+  },
+  {
+    "nombre":"MASHA",
+    "producto":[
+      "autos","motos"
+    ],
+    "direccion":"5a Av. Entre 1era. Y A.R. S.",
+    "telefono":"987871169938"
+  },
+  {
+    "nombre":"MED PREZ",
+    "producto":[
+      "autos","motos"
+    ],
+    "direccion":"Calle 2 Norte entre 15 y 10 Av.",
+    "telefono":"9878784781"
+  },
+  {
+    "nombre":"MAYA KIN",
+    "producto":[
+      "autos","motos"
+    ],
+    "direccion":"Carr. Costera sur K.m. 4.5.",
+    "telefono":"987871038665"
+  },
+  {
+    "nombre":"MAYA RIDER",
+    "producto":[
+      "autos","motos"
+    ],
+    "direccion":"Av. Júarez entre 10 y 15 Av.",
+    "telefono":"987871032078"
+  },
+  {
+    "nombre":"PAT Y ASOC",
+    "producto":[
+      "autos","motos"
+    ],
+    "direccion":"Av.Boulevard Esquina 65 Av. Y 65 Bis",
+    "telefono":"9878725651",
+    "correo":"smartrental@prodigy.net.mx"
+  },
+  {
+    "nombre":"PARAISO CAR",
+    "producto":[
+      "autos","motos"
+    ],
+    "direccion":"Calle 2 Norte entre 15 y 10 Av."
+  },
+  {
+    "nombre":"PELICANOS",
+    "producto":[
+      "autos","motos"
+    ],
+    "direccion":"Calle 7 sur entre Av. R.E.M. y 5a. Av.",
+    "telefono":"9878691145"
+  },
+  {
+    "nombre":"PIXOY",
+    "producto":[
+      "autos","motos"
+    ],
+    "direccion":"Calle 7 sur entre Av. R.E.M. y 5a. Av.",
+    "telefono":"9878693219"
+  },
+  {
+    "nombre":"TUCAN",
+    "producto":[
+      "autos","motos"
+    ],
+    "direccion":"Calle 2 Norte No. 81 entre Av. R.E.M. y 5a. Av",
+    "telefono":"9878724525",
+    "correo":""
+  },
+  {
+    "nombre":"Delfines",
+    "producto":[
+      "autos","motos"
+    ],
+    "direccion":"Calle 7 sur entre Av. R.E.M. y 5a. Av.",
+    "telefono":"9871030938",
+    "correo":""
+  },
+  {
+    "nombre":"XPRESSRENTAL",
+    "producto":[
+      "autos","motos"
+    ],
+    "direccion":"Av. Juarez entre 10 y15a.Av.",
+    "telefono":"9878725744",
+    "website":"www.seascuba.com.mx"
+  },
+  {
+    "nombre":"SIANKAAN",
+    "producto":[
+      "autos","motos"
+    ],
+    "direccion":"Calle 4 Nte. Entre av. R.E.M. y 5a. Av.",
+    "telefono":"9871073427",
+    "correo":"smartrental@prodigy.net.mx"
+  },
+  {
+    "nombre":"Avis",
+    "producto":[
+      "autos","motos"
+    ],
+    "direccion":"Interior aeropuerto",
+    "telefono":"9878720219",
+    "correo":""
+  },
+  {
+    "nombre":"SOLYMAR",
+    "producto":[
+      "autos","motos","bicicletas"
+    ],
+    "direccion":"Calle 2 nte. Entre 5a y 10 Av.",
+    "telefono":"9878690545",
+    "correo":""
+  },
+  {
+    "nombre":"Blue Way",
+    "producto":[
+      "autos","motos"
+    ],
+    "direccion":"5a Av. /sY 4 nte. #8",
+    "telefono":"9878720903",
+    "website":"www.bluewaycarrenta.com"
+  },
+  {
+    "nombre":"CP RENTALS",
+    "producto":[
+      "autos","motos","bicicletas"
+    ],
+    "direccion":"Av. 10 /Juarez y 2 norte #6 Plaza Cozumel",
+    "telefono":"9878784055",
+    "correo":""
+  },
+  {
+    "nombre":"FIESTA CAR RENTAL",
+    "producto":[
+      "autos","motos"
+    ],
+    "direccion":"Calle 13 sur #477 Entre 25 y 30 Av.",
+    "telefono":" 9878720433",
+    "website":"www.fiestacarrental.com"
+  },
+  {
+    "nombre":"THRIFTY",
+    "producto":[
+      "autos"
+    ],
+    "direccion":"Aeropuerto (frente al edificio del aeropuerto)",
+    "telefono":"9878692957",
+    "website":"www.trhifty.com"
+  },
+  {
+    "nombre":"National Car Rental",
+    "producto":[
+      "autos","motos"
+    ],
+    "direccion":"Av. Juaréz entre 5a y 10a Av.",
+    "telefono":"9878723263",
+    "correo":""
+  },
+  {
+    "nombre":"TARGET",
+    "producto":[
+      "autos","motos"
+    ],
+    "direccion":"Interior Muelle Inter. Y puerta Maya",
+    "telefono":"9878723433",
+    "correo":""
+  }
+]

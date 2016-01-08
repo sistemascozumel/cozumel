@@ -1,34 +1,45 @@
-<ion-view view-title="Dashboard">
+<ion-view view-title="Rentadoras">
   <ion-content class="padding">
+
+    <div class="list list-inset">
+      <label class="item item-input">
+        <i class="icon ion-search placeholder-icon"></i>
+        <input type="text" ng-model="buscar" placeholder="Buscar...">
+      </label>
+    </div>
+
 
     <div class="list">
 
-      <a class="item item-icon-left" href="#/servicios/ferry">
-        <i class="icon ion-email"></i>
-        Ferry
-      </a>
+      <div class="card" ng-repeat="rentadora in ctrl.rentadoras|orderBy:'nombre'|filter:buscar">
 
-      <a class="item item-icon-left item-icon-right" href="#">
-        <i class="icon ion-chatbubble-working"></i>
-        Call Ma
-        <i class="icon ion-ios-telephone-outline"></i>
-      </a>
+          <div class="item item-body">
+            <h2>{{::rentadora.nombre|uppercase}}</h2>
+            <p>Dirección: {{::rentadora.direccion}}</p>
+            <button class="button button-small button-assertive" ng-repeat="item in rentadora.producto">
+              {{item}}
+            </button>
+            <p ng-if="rentadora.website">
+              Website:
+              <br>
+              <a href="http://{{::rentadora.website}}" class="button button-positive">{{::rentadora.website}}</a>
+            </p>
+            <p>
+              <a href="#" class="subdued">Teléfono: {{::rentadora.telefono}}</a>
+              <a href="#" class="subdued" ng-if="rentadora.correo">Correo: {{::rentadora.correo}}</a>
+            </p>
+          </div>
+      </div>
 
-      <a class="item item-icon-left" href="#">
-        <i class="icon ion-mic-a"></i>
-        Record album
-        <span class="item-note">
-          Grammy
-        </span>
-      </a>
 
-      <a class="item item-icon-left" href="#">
-        <i class="icon ion-person-stalker"></i>
-        Friends
-        <span class="badge badge-assertive">0</span>
-      </a>
 
     </div>
 
   </ion-content>
 </ion-view>
+
+<style>
+  .button{
+    margin-right: 5px;
+  }
+</style>
