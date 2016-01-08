@@ -6,15 +6,13 @@
 
         var vm = this;
         $scope.$on('$ionicView.enter', function(e) {
-          Cozumel.getHotel($stateParams.id)
-            .success(function (data) {
-
-              vm.hotel = data;
-
-            })
-            .error(function (err) {
-              alert(err);
-            });
+          Cozumel.getHotel($stateParams.id,function (err,data) {
+            if (err) {
+              return alert('Error al cargar los detalles del hotel');
+            }
+            vm.hotel = data;
+            console.log(data);
+          });
         });
 
 

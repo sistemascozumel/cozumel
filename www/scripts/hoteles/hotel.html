@@ -1,0 +1,87 @@
+<ion-view view-title="{{::ctrl.hotel.nombre}}">
+  <ion-content class="padding">
+
+    <img src="{{::ctrl.hotel.foto}}" alt="" align="center">
+    <h1>{{::ctrl.hotel.nombre}}</h1>
+    <p>{{::ctrl.hotel.direccion}}</p>
+
+    <div class="list">
+      <div class="item item-divider">
+        Información de contacto
+      </div>
+      <a class="item item-icon-left">
+        <i class="fa fa-phone"></i>
+        Teléfono 1
+        <span class="item-note">
+          {{::ctrl.hotel.telefonos[0]}}
+        </span>
+      </a>
+      <a class="item item-icon-left" ng-if="ctrl.hotel.telefonos[1]">
+        <i class="fa fa-phone"></i>
+        Teléfono extranjeros
+        <span class="item-note">
+          {{::ctrl.hotel.telefonos[1]}}
+        </span>
+      </a>
+      <a class="item item-icon-left" ng-if="ctrl.hotel.fax">
+        <i class="fa fa-fax"></i>
+        Fax
+        <span class="item-note">
+          {{::ctrl.hotel.fax}}
+        </span>
+      </a>
+      <a class="item item-icon-left"  ng-if="ctrl.hotel.correo">
+        <i class="fa fa-envelope"></i>
+        Correo
+        <span class="item-note">
+          {{::ctrl.hotel.correo}}
+        </span>
+      </a>
+      <a class="item item-icon-left"  ng-if="ctrl.hotel.website">
+        <i class="fa fa-globe"></i>
+        Website
+        <span class="item-note">
+          {{::ctrl.hotel.website}}
+        </span>
+      </a>
+      <div class="item item-divider">
+        Detalles del hotel
+      </div>
+      <a class="item item-icon-left">
+        <i class="fa fa-hotel"></i>
+        Habitaciones
+        <span class="item-note">
+          {{::ctrl.hotel.cuartos}}
+        </span>
+      </a>
+      <a class="item item-icon-left">
+        <i class="fa fa-star"></i>
+        Categoría
+        <span class="item-note">
+          {{::ctrl.hotel.categoria}}
+        </span>
+      </a>
+      <a class="item item-icon-left">
+        <i class="fa fa-archive"></i>
+        Plan
+        <span class="item-note">
+          {{::ctrl.hotel.plan}}
+        </span>
+      </a>
+      <div class="item item-divider">
+        Incluye
+      </div>
+      <a class="item item-icon-left" ng-repeat="item in ctrl.hotel.incluye">
+        <i class="fa fa-check"></i>
+        {{::item}}
+      </a>
+    </div>
+
+  </ion-content>
+</ion-view>
+<style>
+  .fa{
+    margin-right:20px;
+    color:#333;
+  }
+</style>

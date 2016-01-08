@@ -56,6 +56,22 @@ angular.module('app.services', [])
     hoteles:function () {
       return $http.get('scripts/hoteles/db.json');
     },
+    getHotel:function (nombre,done) {
+      $http.get('scripts/hoteles/db.json')
+        .success(function (data) {
+
+          var hotel = _.where(data,{
+            nombre:nombre
+          });
+
+          done(null,hotel[0]);
+
+        })
+        .error(function (err) {
+          done(err);
+        });
+
+    },
     remove: function(chat) {
       chats.splice(chats.indexOf(chat), 1);
     },
