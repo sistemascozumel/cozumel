@@ -1,0 +1,57 @@
+<ion-view view-title="Ferry">
+
+    <ion-pane>
+        <ion-tabs class="tabs-striped tabs-background-positive tabs-color-light tabs-top">
+
+            <!-- Tab 1 -->
+            <ion-tab title="Calica - Cozumel" >
+              <br>
+                <ion-nav-view name="tab-tab1">
+                    <ion-content>
+                      <div id="ida" class="list" ng-repeat="(dia,horas) in ctrl.horarios.calicaCozumel track by $index">
+                        <div class="item item-divider">
+                          {{dia}}
+                        </div>
+                        <a ng-repeat="hora in horas track by $index" class="item item-icon-left">
+                          <i class="fa fa-life-ring"></i>
+                          {{hora}}
+                        </a>
+                      </div>
+                    </ion-content>
+
+                </ion-nav-view>
+            </ion-tab>
+
+
+            <!-- Tab 2 -->
+            <ion-tab title="Cozumel - Calica" >
+              <br>
+                <ion-nav-view name="tab-tab2">
+                    <ion-content>
+                      <div id="ida" class="list" ng-repeat="(dia,horas) in ctrl.horarios.cozumelCalica track by $index">
+                        <div class="item item-divider">
+                          {{dia}}
+                        </div>
+                        <a ng-repeat="hora in horas track by $index" class="item item-icon-left">
+                          <i class="fa fa-life-ring"></i>
+                          {{hora}}
+                        </a>
+                      </div>
+                    </ion-content>
+                </ion-nav-view>
+            </ion-tab>
+
+            <a href="#/servicios" class="tab-item">Regresar</a>
+
+        </ion-tabs>
+
+    </ion-pane>
+
+
+
+    <p>
+      * Solo carga negra
+    </p>
+
+
+</ion-view>

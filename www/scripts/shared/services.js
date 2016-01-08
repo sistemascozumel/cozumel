@@ -1,6 +1,6 @@
-angular.module('starter.services', [])
+angular.module('app.services', [])
 
-.factory('Chats', function() {
+.factory('Cozumel', function($http) {
   // Might use a resource here that returns a JSON array
 
   // Some fake testing data
@@ -34,6 +34,18 @@ angular.module('starter.services', [])
   return {
     all: function() {
       return chats;
+    },
+    atractivos:function () {
+      return $http.get('scripts/eventos/db.json');
+    },
+    emergencias:function () {
+      return $http.get('scripts/eventos/db.json');
+    },
+    ferry:function () {
+      return $http.get('scripts/ferry/db.json');
+    },
+    eventos:function () {
+      return $http.get('scripts/eventos/db.json');
     },
     remove: function(chat) {
       chats.splice(chats.indexOf(chat), 1);
