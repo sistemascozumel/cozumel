@@ -14,6 +14,9 @@ angular.module('app.services', [])
     atractivos:function () {
       return $http.get('scripts/eventos/db.json');
     },
+    atracciones:function () {
+      return $http.get('scripts/atracciones/db.json');
+    },
     bancos:function () {
       return $http.get('scripts/bancos/db.json');
     },

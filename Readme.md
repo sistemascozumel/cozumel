@@ -20,8 +20,8 @@
 - Atracciones turísticas
   - ✓ playas
   - ? arrecifes
-  - parques y museos
-  - Otras atracciones
+  - ✓ parques y museos
+  - ✓ Otras atracciones
 
 - Eventos y espectculos
   - Carnaval - Febrero

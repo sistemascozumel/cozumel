@@ -1,12 +1,19 @@
 (function () {
   'use strict';
   angular
-    .module('app.eventos.controller',[])
-      .controller('FerryCtrl',function (Cozumel) {
+    .module('app.atracciones',[])
+      .controller('AtraccionesCtrl',function (Cozumel) {
 
         var vm = this;
-
-        Cozumel.ferry()
+        console.log('asdasd');
+        Cozumel.atracciones()
+          .success(function (data) {
+            vm.atracciones = data;
+          })
+          .error(function (err) {
+            console.error(err);
+            alert('Error al cargar las atracciones');
+          });
 
 
 
