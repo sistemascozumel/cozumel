@@ -1,0 +1,42 @@
+[
+  {
+    "nombre":"Chankannab",
+    "descripcion":"Nombre maya que significa 'Pequeño Mar' se encuentra dentro del Parque Marino Nacional de Cozumel, disfrute de nuestro hermoso parque de playa y pase el dia ya sea realizando actividades de snorkel o buceo, mientras admira peces de colores, arrecifes y esculturas submarinas.",
+    "direccion":"Carretera Costera Sur Km 09",
+    "horarios":"Lunes a Sábado de 8 am a 4 pm",
+    "foto":"img/parques/chankanaab.jpg",
+    "servicios":[
+      "Arrecifes Chankanaab","Caletita","Esculturas Sumergidas","Jardín Botánico ","Tour Arqueológico","Casita maya","Replicas Prehispánicas","Cocodrilarios","Leones Marinos"
+    ]
+  },
+  {
+    "nombre":"San Gervasio",
+    "descripcion":"San Gervasio es el más grande e importante de la isla. Santuario de Ixchel, Diosa de la Fertilidad y el Amor, para las mujeres mayas era una obligación visitar Cozumel por lo menos una vez en la vida para rendirle tributo a Ixchel.",
+    "direccion":"Carretera Transversal Km 07",
+    "horarios":"Lunes a Domingo de 8 am A 3:45 pm",
+    "foto":"img/parques/gervasio.jpg",
+    "servicios":[
+      "Baños","Snack Bar","Tienda de Souvenirs","Estacionamiento Gratuito"
+    ]
+  },
+  {
+    "nombre":"Museo de la Isla",
+    "descripcion":"El Museo de la Isla ofrece en cuatro salas de exhibición una visión de la geografía e historia de Cozumel. Concebido como un instrumento de información y educación, siembra en la comunidad el conocimiento de la historia de su isla y los ecosistemas que la conforman, a la vez que le da oportunidad a los visitantes de disfrutar de las exposiciones temporales y permanentes de artistas locales e internacionales.",
+    "direccion":"Av. Rafael Melgar entre calle 4 y 6 norte",
+    "horarios":"Lunes a Viernes 9am-5pm (987) 8721475 / 8721545",
+    "foto":"img/parques/museo.jpg",
+    "servicios":[
+      "Baños","Restaurant","Tienda de Souvenirs"
+    ]
+  },
+  {
+    "nombre":"Punta Sur",
+    "descripcion":"La Playa y Parque Eco turístico Punta Sur es la reserva ecológica más grande de Cozumel. Descubre la mejor playa de Cozumel, toma fotos de aves exóticas, flora silvestre y observa a los cocodrilos en su hábitat natural. No te olvides de subir al histórico Faro Celarain y desde ahí disfrutar de las espectaculares vistas panorámicas, así como tomar el paseo en bote por la Laguna Colombia ¡Te esperamos!",
+    "direccion":"Carretera costera sur km 30",
+    "horarios":"Lunes a Sábado de 9am a 4pm.",
+    "foto":"img/parques/puntasur.jpg",
+    "servicios":[
+      "Sillas","Hamacas","Regaderas","Restaurantes","Snack bar","Salvavidas","Tienda de souvenirs","Museo Cultural y de Navegación","Faro Celarain","Cocodrilario","Observación de Aves."
+    ]
+  }
+]

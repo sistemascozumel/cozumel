@@ -19,7 +19,7 @@
 
 - Atracciones turísticas
   - ✓ playas
-  - arrecifes
+  - ? arrecifes
   - parques y museos
   - Otras atracciones
 
@@ -59,4 +59,5 @@
 - Mapa
 
 ## Desarrollo
-export ANDROID_HOME="/Users/donny/Documents/android/sdk" /home/cedric/Android/Sdk/tools/android
+- export ANDROID_HOME="/Users/donny/Documents/android/sdk"
+- /home/cedric/Android/Sdk/tools/android

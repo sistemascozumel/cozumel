@@ -16,7 +16,8 @@ angular.module('starter', [
   'app.bancos',
   'app.restaurantes',
   'app.tours',
-  'app.playas'
+  'app.playas',
+  'app.parques'
 ])
 
 .run(function($ionicPlatform) {
@@ -124,6 +125,12 @@ angular.module('starter', [
     url: '/app/atracciones/playas',
     templateUrl: 'scripts/playas/playas.html',
     controller:'PlayasCtrl',
+    controllerAs:'ctrl'
+  })
+  .state('parques', {
+    url: '/app/atracciones/parques',
+    templateUrl: 'scripts/parques/parques.html',
+    controller:'ParquesCtrl',
     controllerAs:'ctrl'
   })
 

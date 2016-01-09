@@ -1,4 +1,4 @@
-<ion-view view-title="playas">
+<ion-view view-title="Playas">
   <ion-content class="padding">
 
     <div class="list list-inset">
@@ -12,16 +12,15 @@
     <div class="list">
 
       <div class="card" ng-repeat="playa in ctrl.playas|orderBy:'nombre'|filter:buscar">
-          <div class="item item-avatar">            
+          <div class="item item-avatar">
             <h2>{{::playa.nombre}}</h2>
-            <p>Responsable: {{::playa.responsable}}</p>
+            <p>{{::playa.direccion}}</p>
+          </div>
+          <div class="item item-image">
+            <img src="{{playa.foto}}" alt="">
           </div>
 
           <div class="item item-body">
-            <img src="{{playa.foto}}" alt="">
-            <p>
-              <strong>Dirección: </strong>{{::playa.direccion}}
-            </p>
             <p ng-if="playa.correo"><strong>Correo: </strong> {{::playa.correo}}.</p>
             <p ng-if="playa.correo">
               <a href="{{::playa.website}}" class="button button-positive">Visitar sitio web</a>
