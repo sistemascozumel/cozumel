@@ -19,7 +19,8 @@ angular.module('starter', [
   'app.playas',
   'app.parques',
   'app.atracciones',
-  'app.eventos'
+  'app.eventos',
+  'app.atencion'
 ])
 
 .run(function($ionicPlatform) {
@@ -146,6 +147,19 @@ angular.module('starter', [
     url: '/app/eventos',
     templateUrl: 'scripts/eventos/eventos.html',
     controller:'EventosCtrl',
+    controllerAs:'ctrl'
+  })
+
+  .state('atencion-ciudadana', {
+    url: '/app/atencion-ciudadana',
+    templateUrl: 'scripts/atencion/ciudadana.html',
+    controller:'AtencionCtrl',
+    controllerAs:'ctrl'
+  })
+  .state('atencion-turistica', {
+    url: '/app/atencion-turistica',
+    templateUrl: 'scripts/atencion/turistica.html',
+    controller:'AtencionCtrl',
     controllerAs:'ctrl'
   })
 

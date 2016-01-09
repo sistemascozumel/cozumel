@@ -1,0 +1,41 @@
+<ion-view view-title="Atención turística">
+  <ion-content class="padding">
+
+    <div class="list list-inset">
+      <label class="item item-input">
+        <i class="icon ion-search placeholder-icon"></i>
+        <input type="text" ng-model="buscar" placeholder="Buscar...">
+      </label>
+    </div>
+
+
+    <div class="list">
+
+      <div class="card" ng-repeat="dependencia in ctrl.dependencias|orderBy:'nombre'|filter:buscar">
+          <div class="item item-body">
+            <h2>{{::dependencia.nombre}}</h2>
+            <p>
+              <strong>Dirección: </strong>{{::dependencia.direccion}}
+            </p>
+            <p><strong>Horarios: </strong> {{::dependencia.horarios}}.</p>
+            <button class="button button-small" ng-repeat="servicio in dependencia.servicios">
+              {{servicio}}
+            </button>
+            <p>
+              Teléfonos: <a href="#" class="subdued" ng-repeat="telefono in dependencia.telefonos">: {{::telefono}}</a>
+            </p>
+          </div>
+      </div>
+
+
+
+    </div>
+
+  </ion-content>
+</ion-view>
+
+<style>
+  .button{
+    margin-right: 5px;
+  }
+</style>

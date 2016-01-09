@@ -1,0 +1,46 @@
+<ion-view view-title="Atención ciudadana">
+  <ion-content class="padding">
+
+    <div class="card">
+      <div class="list">
+        <label class="item item-input item-select">
+            <div class="input-label">
+              Tipo de reporte
+            </div>
+            <select>
+              <option>Agua</option>
+              <option>Alcantarillado</option>
+              <option>Alumbrado público</option>
+              <option>Baches</option>
+              <option>Basura</option>
+              <option>Calle</option>
+              <option>Seguridad</option>
+              <option>Servicios públicos</option>
+              <option>Otra</option>
+            </select>
+        </label>
+        <label class="item item-input item-floating-label">
+          <span class="input-label">Nombre</span>
+          <input type="text" placeholder="Nombre">
+        </label>
+        <label class="item item-input item-floating-label">
+          <span class="input-label">Email (opcional)</span>
+          <input type="text" placeholder="Last Name">
+        </label>
+
+        <label class="item item-input item-floating-label">
+          <span class="input-label">Comentario</span>
+          <textarea placeholder="Comentario"></textarea>
+        </label>
+
+        <ion-checkbox ng-model="filter.blue">Deseo recibir información acerca de mi reporte</ion-checkbox>
+
+
+        <button class="button button-full button-positive">
+          Enviar reporte
+        </button>
+      </div>
+    </div>
+
+  </ion-content>
+</ion-view>

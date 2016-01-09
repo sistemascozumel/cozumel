@@ -11,6 +11,9 @@ angular.module('app.services', [])
     agencias:function () {
       return $http.get('scripts/agencias/db.json');
     },
+    atencion:function () {
+      return $http.get('scripts/atencion/db.json');
+    },
     atractivos:function () {
       return $http.get('scripts/eventos/db.json');
     },

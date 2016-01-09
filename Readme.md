@@ -23,16 +23,16 @@
   - ✓ parques y museos
   - ✓ Otras atracciones
 
-- Eventos y espectculos
-  - Carnaval - Febrero
-  - El Cedral - Mayo
-  - Rodeo de lanchas mexicanas - Mayo
-  - Travesia sagrada Maya - Mayo
-  - Independencia de México - Septiembre
-  - Iron man 70.3 Cozumel - Septiembre
-  - ITU World Cup Cozumel 2013 - Octubre
-  - Ironman Cozumel - Diciembre
-  - Scuba Fest - Diciembre
+- ✓ Eventos y espectculos
+  - ✓ Carnaval - Febrero
+  - ✓ El Cedral - Mayo
+  - ✓ Rodeo de lanchas mexicanas - Mayo
+  - ✓ Travesia sagrada Maya - Mayo
+  - ✓ Independencia de México - Septiembre
+  - ✓ Iron man 70.3 Cozumel - Septiembre
+  - ✓ ITU World Cup Cozumel 2013 - Octubre
+  - ✓ Ironman Cozumel - Diciembre
+  - ✓ Scuba Fest - Diciembre
 
 - Atención ciudadana
   - Formulario que pide nombre, correo, urgencia, tipo de reporte (alumbrado, alcantarillado, baches,calle, basura, seguridad, otra), comentario y un checkbox para recibir información acerca de su comentario
