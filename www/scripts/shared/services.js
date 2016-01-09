@@ -75,6 +75,9 @@ angular.module('app.services', [])
     remove: function(chat) {
       chats.splice(chats.indexOf(chat), 1);
     },
+    playas: function(chat) {
+      return $http.get('scripts/playas/db.json');
+    },
     rentadoras: function(chat) {
       return $http.get('scripts/rentadoras/db.json');
     },

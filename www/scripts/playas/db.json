@@ -1,0 +1,214 @@
+[
+  {
+    "nombre":"Chen rio",
+    "direccion":"Zona Oriental km. 42+900",
+    "costos":"Gratis",
+    "foto":"img/playas/chenrio.jpg",
+    "servicios":[
+      "Restaurante Bar",
+      "artesanias",
+      "tablas de surf"
+    ]
+  },
+  {
+    "nombre":"Money Bar",
+    "direccion":"Zona Sur km. 6",
+    "costos":"Gratis",
+    "telefono":"9878695141",
+    "website:":"http://www.moneybarbeachclub.com",
+    "foto":"img/playas/moneybar.jpg",
+    "servicios":[
+      "Restaurante ",
+      "deportes acuáticos",
+      "Bar",
+      "masajes",
+      "Música en vivo (fin sem.) ",
+      "snorkel de playa"
+    ]
+  },
+  {
+    "nombre":"Palancar",
+    "direccion":"Zona Sur km. 19.5",
+    "costos":"Gratis; Prohibido Introducir Alimentos y bebidas",
+    "telefono":"9871185154",
+    "website":"http://www.buceopalancar.com",
+    "foto":"img/playas/palancar.jpg",
+    "servicios":[
+      "Restaurante Bar",
+      "buceo",
+      "snorkel",
+      "hamacas",
+      "palapas",
+      "camastros",
+      "sombrillas",
+      "kayaks",
+      "masajes",
+      "tiendas de artesanias"
+    ]
+  },
+  {
+    "nombre":"Rastas",
+    "direccion":"Zona Sur km. 29",
+    "costos":"Gratis",
+    "telefono":"9878698300",
+    "website":"http://www.bobmarleybar.com",
+    "foto":"img/playas/rastas.jpg",
+    "servicios":[
+      "Resturante Bar",
+      "masajes",
+      "tiendas de artesanias",
+      "tatuajes temporales",
+      "hamacas",
+      "trensitas"
+    ]
+  },
+  {
+    "nombre":"Alberto's",
+    "direccion":"Zona Sur km. 18",
+    "costos":"Gratis  loc. 15% descuento",
+    "telefono":"9878691228",
+    "email":"albertosbeachbar@hotmail.com",
+    "website":"http://www.albertosbeachbar.com",
+    "foto":"img/playas/albertos.jpg",
+    "servicios":[
+      "Restaurante Bar","masajes","motos acuáticas","paracaidas","snorkel","buceo",
+      "camastros",
+      "palapas",
+      "bodas."
+    ]
+  },
+  {
+    "nombre":"Mr. Sanchos",
+    "direccion":"Zona Sur km.15",
+    "costos":"Gratis. Loc. 20 % desc. alimentos  prohibido introducir alimentos y bebidas",
+    "telefono":"9878719174",
+    "website":"www.mrsanchos.com",
+    "email":"mrsanchosbeachclub@gmail.com",
+    "foto":"img/playas/sanchos.jpg",
+    "servicios":[
+      "Restaurante Bar","actividades acuáticas","buceo","snorkel","seminarios de tequila","clases de cocina mexicana","renta de caballos","cuatrimotos","tiendas de artesanias","camastros","masajes"
+    ]
+  },
+  {
+    "nombre":"Uvas",
+    "direccion":"Zona Sur km. 8.5",
+    "costos":"Gratis",
+    "telefono":"9871201420",
+    "website":"http://www.playauvas.com",
+    "foto":"img/playas/uvas.jpg",
+    "servicios":[
+      "Restaurante bar","masajes","tiendas","artesanias","dep.acuáticos","buceo y snorkel de playa o en lancha"
+    ]
+  },
+  {
+    "nombre":"Carlos & Charlies",
+    "direccion":"Zona Sur km. 14+250",
+    "costos":"Gratis",
+    "telefono":"9875640960",
+    "website":"http://www.carlosandcharlies.com",
+    "foto":"img/playas/carloscharlies.jpg",
+    "servicios":[
+      "Deportes acuáticos","snorkel","tours en lancha fondo de cristal","renta de motos acuaticas","masajes","tiendas de artesanias","fotos de recuerdos"
+    ]
+  },
+  {
+    "nombre":"San Francisco",
+    "direccion":"Zona Sur km. 14+250",
+    "costos":"Gratis",
+    "telefono":"9878785183",
+    "website":"https://www.facebook.com/sanfranciscobeachclub",
+    "foto":"img/playas/sanfrancisco.jpg",
+    "servicios":[
+      "Restaurante Bar","camastros","sombrillas","regaderas","masajes","motos acuáticas","viajes de buceo","snorkel","lanchas fondo de cristal","paracaidas","tiendas de artesanias","farmacia","alberca"
+    ]
+  },
+  {
+    "nombre":"Paradise Beach",
+    "direccion":"Zona Sur km. 14+250",
+    "costos":"Gratis. Loc. 10 % desc. alimentos , 2 USD por camastro, 12 USD para usar juegos acuaticos",
+    "telefono":"9871200027",
+    "website":"http://www.paradise-beach-cozumel.com",
+    "foto":"img/playas/paradise.jpg",
+    "servicios":[
+      "Restaurante Bar","deportes acuáticos","kayaks","snorkel","tiendas de artesanias","camastros","regaderas","snorkel de playa o en lancha"
+    ]
+  },
+  {
+    "nombre":"Punta Morena",
+    "direccion":"Zona Oriental km. 44",
+    "costos":"Gratis",
+    "correo":"puntamorenacozumel@gmail.com",
+    "website":"http://www.puntamorena.com.mx",
+    "foto":"img/playas/puntamorena.jpg",
+    "servicios":[
+      "Restaurante Bar","masajes","camastros","hamacas","alberca","juegos infantiles","regaderas","spa","tiendas de artesanias"
+    ]
+  },
+  {
+    "nombre":"Señor Iguanas",
+    "direccion":"Zona Oriental km. 47+987",
+    "costos":"Gratis",
+    "foto":"img/playas/iguanas.jpg",
+    "servicios":[
+      "Restaurante Bar","artesanías","camastros","palapas","masajes","hamacas","cocos frescos"
+    ]
+  },
+  {
+    "nombre":"Mezcalitos",
+    "direccion":"Zona Oriental km. 47+987",
+    "costos":"Gratis",
+    "telefono":"9878760914",
+    "website":"http://www.mezcalitos.com",
+    "correo":"mezcalitos@hotmail.com",
+    "foto":"img/playas/mezcalitos.jpg",
+    "servicios":[
+      "Restaurante Bar","palapas","hamacas","artesanías"
+    ]
+  },
+  {
+    "nombre":"Playa Azul",
+    "direccion":"Zona Norte km. 4  ",
+    "costos":"Gratis. loc.10% dscto en consumo",
+    "telefono":"9878695173",
+    "website":"http://www.playa-azul.com",
+    "correo":"pla-azul@hotmail.com",
+    "foto":"img/playas/azul.jpg",
+    "servicios":[
+      "Restaurante Bar","camastros","juegos infantiles","buceo","snorkel de playa o lancha","domingos clases de salsa"
+    ]
+  },
+  {
+    "nombre":"Chankanaab",
+    "direccion":"Zona sur Km. 9  ",
+    "costos":"Adulto:21 USD/ 273 pesos, Niño: 14 USD / 182 pesos (de 3 a 11 años)",
+    "telefono":"9878729760",
+    "website":"http://www.cozumelparks.com",
+    "foto":"img/playas/chankanaab.jpg",
+    "servicios":[
+      "Restaurant","bar","camastros","regaderas","hamacas","baños","snorkel","buceo","jardin tropical","tour arqueologico"
+    ]
+  },
+  {
+    "nombre":"Ocean VIP",
+    "direccion":"Zona Sur Km 14.25",
+    "costos":"All inclusive  adulto 60 USD y niños 45 USD",
+    "telefono":"9871172569",
+    "correo":"info@oceanvipbeachclub",
+    "website":"http://www.oceanbeachcozumel.com",
+    "foto":"img/playas/ocean.png",
+    "servicios":[
+      "Restaurant Bar","deportes acuaticos","baños","regaderas"
+    ]
+  },
+  {
+    "nombre":"Nachi Cocom",
+    "direccion":"Zona Sur km. 16.5",
+    "costos":"Con reserva ya que es pequeño:  55 USD x Adulto. 17 USD de 4 a 11 años. 35 USD de 12 a 15 años y menores de 4 años es gratis.El  paq. incluye una comida y bebida nacional",
+    "telefono":"9878571157",
+    "website":"http://www.cozumelnachicocom.com",
+    "foto":"img/playas/nachicocom.jpg",
+    "servicios":[
+      "Restaurante Bar","deportes acuáticos","masajes","tiendas de ropa","artesanías","paracaidas","bananas"," veleros","buceo","snorkel"
+    ]
+  }
+]

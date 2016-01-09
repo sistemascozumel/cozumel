@@ -18,7 +18,7 @@
   - ✓ tours  
 
 - Atracciones turísticas
-  - playas
+  - ✓ playas
   - arrecifes
   - parques y museos
   - Otras atracciones

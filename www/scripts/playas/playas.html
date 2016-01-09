@@ -1,0 +1,52 @@
+<ion-view view-title="playas">
+  <ion-content class="padding">
+
+    <div class="list list-inset">
+      <label class="item item-input">
+        <i class="icon ion-search placeholder-icon"></i>
+        <input type="text" ng-model="buscar" placeholder="Buscar...">
+      </label>
+    </div>
+
+
+    <div class="list">
+
+      <div class="card" ng-repeat="playa in ctrl.playas|orderBy:'nombre'|filter:buscar">
+          <div class="item item-avatar">            
+            <h2>{{::playa.nombre}}</h2>
+            <p>Responsable: {{::playa.responsable}}</p>
+          </div>
+
+          <div class="item item-body">
+            <img src="{{playa.foto}}" alt="">
+            <p>
+              <strong>Dirección: </strong>{{::playa.direccion}}
+            </p>
+            <p ng-if="playa.correo"><strong>Correo: </strong> {{::playa.correo}}.</p>
+            <p ng-if="playa.correo">
+              <a href="{{::playa.website}}" class="button button-positive">Visitar sitio web</a>
+            </p>
+            <p><strong>Costo: </strong> {{::playa.costos}}.</p>
+            <h4>Servicios</h4>
+            <button class="button button-small button-assertive" ng-repeat="servicio in playa.servicios">
+              {{servicio}}
+            </button>
+            <p>
+              <a href="#" class="subdued">Teléfono: {{::playa.telefono}}</a>
+              <a href="#" class="subdued"></a>
+            </p>
+          </div>
+      </div>
+
+
+
+    </div>
+
+  </ion-content>
+</ion-view>
+
+<style>
+  .button{
+    margin: 10px;
+  }
+</style>

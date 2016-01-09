@@ -15,7 +15,8 @@ angular.module('starter', [
   'app.rentadoras',
   'app.bancos',
   'app.restaurantes',
-  'app.tours'
+  'app.tours',
+  'app.playas'
 ])
 
 .run(function($ionicPlatform) {
@@ -47,6 +48,8 @@ angular.module('starter', [
     url: '/app',
     templateUrl: 'templates/inicio.html'
   })
+
+  // servicios
   .state('servicios', {
     url: '/app/servicios',
     templateUrl: 'templates/servicios.html'
@@ -109,6 +112,18 @@ angular.module('starter', [
     url: '/app/servicios/tours',
     templateUrl: 'scripts/tours/tours.html',
     controller:'ToursCtrl',
+    controllerAs:'ctrl'
+  })
+
+  // atracciones
+  .state('atracciones', {
+    url: '/app/atracciones',
+    templateUrl: 'templates/atracciones.html',
+  })
+  .state('playas', {
+    url: '/app/atracciones/playas',
+    templateUrl: 'scripts/playas/playas.html',
+    controller:'PlayasCtrl',
     controllerAs:'ctrl'
   })
 
