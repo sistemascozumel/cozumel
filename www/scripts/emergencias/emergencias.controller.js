@@ -1,12 +1,19 @@
 (function () {
   'use strict';
   angular
-    .module('app.eventos.controller',[])
-      .controller('FerryCtrl',function (Cozumel) {
+    .module('app.emergencias',[])
+      .controller('EmergenciasCtrl',function (Cozumel) {
 
         var vm = this;
 
-        Cozumel.ferry()
+        Cozumel.emergencias()
+          .success(function (data) {
+            vm.emergencias = data;
+          })
+          .error(function (err) {
+            console.error(err);
+            alert('Error al cargar los teléfonos de emergencias');
+          });
 
 
 

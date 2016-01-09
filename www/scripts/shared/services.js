@@ -24,7 +24,7 @@ angular.module('app.services', [])
       return $http.get('scripts/bancos/db.json');
     },
     emergencias:function () {
-      return $http.get('scripts/eventos/db.json');
+      return $http.get('scripts/emergencias/db.json');
     },
     eventos:function () {
       return $http.get('scripts/eventos/db.json');

@@ -1,0 +1,34 @@
+[
+  {
+    "nombre":"Emergencia",
+    "telefono":"066"
+  },
+  {
+    "nombre":"Seguridad Pública",
+    "telefono":"9878720092"
+  },
+  {
+    "nombre":"Bomberos",
+    "telefono":"9878720800"
+  },
+  {
+    "nombre":"Cruz Roja",
+    "telefono":"9878690698"
+  },
+  {
+    "nombre":"Protección Civil",
+    "telefono":"9878726452"
+  },
+  {
+    "nombre":"Dirección de Turismo",
+    "telefono":"9878690211"
+  },
+  {
+    "nombre":"Agencia Consignataria TMM",
+    "telefono":"9878721700"
+  },
+  {
+    "nombre":"Agencia Consignataria Acomsur",
+    "telefono":"9878723779"
+  }
+]
