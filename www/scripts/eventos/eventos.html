@@ -1,32 +1,30 @@
-<ion-view view-title="Dashboard">
+<ion-view view-title="Eventos">
   <ion-content class="padding">
+
+    <div class="list list-inset">
+      <label class="item item-input">
+        <i class="icon ion-search placeholder-icon"></i>
+        <input type="text" ng-model="buscar" placeholder="Buscar...">
+      </label>
+    </div>
+
 
     <div class="list">
 
-      <a class="item item-icon-left" href="#/servicios/ferry">
-        <i class="icon ion-email"></i>
-        Ferry
-      </a>
+      <div class="card" ng-repeat="evento in ctrl.eventos|filter:buscar">
+          <div class="item item-avatar">
+            <h1>{{::evento.nombre}}  <span class="assertive" style="font-size:15px;text-align:right">{{::evento.mes}}</span></h1>
+          </div>
+          <div class="item item-image">
+            <img src="{{evento.foto}}" alt="">
+          </div>
 
-      <a class="item item-icon-left item-icon-right" href="#">
-        <i class="icon ion-chatbubble-working"></i>
-        Call Ma
-        <i class="icon ion-ios-telephone-outline"></i>
-      </a>
+          <div class="item item-body">
+            <p>{{::evento.descripcion}}</p>
+          </div>
+      </div>
 
-      <a class="item item-icon-left" href="#">
-        <i class="icon ion-mic-a"></i>
-        Record album
-        <span class="item-note">
-          Grammy
-        </span>
-      </a>
 
-      <a class="item item-icon-left" href="#">
-        <i class="icon ion-person-stalker"></i>
-        Friends
-        <span class="badge badge-assertive">0</span>
-      </a>
 
     </div>
 

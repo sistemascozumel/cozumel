@@ -59,5 +59,5 @@
 - Mapa
 
 ## Desarrollo
-- export ANDROID_HOME="/Users/donny/Documents/android/sdk"
+- export ANDROID_HOME="/home/cedric/Android/Sdk"
 - /home/cedric/Android/Sdk/tools/android

@@ -18,7 +18,8 @@ angular.module('starter', [
   'app.tours',
   'app.playas',
   'app.parques',
-  'app.atracciones'
+  'app.atracciones',
+  'app.eventos'
 ])
 
 .run(function($ionicPlatform) {
@@ -138,6 +139,13 @@ angular.module('starter', [
     url: '/app/atracciones/otras',
     templateUrl: 'scripts/atracciones/atracciones.html',
     controller:'AtraccionesCtrl',
+    controllerAs:'ctrl'
+  })
+
+  .state('eventos', {
+    url: '/app/eventos',
+    templateUrl: 'scripts/eventos/eventos.html',
+    controller:'EventosCtrl',
     controllerAs:'ctrl'
   })
 
