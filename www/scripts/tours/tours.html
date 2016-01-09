@@ -1,34 +1,58 @@
-<ion-view view-title="Dashboard">
+<ion-view view-title="Tours">
   <ion-content class="padding">
+
+    <div class="list list-inset">
+      <label class="item item-input">
+        <i class="icon ion-search placeholder-icon"></i>
+        <input type="text" ng-model="buscar" placeholder="Buscar...">
+      </label>
+    </div>
+
 
     <div class="list">
 
-      <a class="item item-icon-left" href="#/servicios/ferry">
-        <i class="icon ion-email"></i>
-        Ferry
-      </a>
+      <div class="card" ng-repeat="tour in ctrl.tours|orderBy:'nombre'|filter:buscar">
+          <div class="item item-body">
+            <h2>{{::tour.nombre}}</h2>
 
-      <a class="item item-icon-left item-icon-right" href="#">
-        <i class="icon ion-chatbubble-working"></i>
-        Call Ma
-        <i class="icon ion-ios-telephone-outline"></i>
-      </a>
+            <button class="button button-small button-assertive" ng-repeat="actividad in tour.actividades">
+              {{actividad}}
+            </button>
+            <p>
+              <a class="button button-small button-positive" href="{{::tour.website}}">
+                <i class="fa fa-globe"></i> Ir al sitio web
+              </a>
+            </p>
+            <p>
+              Teléfonos
+              <a ng-repeat="telefono in tour.telefonos track by $index" class="subdued">{{telefono}}</a>
+            </p>
+          </div>
+      </div>
 
-      <a class="item item-icon-left" href="#">
-        <i class="icon ion-mic-a"></i>
-        Record album
-        <span class="item-note">
-          Grammy
-        </span>
-      </a>
+      <div class="card" style="padding:30px">
+        <p>
+          <strong>Los requerimientos para la boda por el civil son los siguientes:</strong>
+          <hr>
+          * Original y Copia de acta de nacimiento de los contrayentes. Si alguno es extranjero, el acta debera estar traducida al idioma español por un perito autorizado.<br><br>
+          * Original de certificado medico prenupcial con las pruebas de VDRL, VIH y RH ( los resultados tienen 15 dias vigentes ).<br><br>
+          * Copia de una Identificacion Oficial con fotografia de los contribuyentes, si alguno de ellos es extranjero podra utilizar su pasaporte vigente.<br><br>
+          * Los contrayentes extranjeros requieren un permiso expedido por la secretaria de Gobernacion o la oficina de migracion con un Mexicano (a).<br><br>
+          * Si algun contrayente es viudo, requiere el documento que asi lo acredite.<br><br>
+          * Si algun contrayente es menor de edad, se requiere copia de identificacion delos padres, quienes se deberan presentar el dia de la boda como testigos.<br><br>
+          * Copia de identificacion oficial con foto de dos testigos por contrayente.
+        </p>
+      </div>
 
-      <a class="item item-icon-left" href="#">
-        <i class="icon ion-person-stalker"></i>
-        Friends
-        <span class="badge badge-assertive">0</span>
-      </a>
+
 
     </div>
 
   </ion-content>
 </ion-view>
+
+<style>
+  .button{
+    margin-right: 5px;
+  }
+</style>

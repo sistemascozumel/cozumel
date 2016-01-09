@@ -14,8 +14,8 @@
   - ✓ agencias
   - ✓ rentadoras
   - ✓ bancos
-  - restaurantes
-  - tours  
+  - ✓ restaurantes
+  - ✓ tours  
 
 - Atracciones turísticas
   - playas
