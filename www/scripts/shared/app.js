@@ -185,8 +185,8 @@ angular.module('starter', [
     controllerAs:'ctrl'
   })
   .state('historia-detalle', {
-    url: '/app/historias/:id',
-    templateUrl: 'scripts/historia/historia.html',
+    url: '/app/historia/:id',
+    templateUrl: 'scripts/historia/detalle.html',
     controller:'HistoriaCtrl',
     controllerAs:'ctrl'
   });

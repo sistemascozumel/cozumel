@@ -1,18 +1,25 @@
+<div class="bar bar-subheader">
+  <label class="item-input">
+    <i class="icon ion-search placeholder-icon"></i>
+    <input type="text" ng-model="buscar" placeholder="Buscar...">
+  </label>
+</div>
 <ion-view view-title="Agencias">
   <ion-content class="padding">
 
     <div class="list list-inset">
-      <label class="item item-input">
+      <!-- <label class="item item-input">
         <i class="icon ion-search placeholder-icon"></i>
         <input type="text" ng-model="buscar" placeholder="Buscar...">
-      </label>
+      </label> -->
     </div>
+
 
 
     <div class="list">
 
       <div class="card" ng-repeat="agencia in ctrl.agencias|orderBy:'nombre'|filter:buscar">
-          <div class="item item-avatar">
+          <div class="item item-text-wrap">
             <h2>{{::agencia.nombre}}</h2>
             <p>Responsable: {{::agencia.responsable}}</p>
           </div>
@@ -22,6 +29,7 @@
               <strong>Dirección: </strong>{{::agencia.direccion}}
             </p>
             <p><strong>Horarios: </strong> {{::agencia.horarios}}.</p>
+            <h3>Servicios:</h3>
             <button class="button button-small button-assertive" ng-repeat="servicio in agencia.servicios">
               {{servicio}}
             </button>

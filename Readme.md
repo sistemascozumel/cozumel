@@ -1,14 +1,14 @@
 # Cozumel
 ## TODO
-- Splash
-- Icono
+- ✓ Splash
+- ✓ Icono
 - Google Developer Console
 
 ## Secciones
 - Servicios turísticos
-  - Ferry
-  - puente
-  - aeropuerto
+  - ? Ferry
+  - ? puente
+  - ? aeropuerto
   - hoteles
   - spas
   - ✓ agencias
@@ -57,7 +57,10 @@
 
 - ✓ Cozumel → [http://cozumel.gob.mx](http://cozumel.gob.mx)
 - ✓ Mapa
-- Historia
+- ✓ Historia
+
+## Bonus
+- Fuzzy finder
 
 ## Desarrollo
 - export ANDROID_HOME="/home/cedric/Android/Sdk"

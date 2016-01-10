@@ -15,6 +15,7 @@
           });
 
         if ($stateParams.id) {
+          console.log($stateParams.id);
           Cozumel.getHistoria($stateParams.id,function (err,historia) {
             if (err) {
               alert('Error al cargar los detalles');
