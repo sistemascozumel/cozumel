@@ -21,7 +21,8 @@ angular.module('starter', [
   'app.atracciones',
   'app.eventos',
   'app.atencion',
-  'app.emergencias'
+  'app.emergencias',
+  'app.historia'
 ])
 
 .run(function($ionicPlatform) {
@@ -171,57 +172,24 @@ angular.module('starter', [
   })
   .state('bienvenida', {
     url: '/app/bienvenida',
-    templateUrl: 'templates/bienvenida.html'    
+    templateUrl: 'templates/bienvenida.html'
   })
-
-  .state('tab', {
-    url: '/tab',
-    abstract: true,
-    templateUrl: 'templates/tabs.html'
+  .state('mapa', {
+    url: '/app/mapa',
+    templateUrl: 'templates/mapa.html'
   })
-
-  // Each tab has its own nav history stack:
-
-  .state('tab.dash', {
-    url: '/dash',
-    views: {
-      'tab-dash': {
-        templateUrl: 'templates/tab-dash.html',
-        controller: 'DashCtrl'
-      }
-    }
+  .state('historia', {
+    url: '/app/historia',
+    templateUrl: 'scripts/historia/historia.html',
+    controller:'HistoriaCtrl',
+    controllerAs:'ctrl'
   })
-
-  .state('tab.chats', {
-      url: '/chats',
-      views: {
-        'tab-chats': {
-          templateUrl: 'templates/tab-chats.html',
-          controller: 'ChatsCtrl'
-        }
-      }
-    })
-
-    .state('tab.chat-detail', {
-      url: '/chats/:chatId',
-      views: {
-        'tab-chats': {
-          templateUrl: 'templates/chat-detail.html',
-          controller: 'ChatDetailCtrl',
-          controllerAs: 'ctrl'
-        }
-      }
-    })
-
-    .state('tab.account', {
-      url: '/account',
-      views: {
-        'tab-account': {
-          templateUrl: 'templates/tab-account.html',
-          controller: 'AccountCtrl'
-        }
-      }
-    });
+  .state('historia-detalle', {
+    url: '/app/historias/:id',
+    templateUrl: 'scripts/historia/historia.html',
+    controller:'HistoriaCtrl',
+    controllerAs:'ctrl'
+  });
 
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/app');

@@ -10,7 +10,7 @@
   - puente
   - aeropuerto
   - hoteles
-  - ? spas
+  - spas
   - ✓ agencias
   - ✓ rentadoras
   - ✓ bancos
@@ -20,7 +20,9 @@
 - Atracciones turísticas
   - ✓ playas
   - ? arrecifes
-  - ✓ parques y museos
+  - ✓ parques
+  - museos
+  - sitios de interés
   - ✓ Otras atracciones
 
 - ✓ Eventos y espectculos
@@ -34,8 +36,8 @@
   - ✓ Ironman Cozumel - Diciembre
   - ✓ Scuba Fest - Diciembre
 
-- Atención ciudadana  
-- Atención turística
+- ? Atención ciudadana  
+- ✓ Atención turística
   - ✓ DIRECCION DE TURISMO
   - ✓ MIGRACIÓN
   - ✓ PROFECO
@@ -51,11 +53,18 @@
   - ✓ Dirección de Turismo
   - ✓ Agencia Consignataria TMM
   - ✓ Agencia Consignataria Aconsur
+  - ? Bienvenido → Choro
 
-- Bienvenido → Choro
 - ✓ Cozumel → [http://cozumel.gob.mx](http://cozumel.gob.mx)
-- Mapa
+- ✓ Mapa
+- Historia
 
 ## Desarrollo
 - export ANDROID_HOME="/home/cedric/Android/Sdk"
+- export ANDROID_HOME="/home/cedric/Android/Sdk"
 - /home/cedric/Android/Sdk/tools/android
+- /home/cedric/Android/Sdk/tools/android avd
+
+### ver dispositivos
+- adb devices
+- sudo adb kill-server and then sudo adb start-server

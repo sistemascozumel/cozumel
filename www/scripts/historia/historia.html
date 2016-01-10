@@ -1,0 +1,41 @@
+<ion-view view-title="Historia">
+  <ion-content class="padding">
+
+    <div class="list list-inset">
+      <label class="item item-input">
+        <i class="icon ion-search placeholder-icon"></i>
+        <input type="text" ng-model="buscar" placeholder="Buscar...">
+      </label>
+    </div>
+
+
+    <div class="list">
+      <a class="item item-thumbnail-left"
+        ng-repeat="historia in ctrl.historias|orderBy:'titulo'|filter:buscar"
+        href="#/app/servicios/historias/{{::historia.titulo}}" >
+          <img ng-if="historia.foto" src="{{::historia.foto}}">
+          <h2>{{::historia.titulo}}</h2>
+      </a>
+    </div>
+
+    <div ng-if="crtl.historia" class="card">
+      <div class="item item-avatar">
+        <h1>{{::historia.titulo}}</h1>
+      </div>
+      <div class="item item-image">
+        <img src="{{historia.foto}}" alt="">
+      </div>
+
+      <div class="item item-body">
+        <p>{{::historia.descripcion}}</p>
+      </div>
+    </div>
+
+  </ion-content>
+</ion-view>
+
+<style>
+  .button{
+    margin-right: 5px;
+  }
+</style>

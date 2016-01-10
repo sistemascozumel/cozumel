@@ -32,6 +32,24 @@ angular.module('app.services', [])
     ferry:function () {
       return $http.get('scripts/ferry/db.json');
     },
+    historia:function () {
+      return $http.get('scripts/historia/db.json');
+    },
+    getHistoria:function (nombre,done) {
+      $http.get('scripts/historia/db.json')
+        .success(function (data) {
+
+          var hist = _.where(data,{
+            titulo:nombre
+          });
+
+          done(null,hist[0]);
+
+        })
+        .error(function (err) {
+          done(err);
+        });
+    },
     hoteles:function () {
       return $http.get('scripts/hoteles/db.json');
     },
@@ -49,7 +67,6 @@ angular.module('app.services', [])
         .error(function (err) {
           done(err);
         });
-
     },
     remove: function(chat) {
       chats.splice(chats.indexOf(chat), 1);
