@@ -8,7 +8,7 @@
 angular.module('starter', [
   'ionic',
   'starter.controllers',
-  'app.services',
+  'app.services',  
   'app.ferry',
   'app.hoteles',
   'app.agencias',

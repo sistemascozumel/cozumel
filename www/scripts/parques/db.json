@@ -38,5 +38,24 @@
     "servicios":[
       "Sillas","Hamacas","Regaderas","Restaurantes","Snack bar","Salvavidas","Tienda de souvenirs","Museo Cultural y de Navegación","Faro Celarain","Cocodrilario","Observación de Aves."
     ]
+  },
+  {
+    "nombre":"MUSEO DE LA MUSICA: Alejandro Alcocer",
+    "descripcion":"Tel: (987)8725269, (987)8720514, Costos: 15 usd por persona",
+    "direccion":"50 Av. Bis entre 19 y 21 #1217",
+    "horarios":"Hacer cita de 5pm-8pm",
+    "foto":"img/parques/musica.png",
+    "servicios":[
+      "Cuenta con 1029 piezas","Musicales desde las epocas prehispanicas hasta nuestros días","Documental de 62 grupos indigenas de méxico"
+    ]
+  },
+  {
+    "nombre":"PARQUE DISCOVER MEXICO",
+    "descripcion":"El parque Discover Mexico presenta una experiencia auntentica de Mexico, a traves de diversos medios: viaje por las emociones de Mexico, museo de arte popular y por ultimo un recorrido por el tiempo y el espacio de mexico.<br><strong>Costos: Adultos $ 22 usd - $286 pesos, Niños $12 usd- $ 156 pesos.</strong>",
+    "direccion":"Carretera Costera Sur Km. 5.5",
+    "horarios":"Lunes a Domingo de 8 am A 4 pm",    
+    "servicios":[
+      "Baños","Mercadito","Snack Bar","Tienda","Sombrillas","Servicio Medico","Estacionamiento."
+    ]
   }
 ]

@@ -19,10 +19,8 @@
 
           <div class="item item-body">
             <img class="full-image" src="{{::parque.foto}}">
-            <p>
-              {{::parque.descripcion}}
-            </p>
 
+            <p ng-bind-html="parque.descripcion"></p>
             <h3>Servicios adicionales</h3>
             <p>
               <a ng-repeat="servicio in parque.servicios" class="subdued">* {{servicio}}</a>

@@ -19,8 +19,8 @@
 
           <div class="item item-body">
             <img class="full-image" src="{{::atraccion.foto}}">
-            <p>
-              {{::atraccion.descripcion}}
+            <p ng-bind-html="atraccion.descripcion">
+              <!-- {{::atraccion.descripcion}} -->
             </p>
           </div>
       </div>

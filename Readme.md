@@ -20,8 +20,7 @@
 - Atracciones turísticas
   - ✓ playas
   - ? arrecifes
-  - ✓ parques
-  - museos
+  - ✓ parques y museos  
   - sitios de interés
   - ✓ Otras atracciones
 
