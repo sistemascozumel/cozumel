@@ -1,0 +1,100 @@
+[
+  {
+    "nombre":"Melia Cozumel Golf and Beach Resort",
+    "direccion":"Carretera Costera Norte km 5.8",
+    "telefonos":[
+      "9878729870"
+    ],
+    "horarios":"Lunes a Domingo de 10am a 6 pm",
+    "website":"http://www.solmedia.com",
+    "costo":"50 USD Adulto y 25 USD menores de 12 años",
+    "servicios":[
+      "Uso de las Instalaciones","Alimentos y Bebidas"
+    ],
+    "foto":"img/spas/melia.jpg"
+  },
+  {
+    "nombre":"Cozumel and Resort",
+    "direccion":"Carretera Costera sur Km 1.7",
+    "telefonos":[
+      "9878729020"
+    ],
+    "horarios":"Lunes a Domingo de 11am a 6 pm",
+    "website":"http://www.hotelcozumel.com",
+    "costo":"30 USD Adulto y 20 USD menores de 4-11 años Local 250 Adulto Menor 150",
+    "servicios":[
+      "Uso de Instalaciones","Alimentos","Bebidas","Equipo de Snorkel"
+    ],
+    "foto":"img/spas/cozumel.jpg"
+  },
+  {
+    "nombre":"Park Royal",
+    "direccion":"Carretera Costera Sur Km 3.5",
+    "telefonos":[
+      "9878720700"
+    ],
+    "horarios":"Lunes a Domingo de 11am a 6 pm",
+    "website":"http://www.parkroyalhotels.com",
+    "costo":"40 USD Adultos, 20 USD Menores de 4 a 12 años",
+    "servicios":[
+      "Uso de las Instalaciones ","Alimentos","Bebidas","Actividades","Toallas"
+    ],
+    "foto":"img/spas/royal.jpg"
+  },
+  {
+    "nombre":"El Cid ¨ La Ceiba ¨",
+    "direccion":"Carretera costera sur km 4.5",
+    "telefonos":[
+      "9878720844","0180004353240"
+    ],
+    "horarios":"Lunes a Domingo de 11am a 5 pm",
+    "website":"http://www.elcid.com",
+    "costo":"55 USD Adultos, niños de 5 a 11 33 USD y de 12 a 17 años 47 USD. Local $350.00 adulto y $250.00 niños",
+    "servicios":[
+      "Uso de Instalaciones","Alimentos","Bebidas","1 hr Equipo de Snorkel"
+    ],
+    "foto":"img/spas/cid.jpg"
+  },
+  {
+    "nombre":"Presidente Intercontinental",
+    "direccion":"Carretera Chankanaab km 6.5",
+    "telefonos":[
+      "9878729500","018003270200"
+    ],
+    "horarios":"Lunes a Domingo de 9am a 5 pm",
+    "website":"http://www.cozumel.intercontinental.com",
+    "costo":"175 USD Adulto y 45 USD Menores",
+    "servicios":[
+      "Uso de las Instalaciones","Alimentos y Bebidas","Una habitacion para ese dia"
+    ],
+    "foto":"img/spas/presidente.jpg"
+  },
+  {
+    "nombre":"Iberostar Cozumel Hotel",
+    "direccion":"Carretera Costera sur Km 17.8",
+    "telefonos":[
+      "9878729900"
+    ],
+    "horarios":"Lunes a Domingo de 9am a 6 pm",
+    "website":"http://www.iberostar.com",
+    "costo":"45 USD Adulto 23 USSD Menores de 4 a 12 años",
+    "servicios":[
+      "Todo incluido"
+    ],
+    "foto":"img/spas/iberostar.jpg"
+  },
+  {
+    "nombre":"Sabor",
+    "direccion":"Carretera Costera sur Km 12.9",
+    "telefonos":[
+      "01800547446","018005467445"
+    ],
+    "horarios":"Lunes a Domingo de 9am a 5 pm",
+    "website":"http://www.saborcozumel.com",
+    "costo":"55 USD Adultos",
+    "servicios":[
+      "Todo incluido no se permite la entrada a niños"
+    ],
+    "foto":"img/spas/sabor.jpg"
+  }
+]

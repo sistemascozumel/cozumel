@@ -10,23 +10,17 @@
 
 
     <div class="list">
-
       <div class="card" ng-repeat="atraccion in ctrl.atracciones|orderBy:'nombre'|filter:buscar">
         <div class="item item-text-wrap">
             <h2>{{::atraccion.nombre}}</h2>
             <p>{{::atraccion.direccion}}</p>
           </div>
-
           <div class="item item-body">
             <img class="full-image" src="{{::atraccion.foto}}">
             <p ng-bind-html="atraccion.descripcion">
-              <!-- {{::atraccion.descripcion}} -->
             </p>
           </div>
       </div>
-
-
-
     </div>
 
   </ion-content>

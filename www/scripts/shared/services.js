@@ -83,6 +83,9 @@ angular.module('app.services', [])
     restaurantes: function() {
       return $http.get('scripts/restaurantes/db.json');
     },
+    spas: function() {
+      return $http.get('scripts/spas/db.json');
+    },
     tours: function() {
       return $http.get('scripts/tours/db.json');
     },

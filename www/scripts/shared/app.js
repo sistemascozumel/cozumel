@@ -8,7 +8,7 @@
 angular.module('starter', [
   'ionic',
   'starter.controllers',
-  'app.services',  
+  'app.services',
   'app.ferry',
   'app.hoteles',
   'app.agencias',
@@ -22,7 +22,8 @@ angular.module('starter', [
   'app.eventos',
   'app.atencion',
   'app.emergencias',
-  'app.historia'
+  'app.historia',
+  'app.spas'
 ])
 
 .run(function($ionicPlatform) {
@@ -88,6 +89,12 @@ angular.module('starter', [
     url: '/app/servicios/hoteles/:id',
     templateUrl: 'scripts/hoteles/hotel.html',
     controller:'HotelCtrl',
+    controllerAs:'ctrl'
+  })
+  .state('spas', {
+    url: '/app/servicios/spas',
+    templateUrl: 'scripts/spas/spas.html',
+    controller:'SpasCtrl',
     controllerAs:'ctrl'
   })
   .state('agencias', {

@@ -21,7 +21,7 @@
   - ✓ playas
   - ? arrecifes
   - ✓ parques y museos  
-  - sitios de interés
+  - ? sitios de interés
   - ✓ Otras atracciones
 
 - ✓ Eventos y espectculos

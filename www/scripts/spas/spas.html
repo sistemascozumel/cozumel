@@ -1,0 +1,39 @@
+<ion-view view-title="Spas">
+  <ion-content class="padding">
+
+    <div class="list list-inset">
+      <label class="item item-input">
+        <i class="icon ion-search placeholder-icon"></i>
+        <input type="text" ng-model="buscar" placeholder="Buscar...">
+      </label>
+    </div>
+
+
+    <div class="list">
+      <div class="card" ng-repeat="spa in ctrl.spas|orderBy:'nombre'|filter:buscar">
+        <div class="item item-text-wrap">
+            <h2>{{::spa.nombre}}</h2>
+            <p>{{::spa.direccion}}</p>
+          </div>
+          <div class="item item-body">
+            <img class="full-image" src="{{::spa.foto}}">
+
+            <p>
+              <strong>Teléfono:</strong> <span ng-repeat="telefono in spa.telefonos">{{::telefono}}</span>
+            </p>
+            <p>
+              <strong>Sitio web:</strong> <a href="{{::spa.website}}">{{::spa.website}}</a>
+            </p>
+            <h3>Servicios</h3>
+            <span class="button button-possitive" ng-repeat="servicio in spa.servicios">{{::servicio}}</span>
+          </div>
+      </div>
+    </div>
+
+  </ion-content>
+</ion-view>
+<style>
+  .button-positive{
+    margin:5px;
+  }
+</style>
