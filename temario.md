@@ -1,0 +1,13 @@
+# Temario
+- Preguntar con qué tecnoogías han trabajado
+- Introducción básica a Javascript
+- AngularJS
+- Ionic
+- Rest API
+- JSON
+- Estructura básica de la aplicación
+- Cómo agregar hoteles, spas, agencias, etc
+- CRUD de todo lo anteior
+- Recomendaciones para una API REST
+- Cómo agregar imágenes
+- Instalación de Ionic

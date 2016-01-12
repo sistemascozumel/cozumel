@@ -5,8 +5,8 @@ angular.module('app.services', [])
   var chats = [];
 
   return {
-    all: function() {
-      return chats;
+    aereolineas: function() {
+      return $http.get('scripts/aereo/db.json');
     },
     agencias:function () {
       return $http.get('scripts/agencias/db.json');

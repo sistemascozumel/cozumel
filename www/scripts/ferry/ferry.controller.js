@@ -10,6 +10,7 @@
             .success(function (data) {
 
               vm.horarios = data;
+              vm.empresas = data.pasajeros;
 
             })
             .error(function (err) {

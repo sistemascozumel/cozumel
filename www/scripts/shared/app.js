@@ -23,7 +23,8 @@ angular.module('starter', [
   'app.atencion',
   'app.emergencias',
   'app.historia',
-  'app.spas'
+  'app.spas',
+  'app.aereo'
 ])
 
 .run(function($ionicPlatform) {
@@ -67,10 +68,16 @@ angular.module('starter', [
     controller:'FerryCtrl',
     controllerAs:'ctrl'
   })
+  .state('ferry-pasajeros', {
+    url: '/app/servicios/ferry-pasajeros',
+    templateUrl: 'scripts/ferry/pasajeros.html',
+    controller:'FerryCtrl',
+    controllerAs:'ctrl'
+  })
   .state('aeropuerto', {
     url: '/app/servicios/aeropuerto',
     templateUrl: 'scripts/servicios/aeropuerto.html',
-    controller:'FerryCtrl',
+    controller:'AereoCtrl',
     controllerAs:'ctrl'
   })
   .state('puente-aereo', {

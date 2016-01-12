@@ -1,0 +1,23 @@
+<ion-view view-title="Ferry de pasajeros">
+  <ion-content class="padding">
+
+    <div class="list">
+
+      <div class="card" ng-repeat="ferry in ctrl.empresas|orderBy:'nombre'|filter:buscar">
+        <div class="item item-thumbnail-left">
+          <img src="{{::ferry.foto}}">
+            <h2>{{::ferry.nombre}}</h2>
+            <p>{{::ferry.direccion}}</p>
+          </div>
+
+          <div class="item item-body">
+            <p ng-bind-html="ferry.descripcion"></p>
+            <strong class="button button-positive">Servicios: </strong>
+            <span ng-repeat="servicio in ferry.servicios" class="button" style="margin-left:5px;">* {{servicio}}</span>
+          </div>
+      </div>
+
+    </div>
+
+  </ion-content>
+</ion-view>

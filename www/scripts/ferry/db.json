@@ -1,4 +1,58 @@
 {
+  "pasajeros":[
+    {
+      "nombre":"ULTRAMAR",
+      "direccion":"10 Av. Esq. Calle 2 nte.",
+      "telefono":[
+        "8692775","8693223"
+      ],
+      "horarios":"Lunes a Viernes, 9am-4p, Sabados 9am-1pm",
+      "website":"",
+      "foto":"",
+      "servicios":[
+        "Cruces Cozumel-Playa del Carmen y Playa del Carmen-Cozumel","Transporte de carga en dimensiones moderadas"
+      ]
+    },
+    {
+      "nombre":"BARCOS MEXICO",
+      "direccion":"Calle 6 nte. Entre 10 y 15 Av.",
+      "telefono":[
+        "(987) 8721588","(987) 8721979"
+      ],
+      "horarios":"Lunes a Viernes 9am-5pm  Sabados 9am-1pm",
+      "website":"",
+      "foto":"",
+      "servicios":[
+        "Cruces Cozumel-Playa del Carmen y Playa del Carmen-Cozumel","Transporte de carga en dimensiones moderadas"
+      ]
+    },
+    {
+      "nombre":"TRANS DEL CARIBE",
+      "direccion":"Calle 6 nte. Entre 10 y 15 Av. Altos #14",
+      "telefono":[
+        "8727688","8727504","8727671"
+      ],
+      "horarios":"Lunes a Viernes 9am-5pm  Sabados 9am-2pm",
+      "website":"",
+      "foto":"",
+      "servicios":[
+        "Transporta autos particulares y de carga"
+      ]
+    },
+    {
+      "nombre":"Barcos Caribe",
+      "direccion":"Calle 6 nte. Entre 10 y 15 Av. Altos #14",
+      "telefono":[
+        "987 872 7688"
+      ],
+      "horarios":"",
+      "website":"http://barcoscaribe.com",
+      "foto":"",
+      "servicios":[
+        "Cruces Cozumel-Playa del Carmen y Playa del Carmen-Cozumel","Transporte de carga en dimensiones moderadas"
+      ]
+    }
+  ],
   "calicaCozumel":{
     "domingo":[
       "06:00",

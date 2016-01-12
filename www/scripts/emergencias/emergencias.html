@@ -11,9 +11,9 @@
     <div class="list">
 
       <div class="item item-button-right" ng-repeat="servicio in ctrl.emergencias|filter:buscar">
-          <h3>{{::servicio.nombre}}</h3>
+          <h2>{{::servicio.nombre}}</h2>
           <p>{{::servicio.telefono}}</p>
-          <a class="button button-positive" href="tel:{{::servicio.telefono}}">
+          <a class="button button-assertive" href="tel:{{::servicio.telefono}}">
             <i class="icon ion-ios-telephone"></i>
           </a>
         </div>

@@ -11,11 +11,15 @@
 
     <div class="list">
       <a class="item item-thumbnail-left"
-        ng-repeat="hotel in ctrl.hoteles|orderBy:'nombre'|filter:buscar"
+        ng-repeat="hotel in ctrl.hoteles|orderBy:'clasificacion'|filter:buscar"
         href="#/app/servicios/hoteles/{{::hotel.nombre}}" >
           <img src="{{::hotel.foto}}">
           <h2>{{::hotel.nombre}}</h2>
           <p>{{::hotel.direccion}}</p>
+          <p>
+            CLasiicación:
+            {{::hote.clasificacion}} <i class="fa fa-star"></i>
+          </p>
       </a>
     </div>
   </ion-content>

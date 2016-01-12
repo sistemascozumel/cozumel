@@ -11,7 +11,7 @@
     "website":"",
     "cuartos":14,
     "plan":"Plan Europeo",
-    "categoria":"1",
+    "categoria":1,
     "incluye":[
       "a/a",
       "TV cable",
@@ -34,7 +34,7 @@
     "website":"www.cozumel.net/hotels/costa_brava/",
     "cuartos":17,
     "plan":"Plan Europeo",
-    "categoria":"1",
+    "categoria":1,
     "incluye":[
       "A/A",
       "VENTILADOR",
@@ -58,7 +58,7 @@
     "correo":"isla_esmeralda_@hotmail.com",
     "cuartos":16,
     "plan":"Plan Europeo",
-    "categoria":"1",
+    "categoria":1,
     "foto":"img/hoteles/costa_brava.jpg"
   },
   {
@@ -72,7 +72,7 @@
     "website":"www.cozumel.net/hotels/costa_brava/",
     "cuartos":16,
     "plan":"Plan Europeo",
-    "categoria":"1",
+    "categoria":1,
     "incluye":[
       "VENTILADOR",
       "A/A",
@@ -93,7 +93,7 @@
     "correo":"bernymarybernal@hotmail.com",
     "cuartos":16,
     "plan":"Plan Europeo",
-    "categoria":"1",
+    "categoria":1,
     "incluye":[
       "VENTILADOR",
       "TV-CABLE",
@@ -112,7 +112,7 @@
     "website":"www.hotelpepitacozumel.com/",
     "cuartos":26,
     "plan":"Plan europeo",
-    "categoria":"1",
+    "categoria":1,
     "incluye":[
       "TV-CABLE",
       "A/A",

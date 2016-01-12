@@ -12,16 +12,15 @@
     <div class="list">
 
       <div class="card" ng-repeat="evento in ctrl.eventos|filter:buscar">
-          <div class="item item-avatar">
+          <div class="item item-text-wrap">
             <h1>{{::evento.nombre}}  <span class="assertive" style="font-size:15px;text-align:right">{{::evento.mes}}</span></h1>
           </div>
           <div class="item item-image">
             <img src="{{evento.foto}}" alt="">
           </div>
-
-          <div class="item item-body">
+          <!-- <div class="item item-body">
             <p>{{::evento.descripcion}}</p>
-          </div>
+          </div> -->
       </div>
 
 

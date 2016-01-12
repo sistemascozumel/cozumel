@@ -1,9 +1,45 @@
+
 <ion-view view-title="Mapa de Cozumel">
   <ion-content class="padding">
 
+    <ion-tabs class="tabs-striped tabs-background-positive tabs-color-light tabs-top">
+
+        <!-- Tab 1 -->
+        <ion-tab title="Centro de la ciudad" >
+          <br>
+            <ion-nav-view name="tab-tab1">
+                <div style="min-height:900px;">
+                  <ion-content>
+                    <ion-scroll zooming="true" direction="xy" style="width: 100%; height: auto">
+                      <img src="img/mapa_centro.jpg" width="100%">
+                    </ion-scroll>
+                  </ion-content>
+                </div>
+
+            </ion-nav-view>
+        </ion-tab>
+
+
+        <!-- Tab 2 -->
+        <ion-tab title="Map de la Isla" >
+          <br>
+            <ion-nav-view name="tab-tab2">
+              <div style="min-height:900px;">
+                <ion-content>
+                  <ion-scroll zooming="true" direction="xy" style="width: 100%; height: auto">
+                    <img src="img/mapa_isla.jpg" width="100%">
+                  </ion-scroll>
+                </ion-content>
+              </div>
+
+            </ion-nav-view>
+        </ion-tab>
+
+    </ion-tabs>
+
       <ion-scroll zooming="true" direction="xy" style="width: 100%; height: auto">
         <img src="img/mapa.jpg" width="750px">
-      </ion-scroll>         
+      </ion-scroll>
 
   </ion-content>
 </ion-view>
