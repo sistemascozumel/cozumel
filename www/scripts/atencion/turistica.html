@@ -22,7 +22,9 @@
               {{servicio}}
             </button>
             <p>
-              Teléfonos: <a href="#" class="subdued" ng-repeat="telefono in dependencia.telefonos">: {{::telefono}}</a>
+              <a class="button" ng-repeat="telefono in dependencia.telefonos" href="tel:{{::telefono}}">
+                <i class="fa fa-phone"></i>
+                {{::telefono}}</a>
             </p>
           </div>
       </div>

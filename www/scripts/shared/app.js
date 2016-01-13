@@ -82,7 +82,7 @@ angular.module('starter', [
   })
   .state('puente-aereo', {
     url: '/app/servicios/puente-aereo',
-    templateUrl: 'scripts/servicios/puente-aereo.html',
+    templateUrl: 'scripts/aereo/puente.html',
     controller:'FerryCtrl',
     controllerAs:'ctrl'
   })

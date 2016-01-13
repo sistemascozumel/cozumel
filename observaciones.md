@@ -16,3 +16,4 @@
 - ✓ Emergencia botón rojo
 - Ruinas por sitio arqueológico
 - Cambiar splash
+- Cambiar historia, usar las tres secciones que hay en la página de turismo
