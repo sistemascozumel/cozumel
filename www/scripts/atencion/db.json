@@ -3,66 +3,65 @@
     "nombre":"DIRECCION DE TURISMO MUNICIPAL:",
     "responsable":"Lic. Juan E Gonzalez Castelan ",
     "correo":"turismo@cozumel.gob.mx",
-    "direccion":"2º Piso Plaza del Sol arriba de bancomer",
+    "direccion":"2º Piso-Altos Plaza del Sol",
     "telefonos":[
       "(987)8720966","(987)8690212"
     ],
     "horarios":"Lunes a Viernes de 8am - 3pm",
     "servicios":[
-      "Información, difusión y apoyo a turistas en cozumel"
+      "Información, difusión y apoyo a turistas en Cozumel"
     ]
   },
   {
-    "nombre":"INSTITUTO NACIONAL DE MIGRACION ",
+    "nombre":"INSTITUTO NACIONAL DE MIGRACIÓN ",
     "responsable":"Lic Nancy Guzman Gonzalez ",
     "website":"http://www.inami.gob.mx",
-    "direccion":"15 Av. Con Calle 5 Sur #300",
+    "direccion":"15 Av. con calle 5 Sur # 300",
     "correo":"",
     "telefonos":[
       "(987)8720226"
     ],
     "horarios":"Horarios Aeropuerto: Lunes a Viernes de 7 am - 9 pm | Información de 9 am - 1 pm | Tramites de 9 am - 1 pm",
     "servicios":[
-      "Información y Tramites de documentos para extranjeros en el pais"
+      "Información y trámites de documentos para extranjeros en el país"
     ]
   },
   {
     "nombre":"PROFECO",
     "responsable":"Darwin Pech Martinez",
-    "direccion":"Altos de Plaza del Sol Col. Centro",
+    "direccion":"2º Piso-Altos Plaza del Sol",
     "correo":"",
     "telefonos":[
       "(987)8720180"
     ],
     "horarios":"Lunes a Viernes de 8am - 3pm",
     "servicios":[
-      "Protección al consumidor, mediador de servicios y consumos mal efectuados"
+      "Procuración de defensa del consumidor"
     ]
   },
   {
-    "nombre":"ASOCIACIÓN DE HOTELES ",
-    "responsable":"Lic. Beatriz Tinajero",
-    "direccion":"Av. Alberto Anduze esq. Calle 37 col. CTM",
-    "correo":"",
-    "telefonos":[
-      "(987)8723132","(987) 8725098"
-    ],
-    "horarios":"Lunes a Viernes de 9am - 6pm",
-    "servicios":[
-      "Apoyo a los Hoteles asociados"
-    ]
-  },
-  {
-    "nombre":"Secretaría de Relaciones Exteriores ",
+    "nombre":"Oficina de enlace con la Secretaría de Relaciones Exteriores ",
     "responsable":"Ingred Martin Reyes",
-    "direccion":"2º Piso Plaza del Sol",
+    "direccion":"2º Piso-Altos Plaza del Sol",
     "correo":"",
     "telefonos":[
       "(987)8726100"
     ],
-    "horarios":"Lunes a Viernes de 8am - 3pm | Tramites de 8am - 1pm",
+    "horarios":"Lunes a Viernes de 8am - 3pm | Trámites de 8am - 1pm",
     "servicios":[
-      "Tramites de pasaportes","Orientación sobre tramites de naturalización"
+      "Trámites de pasaportes mexicanos","Orientación sobre trámites de naturalización"
+    ]
+  },
+  {
+    "nombre":"Casa Consular",
+    "direccion":"",
+    "teleonos":[
+      ""
+    ],
+    "website":"http://casaconsular.org",
+    "horarios":"",
+    "servicios":[
+      ""
     ]
   }
 ]

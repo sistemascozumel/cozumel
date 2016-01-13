@@ -2,7 +2,7 @@
   {
     "nombre":"Chen rio",
     "direccion":"Zona Oriental km. 42+900",
-    "costos":"Gratis",
+    "costos":"Sin costo de admisión",
     "foto":"img/playas/chenrio.jpg",
     "servicios":[
       "Restaurante Bar",
@@ -13,7 +13,7 @@
   {
     "nombre":"Money Bar",
     "direccion":"Zona Sur km. 6",
-    "costos":"Gratis",
+    "costos":"Sin costo de admisión",
     "telefono":"9878695141",
     "website:":"http://www.moneybarbeachclub.com",
     "foto":"img/playas/moneybar.jpg",
@@ -49,7 +49,7 @@
   {
     "nombre":"Rastas",
     "direccion":"Zona Sur km. 29",
-    "costos":"Gratis",
+    "costos":"Sin costo de admisión",
     "telefono":"9878698300",
     "website":"http://www.bobmarleybar.com",
     "foto":"img/playas/rastas.jpg",
@@ -65,7 +65,7 @@
   {
     "nombre":"Alberto's",
     "direccion":"Zona Sur km. 18",
-    "costos":"Gratis  loc. 15% descuento",
+    "costos":"Sin costo de admisión",
     "telefono":"9878691228",
     "email":"albertosbeachbar@hotmail.com",
     "website":"http://www.albertosbeachbar.com",
@@ -92,7 +92,7 @@
   {
     "nombre":"Uvas",
     "direccion":"Zona Sur km. 8.5",
-    "costos":"Gratis",
+    "costos":"Sin costo de admisión",
     "telefono":"9871201420",
     "website":"http://www.playauvas.com",
     "foto":"img/playas/uvas.jpg",
@@ -103,7 +103,7 @@
   {
     "nombre":"Carlos & Charlies",
     "direccion":"Zona Sur km. 14+250",
-    "costos":"Gratis",
+    "costos":"Sin costo de admisión",
     "telefono":"9875640960",
     "website":"http://www.carlosandcharlies.com",
     "foto":"img/playas/carloscharlies.jpg",
@@ -114,7 +114,7 @@
   {
     "nombre":"San Francisco",
     "direccion":"Zona Sur km. 14+250",
-    "costos":"Gratis",
+    "costos":"Sin costo de admisión",
     "telefono":"9878785183",
     "website":"https://www.facebook.com/sanfranciscobeachclub",
     "foto":"img/playas/sanfrancisco.jpg",
@@ -136,7 +136,7 @@
   {
     "nombre":"Punta Morena",
     "direccion":"Zona Oriental km. 44",
-    "costos":"Gratis",
+    "costos":"Sin costo de admisión",
     "correo":"puntamorenacozumel@gmail.com",
     "website":"http://www.puntamorena.com.mx",
     "foto":"img/playas/puntamorena.jpg",
@@ -147,7 +147,7 @@
   {
     "nombre":"Señor Iguanas",
     "direccion":"Zona Oriental km. 47+987",
-    "costos":"Gratis",
+    "costos":"Sin costo de admisión",
     "foto":"img/playas/iguanas.jpg",
     "servicios":[
       "Restaurante Bar","artesanías","camastros","palapas","masajes","hamacas","cocos frescos"
@@ -156,7 +156,7 @@
   {
     "nombre":"Mezcalitos",
     "direccion":"Zona Oriental km. 47+987",
-    "costos":"Gratis",
+    "costos":"Sin costo de admisión",
     "telefono":"9878760914",
     "website":"http://www.mezcalitos.com",
     "correo":"mezcalitos@hotmail.com",

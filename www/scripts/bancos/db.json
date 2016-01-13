@@ -1,7 +1,7 @@
 [
   {
     "nombre":"Bancomer",
-    "direccion":"5a Av. #51 Edificio Plaza del Sol",
+    "direccion":"5a Av. # 51 Edificio Plaza del Sol",
     "telefonos":[
       "(987)8720550",
       "(987)8722969",
@@ -9,47 +9,47 @@
     ],
     "horarios":"Lunes a Viernes 9:00 a 4 pm",
     "servicios":[
-      "Servicios: Cambio de Divisas","Cuenta con cajero Automatico"
+      "Servicios: Cambio de Divisas","Cuenta con cajero automático"
     ]
   },
   {
     "nombre":"Banorte",
-    "direccion":"5a Av. / Juarez y 2 #9",
+    "direccion":"5a Av. / Juárez y 2 # 9",
     "telefonos":[
       "(987)8720318",
       "(987)8720718"
     ],
-    "horarios":"Lunes a Viernes 9a 5 pm Sabados de 9 a 2 pm",
+    "horarios":"Lunes a Viernes 9 a 5 pm Sábados de 9 a 2 pm",
     "servicios":[
-      "Cambio de Divisas", "Cuenta con cajero Automatico"
+      "Cambio de Divisas", "Cuenta con cajero automático"
     ]
   },
   {
     "nombre":"Banamex",
-    "direccion":"30 Av Esq. 1era Sur int. Plaza Leones",
+    "direccion":"30 Av. esquina 1era Sur interior Plaza Leones",
     "telefonos":[
       "(987)8723411",
       "+52(987)8723411"
     ],
-    "horarios":"Lunes a Viernes 9a 5 pm Sabados de 9 a 2 pm",
+    "horarios":"Lunes a Viernes 9a 5 pm Sábados de 9 a 2 pm",
     "servicios":[
-      "Cambio de Divisas","Cuenta con cajero Automatico"
+      "Cambio de Divisas","Cuenta con cajero automático"
     ]
   },
   {
     "nombre":"Santander Serfin",
-    "direccion":"Calle 3 Sur esq. 10 Av. #198",
+    "direccion":"Calle 3 Sur esquina 10 Av. # 198",
     "telefonos":[
       "(987)8720807"
     ],
-    "horarios":"Lunes a Viernes    9:00 a 4 pm<",
+    "horarios":"Lunes a Viernes 9:00 a 4 pm<",
     "servicios":[
-      "Cambio de Divisas","Cuenta con cajero Automatico"
+      "Cambio de Divisas","Cuenta con cajero automático"
     ]
   },
   {
     "nombre":"HSBC",
-    "direccion":"5a Av. Esq. 1era Sur 30 Av. Esq. Con 11 Av",
+    "direccion":"5a Av. esquina 1era Sur | 30 Av. esquina con 11 Av.",
     "telefonos":[
       "(987)8720142",
       "(987)8720182",
@@ -57,41 +57,41 @@
     ],
     "horarios":"Lunes a Viernes    9:00 a 4 pm",
     "servicios":[
-      "Cambio de Divisas","Cuenta con cajero Automatico"
+      "Cambio de Divisas","Cuenta con cajero automático"
     ]
   },
   {
     "nombre":"Scotiabank",
-    "direccion":"5a Av. Con 2 nte",
+    "direccion":"5a Av. con 2 Norte",
     "telefonos":[
       "(987)8729001"
     ],
     "horarios":"Lunes a Viernes    9:00 a 4 pm",
     "servicios":[
-      "Cambio de Divisas","Cuenta con cajero Automatico"
+      "Cambio de Divisas","Cuenta con cajero automático"
     ]
   },
   {
     "nombre":"Banco Azteca",
-    "direccion":"Av Juarez entre 15 y 20 av",
+    "direccion":"Av Juárez entre 15 y 20 Av.",
     "telefonos":[
       "(987)8730802"
     ],
     "horarios":"Lunes a Domingo de 9 am a 9 pm",
     "servicios":[
-      "Cambio de Divisas","Cuenta con cajero Automatico"
+      "Cambio de Divisas","Cuenta con cajero automático"
     ]
   },
   {
     "nombre":"Bancoppel",
-    "direccion":"65 av esquina con Av Juarez",
+    "direccion":"65 Av. esquina con Av. Juárez",
     "telefonos":[
       "(987)8691910"
 
     ],
-    "horarios":"Lunes a domingo de11 am a 9 pm",
+    "horarios":"Lunes a domingo de 11 am a 9 pm",
     "servicios":[
-      "Cambio de Divisas","Cuenta con cajero Automatico"
+      "Cambio de Divisas","Cuenta con cajero automático"
     ]
   },
   {
@@ -103,7 +103,7 @@
     ],
     "horarios":"Lunes a domingo de11 am a 9 pm",
     "servicios":[
-      "Cambio de Divisas","Cuenta con cajero Automatico"
+      "Cambio de Divisas","Cuenta con cajero automático"
     ]
   },
   {

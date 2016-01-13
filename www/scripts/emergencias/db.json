@@ -1,34 +1,46 @@
 [
   {
-    "nombre":"Emergencia",
+    "nombre":"Emergencias",
     "telefono":"066"
   },
   {
-    "nombre":"Seguridad Pública",
+    "nombre":"Seguridad Pública y Tránsito 1",
     "telefono":"9878720092"
   },
   {
-    "nombre":"Bomberos",
-    "telefono":"9878720800"
+    "nombre":"Seguridad Pública y Tránsito 2",
+    "telefono":"9878720409"
   },
   {
-    "nombre":"Cruz Roja",
+    "nombre":"Cruz Roja 1",
     "telefono":"9878690698"
   },
   {
-    "nombre":"Protección Civil",
-    "telefono":"9878726452"
+    "nombre":"Cruz Roja 2",
+    "telefono":"065"
   },
   {
     "nombre":"Dirección de Turismo",
     "telefono":"9878690211"
   },
   {
+    "nombre":"Angeles Verdes",
+    "telefono":"078"
+  },
+  {
+    "nombre":"Bomberos",
+    "telefono":"9878720800"
+  },
+  {
+    "nombre":"Protección Civil",
+    "telefono":"9878726452"
+  },
+  {
     "nombre":"Agencia Consignataria TMM",
     "telefono":"9878721700"
   },
   {
-    "nombre":"Agencia Consignataria Acomsur",
+    "nombre":"Agencia Consignataria Aconsur",
     "telefono":"9878723779"
   }
 ]

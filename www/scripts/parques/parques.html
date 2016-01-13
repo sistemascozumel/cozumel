@@ -11,7 +11,7 @@
 
       <div class="card" ng-repeat="parque in ctrl.parques|orderBy:'nombre'|filter:buscar">
         <div class="item item-text-wrap">
-            <h2>{{::parque.nombre}}</h2>
+            <h2>{{::parque.nombre|uppercase}}</h2>
             <p>{{::parque.direccion}}</p>
           </div>
 

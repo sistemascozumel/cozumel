@@ -4,12 +4,12 @@
     "producto":[
       "autos","motos"
     ],
-    "direccion":"Calle 3 sur No.98 Hotel Aguilar",
+    "direccion":"Calle 3 sur No.98 interior Hotel Aguilar",
     "telefono":"9878720307",
     "correo":"aguilar1rentals@hotmail.com"
   },
   {
-    "nombre":"4º y 5º",
+    "nombre":"4º y 5º Poder",
     "producto":[
       "autos","motos"
     ],
@@ -230,7 +230,7 @@
     "producto":[
       "autos","motos"
     ],
-    "direccion":"5a Av. /sY 4 nte. #8",
+    "direccion":"5a Av. entre 2 Y 4 Norte # 8",
     "telefono":"9878720903",
     "website":"www.bluewaycarrenta.com"
   },
@@ -239,7 +239,7 @@
     "producto":[
       "autos","motos"
     ],
-    "direccion":"calle 13 sur # 477 Entre 25 y 30 av.",
+    "direccion":"Calle 13 Sur # 477 entre 25 y 30 Av.",
     "telefono":"9878720433",
     "website":"www.fiestacarrental.com"
   },
@@ -248,7 +248,7 @@
     "producto":[
       "autos","motos","bicicletas"
     ],
-    "direccion":"Av. 10 /Juarez y 2 norte #6 Plaza Cozumel",
+    "direccion":"Av. 10  entre Juárez y 2 Norte #6 Plaza Cozumel",
     "telefono":"9878784055",
     "correo":""
   },
@@ -257,7 +257,7 @@
     "producto":[
       "autos","motos"
     ],
-    "direccion":"Calle 13 sur #477 Entre 25 y 30 Av.",
+    "direccion":"Calle 13 Sur # 477 entre 25 y 30 Av.",
     "telefono":" 9878720433",
     "website":"www.fiestacarrental.com"
   },

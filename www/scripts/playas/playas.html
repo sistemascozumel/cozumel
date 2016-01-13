@@ -12,7 +12,7 @@
 
       <div class="card" ng-repeat="playa in ctrl.playas|orderBy:'nombre'|filter:buscar">
           <div class="item item-text-wrap">
-            <h2>{{::playa.nombre}}</h2>
+            <h2>{{::playa.nombre|uppercase}}</h2>
             <p><i class="fa fa-map-marker"></i> {{::playa.direccion}}</p>
           </div>
           <div class="item item-image">
