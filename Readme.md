@@ -1,15 +1,10 @@
-# Cozumel
-## TODO
-- ✓ Splash
-- ✓ Icono
-- Google Developer Console
-- Temario
-
+# AppCozumel
 ## Secciones
 - Servicios turísticos
-  - ? Ferry
-  - ? puente
-  - ? aeropuerto
+  - ? Ferry pasajeros
+  - ? Ferry carga
+  - Taxi aereo
+  - Aeropuerto
   - hoteles
   - ✓ spas
   - ✓ agencias **listo**
@@ -21,9 +16,8 @@
 - Atracciones turísticas
   - ✓ playas
   - ? arrecifes
-  - ✓ parques y museos  **listo**
-  - ? sitios de interés
-  - ✓ Otras atracciones **listo**
+  - ✓ parques y museos
+  - ✓ Otras atracciones
 
 - ✓ Eventos y espectculos
   - ✓ Carnaval - Febrero
@@ -36,15 +30,16 @@
   - ✓ Ironman Cozumel - Diciembre
   - ✓ Scuba Fest - Diciembre
 
-- ? Atención ciudadana  
-- ✓ Atención turística
+- ✓ Atención turística **listo**
   - ✓ DIRECCION DE TURISMO
   - ✓ MIGRACIÓN
   - ✓ PROFECO
   - ✓ ASOCIACION DE HOTELES
   - ✓ S.R.E.
 
-- ✓ Servicios de emergencia
+- Clima
+- Tipo de cambio
+- ✓ Servicios de emergencia **listo**
   - ✓ Emergencia
   - ✓ Seguridad Publica
   - ✓ Bomberos
@@ -55,8 +50,8 @@
   - ✓ Agencia Consignataria Aconsur
   - ? Bienvenido → Choro
 
-- ✓ Bienvenida
-- ✓ Cozumel → [http://cozumel.gob.mx](http://cozumel.gob.mx)
+- ✓ Bienvenida **listo**
+- ✓ Cozumel → [http://cozumel.gob.mx](http://cozumel.gob.mx) **listo**
 - ✓ Mapa
 - ✓ Historia
 

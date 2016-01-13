@@ -21,7 +21,7 @@
             <img src="{{evento.foto}}" alt="">
           </div>
           <div class="item item-body" ng-if="texto[evento.nombre]">
-            <p>{{::evento.descripcion}}</p>
+            <p ng-bind-html="evento.descripcion"></p>
           </div>
       </div>
 

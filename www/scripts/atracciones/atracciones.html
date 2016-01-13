@@ -14,12 +14,12 @@
           ng-click="texto[atraccion.nombre]=!texto[atraccion.nombre]">
             <img src="{{::atraccion.foto}}">
             <h2>{{::atraccion.nombre}}</h2>
-            <p ng-if="atraccion.direccion"><i class="fa fa-map-marker"></i> {{::atraccion.direccion}}</p>
+            <!-- <p ng-if="atraccion.direccion"><i class="fa fa-map-marker"></i> {{::atraccion.direccion}}</p> -->
           </div>
           <div class="item item-body" ng-if="texto[atraccion.nombre]">
             <img class="full-image" src="{{::atraccion.foto}}">
             <p ng-bind-html="atraccion.descripcion"></p>
-            <a href="{{::atraccion.website}}" class="button button-full button-positive">
+            <a ng-if="atraccion.website" href="{{::atraccion.website}}" class="button button-full button-positive">
               <i class="fa fa-link"></i>
               Visitar sitio web</a>
           </div>

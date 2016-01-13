@@ -2,13 +2,13 @@
   {
     "nombre":"Carnaval",
     "mes":"Febrero",
-    "descripcion":"Isla Cozumel es reconocida por su famoso Carnaval, tradición iniciada en 1872, hace más de 140 años; su honda raíz en la comunidad contagia a todos los habitantes a participar en ella, haciendo de calles y plazas auténticas salas de diversión. Son especialmente notables los grupos conocidos como comparsas, bailando por las calles e integrados por gente de todas las edades; se realizan desfiles, donde intervienen comparsas y carros alegóricos a lo largo del malecón de la Isla. En el carnaval de la isla participan abuelitos, papás, jóvenes y niños de todas las edades que se reúnen para formar parte de una gran fiesta llena de color, alegría y música. Juntos locales y turismo celebran cinco días de magia y diversión.",
+    "descripcion":"Isla Cozumel es reconocida por su famoso Carnaval, tradición iniciada en 1872, hace más de 140 años; su honda raíz en la comunidad contagia a todos los habitantes a participar en ella, haciendo de calles y plazas auténticas salas de diversión. Son especialmente notables los grupos conocidos como comparsas, bailando por las calles e integrados por gente de todas las edades; se realizan desfiles, donde intervienen comparsas y carros alegóricos a lo largo del malecón de la Isla. En el carnaval participan abuelitos, papás, jóvenes y niños de todas las edades que se reúnen para formar parte de una gran fiesta llena de color, alegría y música. Juntos locales y turismo celebran cinco días de magia y diversión.",
     "foto":"img/eventos/carnaval.png"
   },
   {
     "nombre":"El Cedral",
     "mes":"Mayo",
-    "descripcion":"Una de las fiestas de mayor tradicion en Isla Cozumel: La fiesta de la Santa Cruz de Sabán en el poblado del Cedral, que este año celebra su 163 aniversario. Esta fiesta es posible gracias a la llegada de once familias fundadoras – encabezadas por Don Casimiro Cardenas - que se refugiaron en este sitio de la guerra de castas en 1848.Constituye una gran fortaleza para Cozumel por ser generadora de cohesión social y constructora de identidad local. Como parte de los festejos se instala una feria donde locales y visitantes disfrutan juegos, comida, bailes, compras, exhibiciones culturales y eventos artísticos.",
+    "descripcion":"Una de las fiestas de mayor tradicion en Isla Cozumel: La fiesta de la Santa Cruz de Sabán en el poblado del Cedral, que tiene sus inicios desde el año 1849. Esta fiesta es posible gracias a la llegada de once familias fundadoras – encabezadas por Don Casimiro Cardenas - que se refugiaron en este sitio de la guerra de castas en 1848. Constituye una gran fortaleza para Cozumel por ser generadora de cohesión social y constructora de identidad local. Como parte de los festejos se instala una feria donde locales y visitantes disfrutan juegos, comida, bailes, compras, exhibiciones culturales y eventos artísticos.",
     "foto":"img/eventos/cedral.png"
   },
   {
@@ -20,31 +20,31 @@
   {
     "nombre":"Travesía Sagrada Maya",
     "mes":"Mayo",
-    "descripcion":"La Travesía Sagrada Maya es un ritual que realizaban los pueblos mayas remando con sus canoas hacia Cozumel, desde Pole, hoy Xcaret, con el fin de rendir culto a la diosa Ixchel.<br>Un viaje al pasado. <be>Desde hace más de mil años en estas tierras mayas se realizaba anualmente el ritual de adoración a la diosa Ixchel, que iniciaba días antes en el mercado conocido como Kii’wiik, sitio en el que se comercializaban los diferentes productos destinados a 'la ofrenda' de la diosa. Eran pues días de fiesta donde valientes canoeros se preparaban para realizar la travesía sagrada y obtener para el pueblo entero los favores de la diosa fértil. Hoy en día, tienes la oportunidad de transportarte al pasado y ser testigo de una maravillosa tradición ancestral. <br>25 canoas hechas de madera y talladas a mano son preparadas de acuerdo a los antiguos rituales mayas para que 300 remeros caracterizados de mayas pero de todas las nacionalidades, rindan tributo a la diosa maya Ixchel, diosa del amor y la fertilidad.",
+    "descripcion":"La Travesía Sagrada Maya es un ritual que realizaban los pueblos mayas remando con sus canoas hacia Cozumel, desde Polé, hoy Xcaret, con el fin de rendir culto a la diosa Ixchel.<br>Un viaje al pasado. <be>Desde hace más de mil años en estas tierras mayas se realizaba anualmente el ritual de adoración a la diosa Ixchel, que iniciaba días antes en el mercado conocido como Kii’wiik, sitio en el que se comercializaban los diferentes productos destinados a 'la ofrenda' de la diosa. Eran pues días de fiesta donde valientes canoeros se preparaban para realizar la travesía sagrada y obtener para el pueblo entero los favores de la diosa de la fertilidad. Hoy en día, tienes la oportunidad de transportarte al pasado y ser testigo de una maravillosa tradición ancestral. <br>25 canoas hechas de madera y talladas a mano son preparadas de acuerdo a los antiguos rituales mayas para que 300 remeros caracterizados de mayas, rindan tributo a la diosa maya Ixchel, diosa del amor y la fertilidad.",
     "foto":"img/eventos/travesia.png"
   },
   {
     "nombre":"Independencia de México",
     "mes":"Septiembre",
-    "descripcion":"La noche del 15 de septiembre México se convierte en una enorme fiesta teñida de verde, blanco y rojo. Es la celebracion a nivel nacional mas importante de Mexico. Hace 202 años que el país inició su camino a la independencia de los españoles y esta tradición que condensa toda la mexicanidad.<br>Las 23.00 horas<br>A esa hora comienzan los 10 minutos más esperados del año. En una secuencia perfectamente planificada, residentes y visitantes acuden al parque Quintana Roo donde el presidente municipal se dispone a lanzar EL GRITO desde el balcon del Palacio Municipal: !Viva Mexico! En la representación entran en juego una bandera, una campana y el himno nacional, seguidos de impresionantes fuegos artificiales, comida tipica Mexicana y conciertos de musica Mexicana.",
+    "descripcion":"La noche del 15 de septiembre México se convierte en una enorme fiesta teñida de verde, blanco y rojo. Es la celebración a nivel nacional mas importante de Mexico. En el año 1810 el país inició su camino a la independencia de los españoles y esta tradición que condensa toda la mexicanidad.<br>En una secuencia perfectamente planificada, residentes y visitantes acuden al parque Quintana Roo donde el presidente municipal se dispone a lanzar EL GRITO desde el balcon del Palacio Municipal: !Viva Mexico! En la representación entran en juego una bandera, una campana y el himno nacional, seguidos de impresionantes fuegos artificiales, comida tipica Mexicana y conciertos de música Mexicana.",
     "foto":"img/eventos/independencia.png"
   },
   {
     "nombre":"Ironman 70.3 Cozumel",
     "mes":"Septiembre",
-    "descripcion":"El reto Ironman 70.3 incluye prueba de Natación 1.9 km; prueba de Ciclismo 90.1 km; prueba de Carrera 21.1 km. Se reciben más de 2,000 atletas de todo el mundo. Es sin duda una gran fiesta deportiva, en el paraiso de los deportistas; Isla Cozumel. Para más información e inscripciones del evento visitar www.ironman703cozumel.com",
+    "descripcion":"El reto Ironman 70.3 incluye prueba de natación 1.9 km; prueba de ciclismo 90.1 km; prueba de carrera pedestre 21.1 km. Se reciben más de 2,000 atletas de todo el mundo. Es sin duda una gran fiesta deportiva, en el paraíso de los deportistas; Isla Cozumel. Para más información e inscripciones del evento visitar www.ironman703cozumel.com",
     "foto":"img/eventos/ironman.png"
   },
   {
     "nombre":"ITU World Cup Cozumel 2013",
     "mes":"Octubre",
-    "descripcion":"Se trata de un triatlón internacional, el evento ocurre el 5 y 6 de Octubre. El Municipio de Cozumel y Asdeporte se complacen en invitarte una vez más a que disfrutes de uno de los lugares más hermosos de México, Isla Cozumel, en el: ITU World Cup Cozumel 2014. Para mayor información visite www.asdeporte.com",
+    "descripcion":"Se trata de un triatlón internacional, el evento ocurre a principios del mes de Octubre. El Municipio de Cozumel se complace en invitarte a que disfrutes de uno de los lugares más hermosos de México, Isla Cozumel, en el: ITU World Cup Cozumel. Para mayor información visite www.asdeporte.com",
     "foto":"img/eventos/itu.png"
   },
   {
     "nombre":"Ironman Cozumel",
-    "mes":"Diciembre",
-    "descripcion":"Ironman es el evento deportivo más importante del mundo en cuanto a triatlón se refiere, Isla Cozumel es la sede oficial en México y cada año recibe a más de 2,300 atletas de todo el planeta para atestiguar la prueba de esfuerzo más grande que cualquier deportista puede llevar a cabo. Ironman Cozumel es una gran fiesta deportiva llena de emoción y energía.",
+    "mes":"",
+    "descripcion":"Ironman es el evento deportivo más importante del mundo en cuanto a triatlón se refiere, Isla Cozumel es la sede oficial en México y cada año recibe hasta  2,500 atletas de todo el planeta para atestiguar la prueba de esfuerzo más grande que cualquier deportista puede llevar a cabo. Ironman Cozumel es una gran fiesta deportiva llena de emoción y energía.",
     "foto":"img/eventos/ironman.png"
   },
   {

@@ -16,3 +16,7 @@
 - ✓ Emergencia botón rojo
 - ? Cambiar splash
 - ✓ Cambiar historia, usar las tres secciones que hay en la página de turismo
+
+## links
+- [http://www.transcaribe.net/](http://www.transcaribe.net/)
+- [http://www.banxico.org.mx/portal-mercado-cambiario/](http://www.banxico.org.mx/portal-mercado-cambiario/)
