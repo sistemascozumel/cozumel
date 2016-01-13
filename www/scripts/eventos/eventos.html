@@ -12,15 +12,17 @@
     <div class="list">
 
       <div class="card" ng-repeat="evento in ctrl.eventos|filter:buscar">
-          <div class="item item-text-wrap">
+          <div class="item item-text-wrap"
+          ng-init="texto[evento.nombre]=false"
+          ng-click="texto[evento.nombre]=!texto[evento.nombre]">
             <h1>{{::evento.nombre}}  <span class="assertive" style="font-size:15px;text-align:right">{{::evento.mes}}</span></h1>
           </div>
-          <div class="item item-image">
+          <div class="item item-image" ng-click="texto[evento.nombre]=!texto[evento.nombre]">
             <img src="{{evento.foto}}" alt="">
           </div>
-          <!-- <div class="item item-body">
+          <div class="item item-body" ng-if="texto[evento.nombre]">
             <p>{{::evento.descripcion}}</p>
-          </div> -->
+          </div>
       </div>
 
 

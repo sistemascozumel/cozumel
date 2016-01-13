@@ -10,7 +10,7 @@
                     <ion-content>
                       <div id="ida" class="list" ng-repeat="(dia,horas) in ctrl.horarios.calicaCozumel track by $index">
                         <div class="item item-divider">
-                          {{dia}}
+                          {{dia|uppercase}}
                         </div>
                         <a ng-repeat="hora in horas track by $index" class="item item-icon-left">
                           <i class="fa fa-life-ring"></i>

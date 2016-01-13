@@ -32,9 +32,12 @@
               <i class="fa fa-clock-o"></i> {{::agencia.horarios}}
              </p>
             <h2>Servicios:</h2>
-            <button class="button button-small button-positive pad10" ng-repeat="servicio in agencia.servicios">
-              {{servicio}}
-            </button>
+            <p>
+              <span class="subdued" ng-repeat="servicio in agencia.servicios">
+                <i class="fa fa-check"></i> {{servicio}}
+              </span>
+            </p>
+
             <p>
               <a href="tel:{{::agencia.telefono}}" class="button button-full"><i class="fa fa-phone"></i> {{::agencia.telefono}}</a>
             </p>

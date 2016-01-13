@@ -1,12 +1,18 @@
+<div class="bar bar-subheader">
+  <label class="item-input">
+    <i class="icon ion-search placeholder-icon"></i>
+    <input type="text" ng-model="buscar" placeholder="Buscar...">
+  </label>
+</div>
 <ion-view view-title="Atención turística">
   <ion-content class="padding">
 
-    <div class="list list-inset">
+    <!-- <div class="list list-inset">
       <label class="item item-input">
         <i class="icon ion-search placeholder-icon"></i>
         <input type="text" ng-model="buscar" placeholder="Buscar...">
       </label>
-    </div>
+    </div> -->
 
 
     <div class="list">
@@ -15,9 +21,10 @@
           <div class="item item-body">
             <h2>{{::dependencia.nombre}}</h2>
             <p>
-              <strong>Dirección: </strong>{{::dependencia.direccion}}
+              <i class="fa fa-map-marker"></i> {{::dependencia.direccion}}
             </p>
-            <p><strong>Horarios: </strong> {{::dependencia.horarios}}.</p>
+            <p>
+              <i class="fa fa-clock-o"></i> {{::dependencia.horarios}}.</p>
             <button class="button button-small" ng-repeat="servicio in dependencia.servicios">
               {{servicio}}
             </button>

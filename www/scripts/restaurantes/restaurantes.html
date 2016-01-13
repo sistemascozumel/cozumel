@@ -13,19 +13,21 @@
         <input type="text" ng-model="buscar" placeholder="Buscar...">
       </label>
     </div> -->
+    <hr>
+    <br>
 
 
     <div class="list">
 
       <div class="card" ng-repeat="restaurante in ctrl.restaurantes|orderBy:'nombre'|filter:buscar">
-
-          <div class="item item-body">
+          <div class="item item-thumbnail-left">
+            <img src="{{::restaurante.foto}}" alt="">
             <h2>{{::restaurante.nombre|uppercase}}</h2>
             <p><i class="fa fa-map-marker"></i> {{::restaurante.direccion}}</p>
             <p ng-if="restaurante.horario"><i class="fa fa-clock-o"></i> {{::restaurante.horario}}</p>
-            <button class="button button-small button-assertive" ng-repeat="item in restaurante.producto">
-              {{item}}
-            </button>
+          </div>
+
+          <div class="item item-body">
             <p >
               <a href="{{::restaurante.website}}"
                 ng-if="restaurante.website"

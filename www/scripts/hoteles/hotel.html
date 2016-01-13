@@ -15,20 +15,21 @@
         <div class="item item-divider">
           Información de contacto
         </div>
-        <a class="item item-icon-left">
-          <i class="fa fa-phone"></i>
-          Teléfono 1
-          <span class="item-note">
-            {{::ctrl.hotel.telefonos[0]}}
-          </span>
-        </a>
-        <a class="item item-icon-left" ng-if="ctrl.hotel.telefonos[1]">
-          <i class="fa fa-phone"></i>
-          Teléfono extranjeros
-          <span class="item-note">
-            {{::ctrl.hotel.telefonos[1]}}
-          </span>
-        </a>
+        <div class="item item-button-right" >
+            <h2>Teléfono</h2>
+            <p>{{::ctrl.hotel.telefonos[0]}}</p>
+            <a class="button button-positive" href="tel:{{::ctrl.hotel.telefonos[0]}}">
+              <i class="icon ion-ios-telephone"></i>
+            </a>
+        </div>
+        <div class="item item-button-right" >
+            <h2>Teléfono extranjeros</h2>
+            <p>{{::ctrl.hotel.telefonos[1]}}</p>
+            <a class="button button-positive" href="tel:{{::ctrl.hotel.telefonos[1]}}">
+              <i class="icon ion-ios-telephone"></i>
+            </a>
+        </div>
+
         <a class="item item-icon-left" ng-if="ctrl.hotel.fax">
           <i class="fa fa-fax"></i>
           Fax

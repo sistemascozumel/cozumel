@@ -10,14 +10,19 @@
             <p>{{::ferry.direccion}}</p>
           </div>
 
-          <!-- <div class="item item-divider">
-             servicios
-          </div> -->
           <h4 align="center">Servicios</h4>
 
            <a class="item" href="javascript:;" ng-repeat="servicio in ferry.servicios">
              {{servicio}}
            </a>
+
+           <a href="{{::ferry.website}}" class="button button-full button-positive">
+             <i class="fa fa-link"> Ver sitio web</i>
+           </a>
+           <a ng-repeat="telefono in ferry.telefono" href="tel:{{telefono}}" class="button button-full">
+             <i class="fa fa-phone">{{telefono}}</i>
+           </a>
+
 
 
           <!-- <div class="item item-body">
