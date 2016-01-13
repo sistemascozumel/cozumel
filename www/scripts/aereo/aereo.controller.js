@@ -8,7 +8,8 @@
 
         Cozumel.aereolineas()
           .success(function (data) {
-            vm.aereolineas = data;
+            vm.aerolineas = data;
+            console.log(data);
           })
           .error(function (err) {
             alert('Error al cargar las aereolineas');

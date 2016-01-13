@@ -10,11 +10,21 @@
             <p>{{::ferry.direccion}}</p>
           </div>
 
-          <div class="item item-body">
+          <!-- <div class="item item-divider">
+             servicios
+          </div> -->
+          <h4 align="center">Servicios</h4>
+
+           <a class="item" href="javascript:;" ng-repeat="servicio in ferry.servicios">
+             {{servicio}}
+           </a>
+
+
+          <!-- <div class="item item-body">
             <p ng-bind-html="ferry.descripcion"></p>
             <strong class="button button-positive">Servicios: </strong>
             <span ng-repeat="servicio in ferry.servicios" class="button" style="margin-left:5px;">* {{servicio}}</span>
-          </div>
+          </div> -->
       </div>
 
     </div>

@@ -1,14 +1,12 @@
+<div class="bar bar-subheader">
+  <label class="item-input">
+    <i class="icon ion-search placeholder-icon"></i>
+    <input type="text" ng-model="buscar" placeholder="Buscar...">
+  </label>
+</div>
 <ion-view view-title="Parques">
   <ion-content class="padding">
-
-    <div class="list list-inset">
-      <label class="item item-input">
-        <i class="icon ion-search placeholder-icon"></i>
-        <input type="text" ng-model="buscar" placeholder="Buscar...">
-      </label>
-    </div>
-
-
+  <hr style="height:20px">
     <div class="list">
 
       <div class="card" ng-repeat="parque in ctrl.parques|orderBy:'nombre'|filter:buscar">
@@ -21,9 +19,12 @@
             <img class="full-image" src="{{::parque.foto}}">
 
             <p ng-bind-html="parque.descripcion"></p>
-            <h3>Servicios adicionales</h3>
+            <h2>Servicios adicionales</h2>
             <p>
               <a ng-repeat="servicio in parque.servicios" class="subdued">* {{servicio}}</a>
+            </p>
+            <p>
+              <a ng-repeat="telefono in parque.telefonos" href="tel:{{telefono}}" class="button button-full" ><i class="fa fa-phone"></i> {{::telefono}}</a>
             </p>
           </div>
       </div>

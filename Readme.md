@@ -12,18 +12,18 @@
   - ? aeropuerto
   - hoteles
   - ✓ spas
-  - ✓ agencias
-  - ✓ rentadoras
-  - ✓ bancos
+  - ✓ agencias **listo**
+  - ✓ rentadoras **listo**
+  - ✓ bancos **listo**
   - ✓ restaurantes
   - ✓ tours  
 
 - Atracciones turísticas
   - ✓ playas
   - ? arrecifes
-  - ✓ parques y museos  
+  - ✓ parques y museos  **listo**
   - ? sitios de interés
-  - ✓ Otras atracciones
+  - ✓ Otras atracciones **listo**
 
 - ✓ Eventos y espectculos
   - ✓ Carnaval - Febrero

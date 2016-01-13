@@ -76,7 +76,7 @@ angular.module('starter', [
   })
   .state('aeropuerto', {
     url: '/app/servicios/aeropuerto',
-    templateUrl: 'scripts/servicios/aeropuerto.html',
+    templateUrl: 'scripts/aereo/aeropuerto.html',
     controller:'AereoCtrl',
     controllerAs:'ctrl'
   })

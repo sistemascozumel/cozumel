@@ -1,12 +1,19 @@
+<div class="bar bar-subheader">
+  <label class="item-input">
+    <i class="icon ion-search placeholder-icon"></i>
+    <input type="text" ng-model="buscar" placeholder="Buscar...">
+  </label>
+</div>
 <ion-view view-title="Rentadoras">
   <ion-content class="padding">
+    <br>
 
-    <div class="list list-inset">
+    <!-- <div class="list list-inset">
       <label class="item item-input">
         <i class="icon ion-search placeholder-icon"></i>
         <input type="text" ng-model="buscar" placeholder="Buscar...">
       </label>
-    </div>
+    </div> -->
 
 
     <div class="list">
@@ -15,18 +22,14 @@
 
           <div class="item item-body">
             <h2>{{::rentadora.nombre|uppercase}}</h2>
-            <p>Dirección: {{::rentadora.direccion}}</p>
+            <p><i class="fa fa-map-marker"></i> {{::rentadora.direccion}}</p>
             <button class="button button-small button-assertive" ng-repeat="item in rentadora.producto">
               {{item}}
             </button>
-            <p ng-if="rentadora.website">
-              Website:
-              <br>
-              <a href="http://{{::rentadora.website}}" class="button button-positive">{{::rentadora.website}}</a>
-            </p>
             <p>
-              <a href="#" class="subdued">Teléfono: {{::rentadora.telefono}}</a>
-              <a href="#" class="subdued" ng-if="rentadora.correo">Correo: {{::rentadora.correo}}</a>
+              <a href="http://{{::rentadora.website}}" class="button button-full" ng-if="rentadora.website"><i class="fa fa-link"></i> {{::rentadora.website}}</a>
+              <a href="tel:{{::rentadora.telefono}}" class="button button-full"><i class="fa fa-phone"></i> {{::rentadora.telefono}}</a>
+              <a href="mail:{{::rentadora.correo}}" class="button button-full" ng-if="rentadora.correo"><i class="fa fa-envelope"></i> {{::rentadora.correo}}</a>
             </p>
           </div>
       </div>

@@ -1,17 +1,18 @@
 [
   {
     "nombre":"Chankannab",
-    "descripcion":"Nombre maya que significa 'Pequeño Mar' se encuentra dentro del Parque Marino Nacional de Cozumel, disfrute de nuestro hermoso parque de playa y pase el dia ya sea realizando actividades de snorkel o buceo, mientras admira peces de colores, arrecifes y esculturas submarinas.",
+    "descripcion":"Nombre maya que significa \"Pequeño Mar\", cenote costero con formaciones arrecifales interiores,  se encuentra dentro del Parque Natural Estatal Laguna de Chankanaab, disfrute de snorkel  y/o buceo, admirando peces de colores, arrecifes, jardín botánico y esculturas submarinas. Este parque es una de nuestras  5 áreas naturales protegidas en Isla Cozumel. ",
     "direccion":"Carretera Costera Sur Km 09",
     "horarios":"Lunes a Sábado de 8 am a 4 pm",
     "foto":"img/parques/chankanaab.jpg",
+    "website":"http://www.cozumelparks.com",
     "servicios":[
-      "Arrecifes Chankanaab","Caletita","Esculturas Sumergidas","Jardín Botánico ","Tour Arqueológico","Casita maya","Replicas Prehispánicas","Cocodrilarios","Leones Marinos"
+      "Arrecifes Chankanaab","Caletita","Esculturas Sumergidas","Jardín Botánico ","Tour Arqueológico","Casita maya","Replicas Prehispánicas","Cocodrilarios","Leones Marinos","Área de caleta para niños"
     ]
   },
   {
     "nombre":"San Gervasio",
-    "descripcion":"San Gervasio es el más grande e importante de la isla. Santuario de Ixchel, Diosa de la Fertilidad y el Amor, para las mujeres mayas era una obligación visitar Cozumel por lo menos una vez en la vida para rendirle tributo a Ixchel.",
+    "descripcion":"San Gervasio es el sitio arqueológico más importante de la isla. Santuario de Ixchel, máxima deidad femenina de la cultura Maya, Diosa de la Fertilidad,  el Amor, la medicina, la sabiduría, señora arcoíris, entre otros atributos. Para las mujeres mayas era una obligación visitar Isla Cozumel por lo menos una vez en la vida para recibir su bendición y pudieran procrear sin contratiempos.",
     "direccion":"Carretera Transversal Km 07",
     "horarios":"Lunes a Domingo de 8 am A 3:45 pm",
     "foto":"img/parques/gervasio.jpg",
@@ -25,13 +26,16 @@
     "direccion":"Av. Rafael Melgar entre calle 4 y 6 norte",
     "horarios":"Lunes a Viernes 9am-5pm (987) 8721475 / 8721545",
     "foto":"img/parques/museo.jpg",
+    "telefonos":[
+      "(987)8721475","(987)8721545"
+    ],
     "servicios":[
       "Baños","Restaurant","Tienda de Souvenirs"
     ]
   },
   {
     "nombre":"Punta Sur",
-    "descripcion":"La Playa y Parque Eco turístico Punta Sur es la reserva ecológica más grande de Cozumel. Descubre la mejor playa de Cozumel, toma fotos de aves exóticas, flora silvestre y observa a los cocodrilos en su hábitat natural. No te olvides de subir al histórico Faro Celarain y desde ahí disfrutar de las espectaculares vistas panorámicas, así como tomar el paseo en bote por la Laguna Colombia ¡Te esperamos!",
+    "descripcion":"Reserva ecológica más grande de Isla Cozumel  que protege la laguna de Colombia, Chunchacaab, Xtacun, humedales, tasistales, selvas, aves acuáticas y vestigios arqueológicos Mayas.  Descubre la mejor playa de Cozumel, toma fotos de aves exóticas, flora silvestre y observa a los cocodrilos en su hábitat natural. No te olvides de subir al histórico Faro Celarain y desde ahí disfrutar de las espectaculares vistas panorámicas, así como tomar el paseo en bote por la Laguna Colombia ¡Te esperamos!",
     "direccion":"Carretera costera sur km 30",
     "horarios":"Lunes a Sábado de 9am a 4pm.",
     "foto":"img/parques/puntasur.jpg",
@@ -53,7 +57,7 @@
     "nombre":"PARQUE DISCOVER MEXICO",
     "descripcion":"El parque Discover Mexico presenta una experiencia auntentica de Mexico, a traves de diversos medios: viaje por las emociones de Mexico, museo de arte popular y por ultimo un recorrido por el tiempo y el espacio de mexico.<br><strong>Costos: Adultos $ 22 usd - $286 pesos, Niños $12 usd- $ 156 pesos.</strong>",
     "direccion":"Carretera Costera Sur Km. 5.5",
-    "horarios":"Lunes a Domingo de 8 am A 4 pm",    
+    "horarios":"Lunes a Domingo de 8 am A 4 pm",
     "servicios":[
       "Baños","Mercadito","Snack Bar","Tienda","Sombrillas","Servicio Medico","Estacionamiento."
     ]

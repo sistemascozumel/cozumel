@@ -1,39 +1,36 @@
+<div class="bar bar-subheader">
+  <label class="item-input">
+    <i class="icon ion-search placeholder-icon"></i>
+    <input type="text" ng-model="buscar" placeholder="Buscar...">
+  </label>
+</div>
 <ion-view view-title="Playas">
   <ion-content class="padding">
-
-    <div class="list list-inset">
-      <label class="item item-input">
-        <i class="icon ion-search placeholder-icon"></i>
-        <input type="text" ng-model="buscar" placeholder="Buscar...">
-      </label>
-    </div>
-
+    <hr><br>
 
     <div class="list">
 
       <div class="card" ng-repeat="playa in ctrl.playas|orderBy:'nombre'|filter:buscar">
           <div class="item item-text-wrap">
             <h2>{{::playa.nombre}}</h2>
-            <p>{{::playa.direccion}}</p>
+            <p><i class="fa fa-map-marker"></i> {{::playa.direccion}}</p>
           </div>
           <div class="item item-image">
             <img src="{{playa.foto}}" alt="">
           </div>
 
           <div class="item item-body">
-            <p ng-if="playa.correo"><strong>Correo: </strong> {{::playa.correo}}.</p>
-            <p ng-if="playa.correo">
-              <a href="{{::playa.website}}" class="button button-positive">Visitar sitio web</a>
-            </p>
+            <p ng-if="playa.correo"><i class="fa fa-envelope"></i> {{::playa.correo}}.</p>
+
             <p><strong>Costo: </strong> {{::playa.costos}}.</p>
             <h4>Servicios</h4>
-            <button class="button button-small button-assertive" ng-repeat="servicio in playa.servicios">
-              {{servicio}}
-            </button>
-            <p>
-              <a href="#" class="subdued">Teléfono: {{::playa.telefono}}</a>
-              <a href="#" class="subdued"></a>
-            </p>
+            <a class="subdued" ng-repeat="servicio in playa.servicios">
+              * {{servicio}}
+            </a>
+            <a ng-if="playa.website" href="{{::playa.website}}" class="button button-full button-positive">
+              <i class="fa fa-link"></i>
+              Visitar sitio web</a>
+            <a ng-if="playa.telefono" href="tel:{{::playa.telefono}}" class="button button-full"><i class="fa fa-phone"></i> {{::playa.telefono}}</a>
           </div>
       </div>
 

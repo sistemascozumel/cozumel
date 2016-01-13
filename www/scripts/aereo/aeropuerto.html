@@ -4,40 +4,24 @@
     <input type="text" ng-model="buscar" placeholder="Buscar...">
   </label>
 </div>
-<ion-view view-title="Agencias">
+<ion-view view-title="Aeropuerto">
+
   <ion-content class="padding">
+    <hr style="height:40px">
 
-    <div class="list list-inset">
-      <!-- <label class="item item-input">
-        <i class="icon ion-search placeholder-icon"></i>
-        <input type="text" ng-model="buscar" placeholder="Buscar...">
-      </label> -->
+    <div class="card" style="padding:20px;text-align:justify;">
+      <p>
+        El aeropuerto Internacional de Cozumel se localiza en la 65 avenida con bulevar aeropuerto, a menos de 5 minutos del área del centro. La transportación del aeropuerto a los hoteles está concesionada a una compañía privada para ofrecer un mejor servicio a los viajeros y ofrecen únicamente vans compartidas. No hay servicio de taxis.
+      </p>
     </div>
-
-
 
     <div class="list">
 
-      <div class="card" ng-repeat="agencia in ctrl.agencias|orderBy:'nombre'|filter:buscar">
-          <div class="item item-text-wrap">
-            <h2>{{::agencia.nombre}}</h2>
-            <!-- <p>Responsable: {{::agencia.responsable}}</p> -->
-          </div>
-
-          <div class="item item-body">
-            <p>
-              <strong>Dirección: </strong>{{::agencia.direccion}}
-            </p>
-            <p><strong>Horarios: </strong> {{::agencia.horarios}}.</p>
-            <h2>Servicios:</h2>
-            <button class="button button-small button-assertive" ng-repeat="servicio in agencia.servicios">
-              {{servicio}}
-            </button>
-            <p>
-              <a href="#" class="subdued">Teléfono: {{::agencia.telefono}}</a>
-              <a href="#" class="subdued"></a>
-            </p>
-          </div>
+      <div class="item item-button-right" ng-repeat="aerolinea in ctrl.aerolineas|orderBy:'nombre'|filter:buscar">
+        {{::aerolinea.nombre}}
+        <a class="button button-positive" href="tel:{{::aerolinea.telefono[0]}}">
+          <i class="icon ion-ios-telephone"></i>
+        </a>
       </div>
 
 

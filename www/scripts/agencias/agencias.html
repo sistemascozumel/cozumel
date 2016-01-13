@@ -26,16 +26,17 @@
 
           <div class="item item-body">
             <p>
-              <strong>Dirección: </strong>{{::agencia.direccion}}
+              <i class="fa fa-map-marker"></i> {{::agencia.direccion}}
             </p>
-            <p><strong>Horarios: </strong> {{::agencia.horarios}}.</p>
+             <p>
+              <i class="fa fa-clock-o"></i> {{::agencia.horarios}}
+             </p>
             <h2>Servicios:</h2>
-            <button class="button button-small button-assertive" ng-repeat="servicio in agencia.servicios">
+            <button class="button button-small button-positive pad10" ng-repeat="servicio in agencia.servicios">
               {{servicio}}
             </button>
             <p>
-              <a href="#" class="subdued">Teléfono: {{::agencia.telefono}}</a>
-              <a href="#" class="subdued"></a>
+              <a href="tel:{{::agencia.telefono}}" class="button button-full"><i class="fa fa-phone"></i> {{::agencia.telefono}}</a>
             </p>
           </div>
       </div>

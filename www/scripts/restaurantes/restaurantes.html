@@ -1,12 +1,18 @@
+<div class="bar bar-subheader">
+  <label class="item-input">
+    <i class="icon ion-search placeholder-icon"></i>
+    <input type="text" ng-model="buscar" placeholder="Buscar...">
+  </label>
+</div>
 <ion-view view-title="Restaurantes">
   <ion-content class="padding">
 
-    <div class="list list-inset">
+    <!-- <div class="list list-inset">
       <label class="item item-input">
         <i class="icon ion-search placeholder-icon"></i>
         <input type="text" ng-model="buscar" placeholder="Buscar...">
       </label>
-    </div>
+    </div> -->
 
 
     <div class="list">
@@ -15,21 +21,21 @@
 
           <div class="item item-body">
             <h2>{{::restaurante.nombre|uppercase}}</h2>
-            <p><strong>Dirección:</strong> {{::restaurante.direccion}}</p>
-            <p ng-if="restaurante.horario"><strong>Horarios:</strong> {{::restaurante.horario}}</p>
+            <p><i class="fa fa-map-marker"></i> {{::restaurante.direccion}}</p>
+            <p ng-if="restaurante.horario"><i class="fa fa-clock-o"></i> {{::restaurante.horario}}</p>
             <button class="button button-small button-assertive" ng-repeat="item in restaurante.producto">
               {{item}}
             </button>
             <p >
               <a href="{{::restaurante.website}}"
                 ng-if="restaurante.website"
-                class="button button-assertive button-small"><i class="fa fa-globe"></i> Ver sitio web</a>
+                class="button button-assertive button-full"><i class="fa fa-link"></i> Ver sitio web</a>
               <a href="{{::restaurante.facebook}}"
                 ng-if="restaurante.facebook"
-                class="button button-positive button-small"><i class="fa fa-facebook"></i> Ir a la página de facebook</a>
+                class="button button-positive button-full"><i class="fa fa-facebook"></i> Ir a la página de facebook</a>
             </p>
             <p>
-              <a ng-if="restaurante.telefonos[0]" class="subdued">Teléfono: {{::restaurante.telefonos[0]}}</a>
+              <a ng-if="restaurante.telefonos[0]" class="button button-full"><i class="fa fa-phone"></i> {{::restaurante.telefonos[0]}}</a>
             </p>
           </div>
       </div>
@@ -40,14 +46,3 @@
 
   </ion-content>
 </ion-view>
-
-<style>
-  .fa{
-    color:#f1f1f1;
-    margin-right:10px;
-    margin-left:10px;
-  }
-  .button{
-    margin-right: 5px;
-  }
-</style>

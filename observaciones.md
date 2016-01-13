@@ -5,12 +5,12 @@
 - Ferry nombre de la compañía, foto, teléfono, link, descripción
 - Ferry pasajeros: Caribe, ultramar y barcos méxico
 - ✓ transporte → Cómo llegar
-- Bienvenida → Mensaje del presidente
-- Icono de avión
+- ? Bienvenida → Mensaje del presidente
+- ✓ Icono de avión
 - Teléfonos con marcado directo
 - ✓ Clasificar los hoteles por estrellas de menos a mas
 - Agregar el icono de estrelllas en el listado de hoteles
-- Aeropuerto capturar la inormación de la info de la página de turismo
+- ✓ Aeropuerto capturar la inormación de la info de la página de turismo
 - ✓ Títulos de eventos
 - QUitar tours y dejar solo otros atractivos
 - ✓ Emergencia botón rojo

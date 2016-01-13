@@ -1,24 +1,27 @@
+<div class="bar bar-subheader">
+  <label class="item-input">
+    <i class="icon ion-search placeholder-icon"></i>
+    <input type="text" ng-model="buscar" placeholder="Buscar...">
+  </label>
+</div>
 <ion-view view-title="Atracciones">
   <ion-content class="padding">
-
-    <div class="list list-inset">
-      <label class="item item-input">
-        <i class="icon ion-search placeholder-icon"></i>
-        <input type="text" ng-model="buscar" placeholder="Buscar...">
-      </label>
-    </div>
-
-
+    <hr><br>
     <div class="list">
       <div class="card" ng-repeat="atraccion in ctrl.atracciones|orderBy:'nombre'|filter:buscar">
-        <div class="item item-text-wrap">
+        <div class="item item-thumbnail-left"
+          ng-init="texto[atraccion.nombre]=false"
+          ng-click="texto[atraccion.nombre]=!texto[atraccion.nombre]">
+            <img src="{{::atraccion.foto}}">
             <h2>{{::atraccion.nombre}}</h2>
-            <p>{{::atraccion.direccion}}</p>
+            <p ng-if="atraccion.direccion"><i class="fa fa-map-marker"></i> {{::atraccion.direccion}}</p>
           </div>
-          <div class="item item-body">
+          <div class="item item-body" ng-if="texto[atraccion.nombre]">
             <img class="full-image" src="{{::atraccion.foto}}">
-            <p ng-bind-html="atraccion.descripcion">
-            </p>
+            <p ng-bind-html="atraccion.descripcion"></p>
+            <a href="{{::atraccion.website}}" class="button button-full button-positive">
+              <i class="fa fa-link"></i>
+              Visitar sitio web</a>
           </div>
       </div>
     </div>

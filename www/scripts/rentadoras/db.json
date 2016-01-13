@@ -163,6 +163,15 @@
     "telefono":"9878693219"
   },
   {
+    "nombre":"SMART",
+    "producto":[
+      "autos","motos"
+    ],
+    "direccion":"Boulevar Aeropuerton con 65 Av. Bis",
+    "telefono":"9878725651",
+    "correo":"smartrental@prodigy.net.mx"
+  },
+  {
     "nombre":"TUCAN",
     "producto":[
       "autos","motos"
@@ -196,7 +205,7 @@
     ],
     "direccion":"Calle 4 Nte. Entre av. R.E.M. y 5a. Av.",
     "telefono":"9871073427",
-    "correo":"smartrental@prodigy.net.mx"
+    "correo":""
   },
   {
     "nombre":"Avis",
@@ -224,6 +233,15 @@
     "direccion":"5a Av. /sY 4 nte. #8",
     "telefono":"9878720903",
     "website":"www.bluewaycarrenta.com"
+  },
+  {
+    "nombre":"FIESTA CAR RENTAL",
+    "producto":[
+      "autos","motos"
+    ],
+    "direccion":"calle 13 sur # 477 Entre 25 y 30 av.",
+    "telefono":"9878720433",
+    "website":"www.fiestacarrental.com"
   },
   {
     "nombre":"CP RENTALS",
