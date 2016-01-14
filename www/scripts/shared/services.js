@@ -5,6 +5,7 @@ angular.module('app.services', [])
   var chats = [];
 
   return {
+    base:'http://abc-laser.com/appcozumel/',
     aereolineas: function() {
       return $http.get('scripts/aereo/db.json');
     },
@@ -22,6 +23,9 @@ angular.module('app.services', [])
     },
     bancos:function () {
       return $http.get('scripts/bancos/db.json');
+    },
+    clima:function () {
+      return $http.get('https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20(select%20woeid%20from%20geo.places(1)%20where%20text%3D%22cozumel%2C%20mx%22)&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys&temperature=c');
     },
     emergencias:function () {
       return $http.get('scripts/emergencias/db.json');

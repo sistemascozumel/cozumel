@@ -54,7 +54,19 @@ angular.module('starter', [
   // setup an abstract state for the tabs directive
   .state('inicio', {
     url: '/app',
-    templateUrl: 'templates/inicio.html'
+    templateUrl: 'templates/inicio.html',
+    controller:function (Cozumel) {
+      var vm = this;
+      Cozumel.clima()
+        .success(function (data) {
+          vm.clima = data.query.results.channel;
+          console.log(vm.clima);
+        })
+        .error(function (err) {
+          console.error(err);
+        });
+    },
+    controllerAs:'ctrl'
   })
 
   // servicios

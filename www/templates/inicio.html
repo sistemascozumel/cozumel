@@ -21,7 +21,7 @@
     </div>
     <div class="row">
         <div class="col col-50 icon-home"
-          style="background-image:url(img/mapa.jpg);background-size:110% auto">
+          style="background-image:url(img/inicio/mapa.jpg);background-size:110% auto">
           <a href="#/app/mapa">
             <br>
             <h3><i class="fa fa-map-o fa-2x"></i><br>Mapa de <br>la Isla</h3>
@@ -61,6 +61,15 @@
           <i class="fa fa-life-ring"></i>
           Servicios de emergencia
         </a>
+
+        <a href="#/app/emergencias" class="item item-icon-left">
+          <i class="fa fa-life-ring"></i>
+          Clima {{ctrl.clima}}
+        </a>
+        {{ctrl.clima.item.condition.text}}
+        <p ng-bind-html="ctrl.clima.item.condition.description">
+
+        </p>
 
         <div class="item item-divider">
           Otros
