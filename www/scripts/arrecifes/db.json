@@ -1,0 +1,86 @@
+[
+  {
+    "nombre":"Barracuda",
+    "foto":"img/arrecifes/barracuda.jpg"
+  },
+  {
+    "nombre":"Cardona",
+    "foto":"img/arrecifes/cardona.jpg"
+  },
+  {
+    "nombre":"Chankanaab",
+    "foto":"img/arrecifes/chankanaab.jpg"
+  },
+  {
+    "nombre":"Chunchacab",
+    "foto":"img/arrecifes/chunchacab.jpg"
+  },
+  {
+    "nombre":"Colombia",
+    "foto":"img/arrecifes/colombia.jpg"
+  },
+  {
+    "nombre":"Dalila",
+    "foto":"img/arrecifes/dalila.jpg"
+  },
+  {
+    "nombre":"La Francesa",
+    "foto":"img/arrecifes/francesa.jpg"
+  },
+  {
+    "nombre":"Las Palmas",
+    "foto":"img/arrecifes/palmas.jpg"
+  },
+  {
+    "nombre":"Maracaibo",
+    "foto":"img/arrecifes/maracaibo.jpg"
+  },
+  {
+    "nombre":"Palancar",
+    "foto":"img/arrecifes/palancar.jpg"
+  },
+  {
+    "nombre":"Paraiso",
+    "foto":"img/arrecifes/paraiso.jpg"
+  },
+  {
+    "nombre":"Paso del Cedral",
+    "foto":"img/arrecifes/cedral.jpg"
+  },
+  {
+    "nombre":"Pecio (Felipe xicotencatl)",
+    "foto":"img/arrecifes/.jpg"
+  },
+  {
+    "nombre":"Punta Tunich",
+    "foto":"img/arrecifes/tunich.jpg"
+  },
+  {
+    "nombre":"Punta Sur",
+    "foto":"img/arrecifes/punta.jpg"
+  },
+  {
+    "nombre":"San Francisco",
+    "foto":"img/arrecifes/francisco.jpg"
+  },
+  {
+    "nombre":"San Juan",
+    "foto":"img/arrecifes/juan.jpg"
+  },
+  {
+    "nombre":"Santa Rosa",
+    "foto":"img/arrecifes/rosa.png"
+  },
+  {
+    "nombre":"Tormentos",
+    "foto":"img/arrecifes/tormentos.jpg"
+  },
+  {
+    "nombre":"Villablanca",
+    "foto":"img/arrecifes/villa.jpg"
+  },
+  {
+    "nombre":"Yucab",
+    "foto":"img/arrecifes/yucab.jpg"
+  }
+]

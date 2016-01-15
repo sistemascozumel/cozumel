@@ -43,7 +43,7 @@
 ## Pendientes adicionales
 - _Listo_ Hoteles faltantes
 - _Listo_ Fotografías de ferrys
-- Forotografías de restaurantes
+- _Listo_ Forotografías de restaurantes
 - _Listo_ Clasificar restaurantes
 - Arrecifes
 - _Listo_ Textos adicionales en hitoria,cultura y ecología

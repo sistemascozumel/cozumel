@@ -24,6 +24,7 @@ angular.module('starter', [
   'app.emergencias',
   'app.historia',
   'app.spas',
+  'app.arrecifes',
   'app.aereo'
 ])
 
@@ -59,7 +60,7 @@ angular.module('starter', [
       var vm = this;
       Cozumel.clima()
         .success(function (data) {
-          vm.clima = data.query.results.channel.item;          
+          vm.clima = data.query.results.channel.item;
         })
         .error(function (err) {
           console.error(err);
@@ -72,6 +73,10 @@ angular.module('starter', [
     templateUrl: 'templates/clima.html',
     controller:'ClimaCtrl',
     controllerAs:'ctrl'
+  })
+  .state('cambio', {
+    url: '/app/cambio',
+    templateUrl: 'templates/cambio.html'
   })
   // servicios
   .state('servicios', {
@@ -160,6 +165,12 @@ angular.module('starter', [
     url: '/app/atracciones/playas',
     templateUrl: 'scripts/playas/playas.html',
     controller:'PlayasCtrl',
+    controllerAs:'ctrl'
+  })
+  .state('arrecifes', {
+    url: '/app/atracciones/arrecifes',
+    templateUrl: 'scripts/arrecifes/arrecifes.html',
+    controller:'ArrecifesCtrl',
     controllerAs:'ctrl'
   })
   .state('parques', {
