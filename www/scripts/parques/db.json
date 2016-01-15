@@ -4,7 +4,7 @@
     "descripcion":"Nombre maya que significa \"Pequeño Mar\", cenote costero con formaciones arrecifales interiores,  se encuentra dentro del Parque Natural Estatal Laguna de Chankanaab, disfrute de snorkel  y/o buceo, admirando peces de colores, arrecifes, jardín botánico y esculturas submarinas. Este parque es una de nuestras  5 áreas naturales protegidas en Isla Cozumel. ",
     "direccion":"Carretera Costera Sur Km 09",
     "horarios":"Lunes a Sábado de 8 am a 4 pm",
-    "foto":"img/parques/chankanaab.jpg",
+    "foto":"img/chankanaab.jpg",
     "website":"http://www.cozumelparks.com",
     "servicios":[
       "Arrecifes Chankanaab","Caletita","Esculturas Sumergidas","Jardín Botánico ","Tour Arqueológico","Casita maya","Replicas Prehispánicas","Cocodrilarios","Leones Marinos","Área de caleta para niños"
@@ -38,7 +38,7 @@
     "descripcion":"Reserva ecológica más grande de Isla Cozumel  que protege la laguna de Colombia, Chunchacaab, Xtacun, humedales, tasistales, selvas, aves acuáticas y vestigios arqueológicos Mayas.  Descubre la mejor playa de Cozumel, toma fotos de aves exóticas, flora silvestre y observa a los cocodrilos en su hábitat natural. No te olvides de subir al histórico Faro Celarain y desde ahí disfrutar de las espectaculares vistas panorámicas, así como tomar el paseo en bote por la Laguna Colombia ¡Te esperamos!",
     "direccion":"Carretera costera sur km 30",
     "horarios":"Lunes a Sábado de 9am a 4pm.",
-    "foto":"img/parques/puntasur.jpg",
+    "foto":"img/puntasur.jpg",
     "servicios":[
       "Sillas","Hamacas","Regaderas","Restaurantes","Snack bar","Salvavidas","Tienda de souvenirs","Museo Cultural y de Navegación","Faro Celarain","Cocodrilario","Observación de Aves."
     ]
@@ -62,5 +62,11 @@
     "servicios":[
       "Baños","Mercadito","Snack Bar","Tienda","Sombrillas","Servicio Medico","Estacionamiento."
     ]
+  },
+  {
+    "nombre":"Museo de la navegación",
+    "descripcion":"El histórico faro Celarain ha sido transformado en un impresionante museo donde los visitantes aprenden sobre la historia de la exploración marítima. La exhibición en el faro de Punta Celarain incluye crónicas de la evolución de los hombres de mar, desde los primeros mayas hasta tiempos modernos.",
+    "direccion":"",
+    "foto":"img/parques/navegacion.jpg"
   }
 ]

@@ -5,9 +5,21 @@ p {
 .pane{
   background-color: #e9e9e9;
 }
-.item-divider{
-  background-color:#1E6D43;
+.nav-bar-block, .bar {
+  /*background-color: white !important;
+  color:#333 !important;*/
+  background-color:#58D3F7!important;
   color:#ffffff!important;
+}
+.title-center,.back-button{
+  color:#fff!important;
+}
+.item-divider{
+  background-color:#58D3F7;
+  color:#ffffff!important;
+}
+.bar-subheader{
+  background-color: #fff!important;
 }
 .icon-home{
   text-align: center!important;

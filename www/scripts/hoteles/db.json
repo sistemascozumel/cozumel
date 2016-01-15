@@ -20,7 +20,7 @@
       "estacionamiento",
       "wifi"
     ],
-    "foto":"img/hoteles/hotel_caribe.jpg"
+    "foto":"http://app.cozumel.gob.mx/img/hoteles/hotel_caribe.jpg"
   },
   {
     "nombre":"Hotel Costa Brava",
@@ -45,7 +45,7 @@
       "TIENDA DE BUCEO",
       "AGUA C-F"
     ],
-    "foto":"img/hoteles/costa_brava.jpg"
+    "foto":"http://app.cozumel.gob.mx/img/hoteles/costa_brava.jpg"
   },
   {
     "nombre":"Hotel Isla Esmeralda",
@@ -59,7 +59,7 @@
     "cuartos":16,
     "plan":"Plan Europeo",
     "categoria":1,
-    "foto":"img/hoteles/costa_brava.jpg"
+    "foto":"http://app.cozumel.gob.mx/img/hoteles/costa_brava.jpg"
   },
   {
     "nombre":"Hotel Kary",
@@ -81,7 +81,7 @@
       "ALBERCA",
       "AGUA C/F"
     ],
-    "foto":"img/hoteles/kary.png"
+    "foto":"http://app.cozumel.gob.mx/img/hoteles/kary.png"
   },
   {
     "nombre":"Hotel Saolima",
@@ -100,7 +100,7 @@
       "AGUA",
       "C/F"
     ],
-    "foto":"img/hoteles/saolima.png"
+    "foto":"http://app.cozumel.gob.mx/img/hoteles/saolima.png"
   },
   {
     "nombre":"Hotel Pepita",
@@ -120,7 +120,7 @@
       "AGUA C/F",
       "COMEDOR COMUNAL"
     ],
-    "foto":"img/hoteles/pepita.png"
+    "foto":"http://app.cozumel.gob.mx/img/hoteles/pepita.png"
   },
   {
     "nombre":"Hotel Almarestel",
@@ -139,7 +139,8 @@
       "BAR",
       "A/A",
       "TV-CABLE"
-    ]
+    ],
+    "foto":"http://app.cozumel.gob.mx/img/hoteles/alma.jpg"
   },
   {
     "nombre":"Hotel Asfur",
@@ -159,7 +160,7 @@
       "SERVICIO DE LAVANDERIA (CON COSTO EXTRA)",
       "COCINA COMUNAL"
     ],
-    "foto":"img/hoteles/asfur.png"
+    "foto":"http://app.cozumel.gob.mx/img/hoteles/asfur.png"
   },
   {
     "nombre":"Hotel El Pirata",
@@ -178,7 +179,7 @@
       "VENTILADOR",
       "AGUA F/C"
     ],
-    "foto":"img/hoteles/pirata.png"
+    "foto":"http://app.cozumel.gob.mx/img/hoteles/pirata.png"
   },
   {
     "nombre":"Hotel Flamingo",
@@ -196,7 +197,7 @@
     "incluye":[
       "WIFI", "BAR", "COCINA", "SPA", "A/A", "TV-CABLE", "MINI BAR DENTRO DE LA HABITACION", "AGUA C/F"
     ],
-    "foto":"img/hoteles/flamingo.jpg"
+    "foto":"http://app.cozumel.gob.mx/img/hoteles/flamingo.jpg"
   },
   {
     "nombre":"Hotel Mary Carmen",
@@ -214,7 +215,7 @@
     "incluye":[
       "TV-CABLE", "AGUA C/F", "WIFI", "A/A", "VENTILADOR"
     ],
-    "foto":"img/hoteles/marycarmen.jpg"
+    "foto":"http://app.cozumel.gob.mx/img/hoteles/marycarmen.jpg"
   },
   {
     "nombre":"Hotel Zuanayoli",
@@ -230,7 +231,7 @@
     "incluye":[
       "A/A", "VENTILADOR", "AGUA F/C"
     ],
-    "foto":"img/hoteles/zuanayoli.png"
+    "foto":"http://app.cozumel.gob.mx/img/hoteles/zuanayoli.png"
   },
   {
     "nombre":"Hotel Aguilar",
@@ -248,7 +249,7 @@
     "incluye":[
       "A/A","VENTILADOR", "TV-CABLE","WIFI", "ALBERCA", "ESTACIONAMIENTO"
     ],
-    "foto":"img/hoteles/aguilar.jpg"
+    "foto":"http://app.cozumel.gob.mx/img/hoteles/aguilar.jpg"
   },
   {
     "nombre":"Hotel Barracuda",
@@ -264,7 +265,7 @@
     "incluye":[
       "TV-CABLE", "VENTILADOR","A/A", "SERVICIO DE BAR", "WIFI", "TIENDA DE BUCEO", "TIENDA", "PICINA","BAR-RESTAURANTE", "MUELLE PROPIO"
     ],
-    "foto":"img/hoteles/barracuda.jpg"
+    "foto":"http://app.cozumel.gob.mx/img/hoteles/barracuda.jpg"
   },
   {
     "nombre":"Casa Del Mar",
@@ -283,7 +284,7 @@
       "TV-CABLE", "A/A","WIFI( CARGO EXTRA)", "CANCHA DE TENIS","ALBERCA"," PLAYA", "RESTAURANTE","JACUZI COMUNAL"
 
     ],
-    "foto":"img/hoteles/casadelmar.jpg"
+    "foto":"http://app.cozumel.gob.mx/img/hoteles/casadelmar.jpg"
   },
   {
     "nombre":"El Marqués",
@@ -302,7 +303,7 @@
       "TV-CABLE"," A/A", "AGUA F/C", "SERVICIO DE BAR"
 
     ],
-    "foto":"img/hoteles/marques.jpg"
+    "foto":"http://app.cozumel.gob.mx/img/hoteles/marques.jpg"
   },
   {
     "nombre":"Hacienda San Miguel Suites & Hotel",
@@ -321,7 +322,7 @@
     "incluye":[
       "A/A","DESAYUNO CONTINENTAL","WIFI", "TV-CABLE", "AGUA F/C", "INSTALACIONES PARA BBQ","COCINETA"
     ],
-    "foto":"img/hoteles/haciendasanmiguel.jpg"
+    "foto":"http://app.cozumel.gob.mx/img/hoteles/haciendasanmiguel.jpg"
   },
   {
     "nombre":"La Casona Real",
@@ -338,7 +339,7 @@
     "incluye":[
       "A/A" , "VENTILADOR", "TV-CABLE","AGUA C/F", "ALBERCA", "WIFI"
     ],
-    "foto":"img/hoteles/casonareal.jpg"
+    "foto":"http://app.cozumel.gob.mx/img/hoteles/casonareal.jpg"
   },
   {
     "nombre":"Plaza Cozumel",
@@ -356,7 +357,7 @@
     "incluye":[
       "DESAYUNO", "CONTINENTAL", "A/A", "TV-CABLE", "WIFI", "AGUA F/C", "ALBERCA"
     ],
-    "foto":"img/hoteles/plazacozumel.jpg"
+    "foto":"http://app.cozumel.gob.mx/img/hoteles/plazacozumel.jpg"
   },
   {
     "nombre":"Suites Bahía",
@@ -373,7 +374,7 @@
     "incluye":[
       "A/A", "TV-CABLE", "DESAYUNO BUFET","WIFI"
     ],
-    "foto":"img/hoteles/suitebahia.jpg"
+    "foto":"http://app.cozumel.gob.mx/img/hoteles/suitebahia.jpg"
   },
   {
     "nombre":"Suites Colonial",
@@ -390,7 +391,7 @@
     "incluye":[
       "A/A", "TV-CABLE", "DESAYUNO BUFET","WIFI"
     ],
-    "foto":"img/hoteles/suites_colonial.jpg"
+    "foto":"http://app.cozumel.gob.mx/img/hoteles/suites_colonial.jpg"
   },
   {
     "nombre":"Villa Blanca Beach Garden",
@@ -408,7 +409,7 @@
     "incluye":[
       "A/A", "TV-CABLE", "REFRI", "AGUA F/C", "DESAYUNO INCLUIDO", "RESTAURANTE", "PISCINA Y JACUZI"
     ],
-    "foto":"img/hoteles/villablanca.jpg"
+    "foto":"http://app.cozumel.gob.mx/img/hoteles/villablanca.jpg"
   },
   {
     "nombre":"Carmens Villa",
@@ -423,7 +424,7 @@
     "incluye":[
       "A/A", "TV-CABLE", "PISCINA"," RESTAURANTE", "REFRI."
     ],
-    "foto":"img/hoteles/carmenvilla.jpg"
+    "foto":"http://app.cozumel.gob.mx/img/hoteles/carmenvilla.jpg"
   },
   {
     "nombre":"Villas Las Anclas",
@@ -440,7 +441,7 @@
     "incluye":[
       "AGUA F/C", "TV-CABLE","REFRI","A/A", "WIFI", "PISCINA", "SALA DE DESCANSO COMUNAL"
     ],
-    "foto":"img/hoteles/villalasanclas.jpg"
+    "foto":"http://app.cozumel.gob.mx/img/hoteles/villalasanclas.jpg"
   },
   {
     "nombre":"Vista del Mar Boutique Hotel",
@@ -459,7 +460,7 @@
     "incluye":[
       "A/A", "TV-CABLE"," AGUA F/C", "DESAYUNO CONTINENTAL", "PISCINA."
     ],
-    "foto":"img/hoteles/vistadelmar.jpg"
+    "foto":"http://app.cozumel.gob.mx/img/hoteles/vistadelmar.jpg"
   },
   {
     "nombre":"Blue Angel ",
@@ -476,7 +477,7 @@
     "incluye":[
       "A/A","TV-CABLE","CAJA DE SEGURIDAD","MINI BAR","RESTAURANTE","PICINA","BUCEO (EXTRA)"
     ],
-    "foto":"img/hoteles/blue.jpg"
+    "foto":"http://app.cozumel.gob.mx/img/hoteles/blue.jpg"
   },
   {
     "nombre":"Hostelito",
@@ -492,7 +493,7 @@
     "incluye":[
       "TV-CABLE","AGUA F/C","CAJA DE SEGURIDAD","SEGURIDAD PRIVADA LAS 24 HRS","COCINA COMUNAL","DORMITORIO COMUNAL","SUITES","ASOLIADERO COMUNAL"
     ],
-    "foto":"img/hoteles/hostelito.jpg"
+    "foto":"http://app.cozumel.gob.mx/img/hoteles/hostelito.jpg"
   },
   {
     "nombre":"Posada Edén",
@@ -508,7 +509,7 @@
     "incluye":[
       "A/A","TV-CABLE","AGUA F/C."
     ],
-    "foto":"img/hoteles/eden.jpg"
+    "foto":"http://app.cozumel.gob.mx/img/hoteles/eden.jpg"
   },
   {
     "nombre":"Casa Mexicana",
@@ -526,7 +527,7 @@
     "incluye":[
       "A/A","PLASMA-CABLE","TINA","FRIGO BAR","CAJA FUERTE(ASOLICITAR)","SECADORA DE PLANCHA","AGUA F/C","BUFET-DESAYUNO","WIFI",",ESTACIONAMIENTO","CONVENIO: EXPLORA TOUR","AVIS RENTADORA"
     ],
-    "foto":"img/hoteles/mexicana.jpg"
+    "foto":"http://app.cozumel.gob.mx/img/hoteles/mexicana.jpg"
   },
   {
     "nombre":"El Cid la Ceiba",
@@ -543,7 +544,7 @@
     "incluye":[
       "COCINETA","VENTILADOR","A/A","TV-CABLE","TELEFONO","TINA","BURRO Y PLANCHA","SECADORA DE PELO","PICINA","PLAYA"
     ],
-    "foto":"img/hoteles/cid.jpg"
+    "foto":"http://app.cozumel.gob.mx/img/hoteles/cid.jpg"
   },
   {
     "nombre":"Hotel B",
@@ -558,7 +559,7 @@
     "incluye":[
       "TV-CABLE","CAJA DE SEGURIDAD","A/A","AGUA F/C","JACUZI","ESTACIONAMIENTO","PICINA","RESTAURANTE"
     ],
-    "foto":"img/hoteles/b.jpg"
+    "foto":"http://app.cozumel.gob.mx/img/hoteles/b.jpg"
   },
   {
     "nombre":"Meliá Cozumel Golf & Beach Resort",
@@ -575,7 +576,7 @@
     "incluye":[
       "A/A","PLASMA-CABLE","AGUA F/C","TELEFONO","WIFI","PICINA","PLAYA","SUITES"
     ],
-    "foto":"img/hoteles/melia.jpg"
+    "foto":"http://app.cozumel.gob.mx/img/hoteles/melia.jpg"
   },
   {
     "nombre":"Occidental Allegro",
@@ -591,7 +592,7 @@
     "incluye":[
       "All inclusive"
     ],
-    "foto":"img/hoteles/occidental.jpg"
+    "foto":"http://app.cozumel.gob.mx/img/hoteles/occidental.jpg"
   },
   {
     "nombre":"Playa Azul Golf & Beach",
@@ -608,7 +609,7 @@
     "incluye":[
       "A/A","TV-CABLE","AGUA F/C","PICINA","PLAYA","RESTAURANTE","PLAYA"
     ],
-    "foto":"img/hoteles/golf.jpg"
+    "foto":"http://app.cozumel.gob.mx/img/hoteles/golf.jpg"
   },
   {
     "nombre":"Safari Inn",
@@ -625,7 +626,7 @@
     "incluye":[
       "A/A","TV-CABLE","AGUA F/C"
     ],
-    "foto":"img/hoteles/safari.jpg"
+    "foto":"http://app.cozumel.gob.mx/img/hoteles/safari.jpg"
   },
   {
     "nombre":"Scuba Club Cozumel",
@@ -642,7 +643,7 @@
     "incluye":[
       "A/A","REFRI","CAJA DE SEGURIDAD","VENTILADOR","SECADORA DE PELO","TV-CABLE","PICINA","AREAS VERDES"
     ],
-    "foto":"img/hoteles/scuba.jpg"
+    "foto":"http://app.cozumel.gob.mx/img/hoteles/scuba.jpg"
   },
   {
     "nombre":"Sabor Sunscape",
@@ -659,7 +660,7 @@
     "incluye":[
       "All inclusive"
     ],
-    "foto":"img/hoteles/sabor.jpg"
+    "foto":"http://app.cozumel.gob.mx/img/hoteles/sabor.jpg"
   },
   {
     "nombre":"Secrets Aura  Cozumel",
@@ -676,7 +677,7 @@
     "incluye":[
       "All inclusive"
     ],
-    "foto":"img/hoteles/secrets.jpg"
+    "foto":"http://app.cozumel.gob.mx/img/hoteles/secrets.jpg"
   },
   {
     "nombre":"Coral Princess Hotel & Resort",
@@ -693,7 +694,7 @@
     "incluye":[
       "A/A","TV-CABLE","AGUA C/F","ALBERCA","CONVENIO RENTADORA DE CARROS","TIENDA DE BUCEO"
     ],
-    "foto":"img/hoteles/coral.jpg"
+    "foto":"http://app.cozumel.gob.mx/img/hoteles/coral.jpg"
   },
   {
     "nombre":"Cozumel & Resort",
@@ -710,7 +711,7 @@
     "incluye":[
       "All inclusive"
     ],
-    "foto":"img/hoteles/cozumel.jpg"
+    "foto":"http://app.cozumel.gob.mx/img/hoteles/cozumel.jpg"
   },
   {
     "nombre":"Cozumel Palace",
@@ -727,7 +728,7 @@
     "incluye":[
       "All inclusive"
     ],
-    "foto":"img/hoteles/palace.jpg"
+    "foto":"http://app.cozumel.gob.mx/img/hoteles/palace.jpg"
   },
   {
     "nombre":"El Cozumeleño Beach Resort",
@@ -744,7 +745,7 @@
     "incluye":[
       "All inclusive"
     ],
-    "foto":"img/hoteles/cozumeleño.jpg"
+    "foto":"http://app.cozumel.gob.mx/img/hoteles/cozumeleño.jpg"
   },
   {
     "nombre":"Iberostar Cozumel Hotel",
@@ -761,7 +762,7 @@
     "incluye":[
       "All inclusive"
     ],
-    "foto":"img/hoteles/iberostar.jpg"
+    "foto":"http://app.cozumel.gob.mx/img/hoteles/iberostar.jpg"
   },
   {
     "nombre":"Park Royal",
@@ -778,7 +779,7 @@
     "incluye":[
       "All inclusive"
     ],
-    "foto":"img/hoteles/park.jpg"
+    "foto":"http://app.cozumel.gob.mx/img/hoteles/park.jpg"
   },
   {
     "nombre":"Presidente Intercontinental",
@@ -792,7 +793,10 @@
     "cuartos":220,
     "plan":"Plan Europeo",
     "categoria":5,
-    "foto":"img/hoteles/presidente.jpg"
+    "foto":"http://app.cozumel.gob.mx/img/hoteles/presidente.jpg",
+    "incluye":[
+      "All inclusive"
+    ]
   },
   {
     "nombre":"Fiesta Americana Dive Resort",
@@ -809,6 +813,6 @@
     "incluye":[
       "All inclusive"
     ],
-    "foto":"img/hoteles/fiesta.jpg"
+    "foto":"http://app.cozumel.gob.mx/img/hoteles/fiesta.jpg"
   }
 ]

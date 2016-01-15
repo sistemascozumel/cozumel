@@ -6,7 +6,6 @@
   - Taxi aereo
   - Aeropuerto
   - hoteles
-  - ✓ spas
   - ✓ agencias **listo**
   - ✓ rentadoras **listo**
   - ✓ bancos **listo**
@@ -53,7 +52,7 @@
 - ✓ Bienvenida **listo**
 - ✓ Cozumel → [http://cozumel.gob.mx](http://cozumel.gob.mx) **listo**
 - ✓ Mapa
-- ✓ Historia
+- ✓ Historia, cultura y turismo
 
 ## Bonus
 - Fuzzy finder
@@ -77,6 +76,8 @@
 ## Pasos para compilar la aplicacinón
 - Agregar plataforma deseada: ionic platform android|ios|blackberry
 - Compilar: ionic build
+- Correr aplicación en un emulador: ionic emulate
+- Correr la aplicación en el dispositivo que esté conectado ionic run --device
 
 ### ver dispositivos
 - adb devices
