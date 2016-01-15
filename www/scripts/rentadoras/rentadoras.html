@@ -22,7 +22,11 @@
 
           <div class="item item-body">
             <h2>{{::rentadora.nombre|uppercase}}</h2>
-            <p><i class="fa fa-map-marker"></i> {{::rentadora.direccion}}</p>
+            <p>
+              <a href="https://www.google.com.mx/maps/place/{{::rentadora.direccion}}, Cozumel">
+                <i class="fa fa-map-marker"></i> {{::rentadora.direccion}}
+              </a>
+            </p>
             <button class="button button-small button-assertive" ng-repeat="item in rentadora.producto">
               {{item}}
             </button>
@@ -40,9 +44,3 @@
 
   </ion-content>
 </ion-view>
-
-<style>
-  .button{
-    margin-right: 5px;
-  }
-</style>

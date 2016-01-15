@@ -15,11 +15,18 @@
     </div> -->
     <hr>
     <br>
+    
+        <select ng-model="estilo">
+          <option value="">Todas</option>
+          <option ng-repeat="(estilo,restaurantes) in ctrl.estilos">{{::estilo}}</option>
+        </select>
+
+
 
 
     <div class="list">
 
-      <div class="card" ng-repeat="restaurante in ctrl.restaurantes|orderBy:'nombre'|filter:buscar">
+      <div class="card" ng-repeat="restaurante in ctrl.restaurantes|orderBy:'nombre'|filter:buscar|filter:estilo">
           <div class="item item-thumbnail-left">
             <img src="{{::restaurante.foto}}" alt="">
             <h2>{{::restaurante.nombre|uppercase}}</h2>

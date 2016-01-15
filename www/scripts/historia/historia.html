@@ -3,7 +3,9 @@
 
     <div class="list">
 
-      <div class="card" >
+      <div class="card"
+        ng-init="texto['historia']=false"
+        ng-click="texto['historia']=!texto['historia']" >
           <div class="item item-text-wrap">
             <h2>Historia</h2>
 
@@ -16,10 +18,15 @@
             <p>
               Cozumel (Cuzamil) , Primer punto geográfico de México en recibir los rayos del sol cada nuevo día, conserva aún hoy desde sus inicios como asentamiento humano alrededor del año 300 AC , una particular atmósfera tanto para sus visitantes como para las personas que la habitan.
             </p>
+            <p ng-if="texto['historia']">
+              Aunque los techos de palma, tradición maya de construcción cuando la isla era un sitio de adoración de la Diosa de la fertilidad "Ixchel", han sido sustituidos por firmes construcciones de concreto, aún siguen conservando en sus habitantes la inocencia, honestidad y disposición de servicio que siempre ha caracterizado a la cultura maya. La breve información recopilada en documentos históricos, no se compara con la vasta colección de vestigios dejados por sus antiguos pobladores como prueba de la importancia de La isla de las Golondrinas como punto de intercambio comercial marítimo de su antigua cultura antes de la llegada de los conquistadores españoles, quienes por su situación geográfica la eligieron como un lugar clave en su navegación, donde tenían oportunidad de disfrutar las más bellas puestas de sol. Cálido desde entonces con sus huéspedes, cuna de tortugas marinas, flamencos, mapaches y pizotes, Cozumel fue también refugio de famosos piratas alrededor del siglo XVII, y repentinamente deshabitada por desconocidas razones.
+            </p>
           </div>
       </div>
 
-      <div class="card" >
+      <div class="card"
+        ng-init="texto['cultura']=false"
+        ng-click="texto['cultura']=!texto['cultura']" >
           <div class="item item-text-wrap">
             <h2>Cultura</h2>
 
@@ -32,10 +39,15 @@
             <p>
               Por haberse originado en una isla, la cultura cozumeleña es hoy en día un muy peculiar, por no decir único estilo de vida con fuertes raíces provenientes de sus repobladores.
             </p>
+            <p ng-if="texto['cultura']">
+              Quienes han sabido heredar a sus descendientes y nuevos pobladores la simpleza, tranquilidad y vida sin prisa característica de las villas de pescadores de antaño. Personas con la arraigada costumbre de escuchar a la radio aún con la llegada de lo más excéntrico en cuestión de comunicaciones, aficionados al cine y al beisbol por tradición y grandes despilfarradores de creatividad, alegoría y convivencia durante la celebración de sus tradicionales festividades como El Carnaval (Febrero) y Las fiestas de el Cedral (Mayo),Integran sin reserva a cuanto visitante gusta de venir a Cozumel para unirse a celebrar con ellos. "San Miguel", nombre que lleva la pequeña y céntrica urbanidad, fue bautizada en honor al arcángel, considerado protector de esta y de sus habitantes aún cuando se encuentran fuera de ella. Los Cozumeleños han sabido sacrificar con mucho honor la fisonomía urbana original de la isla, modificándola para dar paso al progreso que conlleva el compartir con otras culturas la belleza del poblado, su selvática naturaleza y único color de sus aguas que la rodean.
+            </p>
           </div>
       </div>
 
-      <div class="card" >
+      <div class="card"
+        ng-init="texto['ecologia']=false"
+        ng-click="texto['ecologia']=!texto['ecologia']" >
           <div class="item item-text-wrap">
             <h2>Ecología</h2>
 
@@ -47,6 +59,9 @@
           <div class="item item-body">
             <p>
               48 kilómetros de norte a sur y 8 de este a oeste son las dimensiones de la isla, lo que facilita a los visitantes salir a explorarla durante su visita. Las blancas playas que la enmarcan no son lo único que te hará enamorarte de ella.
+            </p>
+            <p ng-if="texto['ecologia']">
+              La temperatura ambiental promedio es de 27 grados, en los tibios veranos entre 27 y 32 grados, y en el invierno refresca alrededor de 21 grados, por lo que en Cozumel todos los días son días propicios para ir a la playa y el agua se mantiene en una temperatura entre los 25 y 27 grados a lo largo del año. Uno de sus grandes privilegios es dar refugio en ellas al sistema de arrecifes más grande en las Américas , El arrecife Mesoamericano que hace realidad el sueño de cualquier buzo pues en estos arrecifes han encontrado su hogar más de 250 de especies de peces tropicales incluyendo al pez ángel reina y al pez sapo que no se ven en ninguna otra parte del mundo, tortugas marinas, y una variedad inagotable de especies marinas, que curiosas se exhiben también para quienes prefieren disfrutar del esnorkel sin explorar las profundidades. En tierra, Los árboles se salpican de fragatas, cormoranes, ranas de árbol y algunos pelícanos que disfrutan de convivir con los humanos en el malecón. Batallones completos de cangrejos se ven circular por todos lados en la época de apareamiento.
             </p>
           </div>
       </div>

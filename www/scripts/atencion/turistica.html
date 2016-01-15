@@ -23,7 +23,7 @@
             <p>
               <i class="fa fa-map-marker"></i> {{::dependencia.direccion}}
             </p>
-            <p>
+            <p ng-if="dependencia.horarios">
               <i class="fa fa-clock-o"></i> {{::dependencia.horarios}}.</p>
             <button class="button button-small" ng-repeat="servicio in dependencia.servicios">
               {{servicio}}

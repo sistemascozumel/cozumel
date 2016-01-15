@@ -59,8 +59,7 @@ angular.module('starter', [
       var vm = this;
       Cozumel.clima()
         .success(function (data) {
-          vm.clima = data.query.results.channel;
-          console.log(vm.clima);
+          vm.clima = data.query.results.channel.item;          
         })
         .error(function (err) {
           console.error(err);
@@ -68,7 +67,12 @@ angular.module('starter', [
     },
     controllerAs:'ctrl'
   })
-
+  .state('clima', {
+    url: '/app/clima',
+    templateUrl: 'templates/clima.html',
+    controller:'ClimaCtrl',
+    controllerAs:'ctrl'
+  })
   // servicios
   .state('servicios', {
     url: '/app/servicios',

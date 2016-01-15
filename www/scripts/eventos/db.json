@@ -52,5 +52,11 @@
     "mes":"Diciembre",
     "descripcion":"Cozumel Scuba Fest es el evento dedicado a los amantes del buceo. El programa completo con una duración de aproximadamente una semana incluye diversas actividades como exposiciones, conferencias, photo shoots, records, premios, conciertos, muestras gastronomicas y por supuesto inmersiones a los inigualables arrecifes de coral de Cozumel. Para más información www.cozumelfest.com",
     "foto":"img/eventos/scuba.png"
+  },
+  {
+    "nombre":"Gran Fondo New York",
+    "mes":"Novimebre",
+    "descripcion":"GFNY Cozumel te llevará alrededor de toda la isla, mientras disfrutas de las espectaculares vistas de este paraíso Maya. Recorrerás 20 kilómetros de ruta a lado del mar Caribe de color azul turquesa, mientras pedaleas en contra de los vientos desafiantes de la Diosa Ixchel. Prepárate, esta será una carrera desafiante y competitiva con sorprendentes atletas listos para conquistar la isla como lo hicieron los Mayas hace 3000 años. Ven y descubre por qué Cozumel se ha convertido en un destino favorito de los atletas más competitivos del mundo.",
+    "foto":"img/eventos/fondo.jpg"
   }
 ]

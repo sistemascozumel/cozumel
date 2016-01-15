@@ -8,7 +8,7 @@
       ],
       "horarios":"Lunes a Viernes, 9am-4p, Sábados 9am-1pm",
       "website":"",
-      "foto":"",
+      "foto":"img/ferry/ultramar.jpg",
       "servicios":[
         "Cruces de pasajeros Cozumel-Playa del Carmen y Playa del Carmen-Cozumel"
       ]
@@ -21,7 +21,7 @@
       ],
       "horarios":"Lunes a Viernes 9am-5pm  Sábados 9am-1pm",
       "website":"",
-      "foto":"",
+      "foto":"img/ferry/barcosmexico.jpg",
       "servicios":[
         "Cruces de pasajeros Cozumel-Playa del Carmen y Playa del Carmen-Cozumel"
       ]
@@ -34,7 +34,7 @@
       ],
       "horarios":"",
       "website":"http://barcoscaribe.com",
-      "foto":"",
+      "foto":"img/ferry/barcoscaribe.jpg",
       "servicios":[
         "Cruces de pasajeros Cozumel-Playa del Carmen y Playa del Carmen-Cozumel"
       ]

@@ -460,5 +460,355 @@
       "A/A", "TV-CABLE"," AGUA F/C", "DESAYUNO CONTINENTAL", "PISCINA."
     ],
     "foto":"img/hoteles/vistadelmar.jpg"
+  },
+  {
+    "nombre":"Blue Angel ",
+    "direccion":"Zona Sur  South Zone/ Carretera Costera Sur Km 2.2",
+    "telefonos":[
+      "987872-0188"
+    ],
+    "fax":"8720819",
+    "correo":"administracion@blueangelresort.com",
+    "website":"www.blueangelresort.com",
+    "cuartos":22,
+    "plan":"Plan Europeo",
+    "categoria":3,
+    "incluye":[
+      "A/A","TV-CABLE","CAJA DE SEGURIDAD","MINI BAR","RESTAURANTE","PICINA","BUCEO (EXTRA)"
+    ],
+    "foto":"img/hoteles/blue.jpg"
+  },
+  {
+    "nombre":"Hostelito",
+    "direccion":"Centro Downtown/ 10 Av. Norte Entre Av. Juárez y Calle 2 Norte",
+    "telefonos":[
+      "9878698157"
+    ],
+    "fax":"",
+    "correo":"hostelitocozumelmx@gmail.com",
+    "website":"www.hostelito.com",
+    "cuartos":23,
+    "plan":"Plan Europeo",
+    "incluye":[
+      "TV-CABLE","AGUA F/C","CAJA DE SEGURIDAD","SEGURIDAD PRIVADA LAS 24 HRS","COCINA COMUNAL","DORMITORIO COMUNAL","SUITES","ASOLIADERO COMUNAL"
+    ],
+    "foto":"img/hoteles/hostelito.jpg"
+  },
+  {
+    "nombre":"Posada Edén",
+    "direccion":"Centro Downtown/ Calle 2 Norte entre 5ª y 10ª Av.",
+    "telefonos":[
+      "987-872-1166"
+    ],
+    "fax":"",
+    "correo":"gustarimo@hotmail.com",
+    "website":"www.hotelposadaedem.com.mx",
+    "cuartos":15,
+    "plan":"Plan Europeo",
+    "incluye":[
+      "A/A","TV-CABLE","AGUA F/C."
+    ],
+    "foto":"img/hoteles/eden.jpg"
+  },
+  {
+    "nombre":"Casa Mexicana",
+    "direccion":"Centro Downtown/ Av. Rafael E. Melgar # 457 entre calles 5 y 7 Sur.",
+    "telefonos":[
+      "987-8729090",
+      "987-872-9073"
+    ],
+    "fax":"",
+    "correo":"reservaciones@casamexicanacozumel.com",
+    "website":"www.casamexicanacozumel.com",
+    "cuartos":88,
+    "plan":"Plan Europeo",
+    "categoria":4,
+    "incluye":[
+      "A/A","PLASMA-CABLE","TINA","FRIGO BAR","CAJA FUERTE(ASOLICITAR)","SECADORA DE PLANCHA","AGUA F/C","BUFET-DESAYUNO","WIFI",",ESTACIONAMIENTO","CONVENIO: EXPLORA TOUR","AVIS RENTADORA"
+    ],
+    "foto":"img/hoteles/mexicana.jpg"
+  },
+  {
+    "nombre":"El Cid la Ceiba",
+    "direccion":"Zona Sur  South Zone/ Carretera a Chankanaab Km. 4.5",
+    "telefonos":[
+      "(987) 872-0844"
+    ],
+    "fax":"(987) 872-0065",
+    "correo":"consierge.cozumel@elcid.com.mx",
+    "website":"www.elcid.com.mx",
+    "cuartos":76,
+    "plan":"Plan Europeo",
+    "categoria":4,
+    "incluye":[
+      "COCINETA","VENTILADOR","A/A","TV-CABLE","TELEFONO","TINA","BURRO Y PLANCHA","SECADORA DE PELO","PICINA","PLAYA"
+    ],
+    "foto":"img/hoteles/cid.jpg"
+  },
+  {
+    "nombre":"Hotel B",
+    "direccion":"Zona Norte North Zone/ Carretera costera Norte, km. 5.8",
+    "telefonos":[
+      "987869-8518","987872-0300"
+    ],
+    "website":"www.hotelbcozumel.com",
+    "cuartos":45,
+    "plan":"Plan Europeo",
+    "categoria":4,
+    "incluye":[
+      "TV-CABLE","CAJA DE SEGURIDAD","A/A","AGUA F/C","JACUZI","ESTACIONAMIENTO","PICINA","RESTAURANTE"
+    ],
+    "foto":"img/hoteles/b.jpg"
+  },
+  {
+    "nombre":"Meliá Cozumel Golf & Beach Resort",
+    "direccion":"Zona Norte North Zone/ Carretera Costera Norte Km. 5.8",
+    "telefonos":[
+      "(987) 872-9870"
+    ],
+    "fax":"(987) 872-5685",
+    "correo":"melia.cozumel@melia.com",
+    "website":"www.melia.com",
+    "cuartos":212,
+    "plan":"Plan Europeo",
+    "categoria":4,
+    "incluye":[
+      "A/A","PLASMA-CABLE","AGUA F/C","TELEFONO","WIFI","PICINA","PLAYA","SUITES"
+    ],
+    "foto":"img/hoteles/melia.jpg"
+  },
+  {
+    "nombre":"Occidental Allegro",
+    "direccion":"Zona Sur  South Zone/ Carretera Costera Sur km. 16.5",
+    "telefonos":[
+      "(987) 8729770  "
+    ],
+    "correo":"eeguia@mx.occidentalhotels.com",
+    "website":"www.occidental-hotels.com",
+    "cuartos":301,
+    "plan":"All inclusive",
+    "categoria":4,
+    "incluye":[
+      "All inclusive"
+    ],
+    "foto":"img/hoteles/occidental.jpg"
+  },
+  {
+    "nombre":"Playa Azul Golf & Beach",
+    "direccion":"Zona Norte North Zone/ Carretera Costera Norte Km. 4",
+    "telefonos":[
+      "(987) 869-5160"
+    ],
+    "fax":"(987) 869-5173",
+    "correo":"ventas@playa-azul.com",
+    "website":"www.playa-azul.com",
+    "cuartos":50,
+    "plan":"Plan Europeo",
+    "categoria":4,
+    "incluye":[
+      "A/A","TV-CABLE","AGUA F/C","PICINA","PLAYA","RESTAURANTE","PLAYA"
+    ],
+    "foto":"img/hoteles/golf.jpg"
+  },
+  {
+    "nombre":"Safari Inn",
+    "direccion":"Centro Downtown/ Av. Rafael E. Melgar # 429 entre calles 5 y 7 Sur.",
+    "telefonos":[
+      "987-872-0101","987872-3101"
+    ],
+    "fax":"987-872-0661",
+    "correo":"dive@aquasafari.com",
+    "website":"www.aquasafari.com",
+    "cuartos":12,
+    "plan":"Plan Europeo",
+    "categoria":4,
+    "incluye":[
+      "A/A","TV-CABLE","AGUA F/C"
+    ],
+    "foto":"img/hoteles/safari.jpg"
+  },
+  {
+    "nombre":"Scuba Club Cozumel",
+    "direccion":"Zona Sur  South Zone/ Av. Rafael E. Melgar, Km. 1.5",
+    "telefonos":[
+      "987-872-1800"
+    ],
+    "fax":"987-872-1883",
+    "correo":"",
+    "website":"www.scubaclubcozumel.com",
+    "cuartos":61,
+    "plan":"Plan Europeo",
+    "categoria":4,
+    "incluye":[
+      "A/A","REFRI","CAJA DE SEGURIDAD","VENTILADOR","SECADORA DE PELO","TV-CABLE","PICINA","AREAS VERDES"
+    ],
+    "foto":"img/hoteles/scuba.jpg"
+  },
+  {
+    "nombre":"Sabor Sunscape",
+    "direccion":"Zona Sur  South Zone/ Carretera Costera Sur Km. 12.9",
+    "telefonos":[
+      "(987) 872-9300"
+    ],
+    "fax":"(987) 872-9315",
+    "correo":"a_gerencia.seacz@secretsresorts.com",
+    "website":"www.sunscaperesort.com",
+    "cuartos":218,
+    "plan":"All inclusive",
+    "categoria":4,
+    "incluye":[
+      "All inclusive"
+    ],
+    "foto":"img/hoteles/sabor.jpg"
+  },
+  {
+    "nombre":"Secrets Aura  Cozumel",
+    "direccion":"Zona Sur  South Zone/ Carretera Costera Sur Km. 12.9",
+    "telefonos":[
+      "(987) 872-9320"
+    ],
+    "fax":"(987) 872-9321",
+    "correo":"",
+    "website":"www.auraresorts.com",
+    "cuartos":168,
+    "plan":"All inclusive",
+    "categoria":4,
+    "incluye":[
+      "All inclusive"
+    ],
+    "foto":"img/hoteles/secrets.jpg"
+  },
+  {
+    "nombre":"Coral Princess Hotel & Resort",
+    "direccion":"Zona Norte North Zone/ Carretera Costera Norte Km. 2.5",
+    "telefonos":[
+      "(987) 872-3200"
+    ],
+    "fax":"(987) 872-2800",
+    "correo":"reservations@coralprincess.com",
+    "website":"www.coralprincess.com",
+    "cuartos":136,
+    "plan":"Plan Europeo",
+    "categoria":5,
+    "incluye":[
+      "A/A","TV-CABLE","AGUA C/F","ALBERCA","CONVENIO RENTADORA DE CARROS","TIENDA DE BUCEO"
+    ],
+    "foto":"img/hoteles/coral.jpg"
+  },
+  {
+    "nombre":"Cozumel & Resort",
+    "direccion":"Zona Sur  South Zone/ Carretera Costera Sur Km 1.7",
+    "telefonos":[
+      "(987) 872-9020","(987) 872-9020"
+    ],
+    "fax":"(987) 872-2154",
+    "correo":"reserv@hotelcozumel.com.mx",
+    "website":"www.hotelcozumel.com.mx",
+    "cuartos":181,
+    "plan":"All inclusive",
+    "categoria":5,
+    "incluye":[
+      "All inclusive"
+    ],
+    "foto":"img/hoteles/cozumel.jpg"
+  },
+  {
+    "nombre":"Cozumel Palace",
+    "direccion":"Zona Sur  South Zone/ Ave. Rafael E. Melgar, Km. 1.5",
+    "telefonos":[
+      "(987) 872-9430"
+    ],
+    "fax":"(987)872-9431",
+    "correo":"jariztegui@palaceresorts.com",
+    "website":"www.palaceresorts.com",
+    "cuartos":175,
+    "plan":"All inclusive",
+    "categoria":5,
+    "incluye":[
+      "All inclusive"
+    ],
+    "foto":"img/hoteles/palace.jpg"
+  },
+  {
+    "nombre":"El Cozumeleño Beach Resort",
+    "direccion":"Zona Norte North Zone/ Carretera Costera Norte Km. 4.5",
+    "telefonos":[
+      "(987) 872-9530"
+    ],
+    "fax":"(987) 872-9544",
+    "correo":"rsv@hotelczm.com",
+    "website":"www.elcozumeleno.com",
+    "cuartos":252,
+    "plan":"All inclusive",
+    "categoria":5,
+    "incluye":[
+      "All inclusive"
+    ],
+    "foto":"img/hoteles/cozumeleño.jpg"
+  },
+  {
+    "nombre":"Iberostar Cozumel Hotel",
+    "direccion":"Zona Sur  South Zone/ Carretera Costera Sur Km. 17.8",
+    "telefonos":[
+      "(987) 872-9900"
+    ],
+    "fax":"(987) 872-9906",
+    "correo":"axel.paeckel@iberostar.com.mx",
+    "website":"www.iberostar.com",
+    "cuartos":306,
+    "plan":"All inclusive",
+    "categoria":5,
+    "incluye":[
+      "All inclusive"
+    ],
+    "foto":"img/hoteles/iberostar.jpg"
+  },
+  {
+    "nombre":"Park Royal",
+    "direccion":"Zona Sur  South Zone/ Carretera Costera Sur Km. 3.5",
+    "telefonos":[
+      "(987) 872-0700"
+    ],
+    "fax":"(987) 872-1301",
+    "correo":"gzamudio@park-royalhotels.com",
+    "website":"www.parkroyal.mx",
+    "cuartos":347,
+    "plan":"All inclusive",
+    "categoria":5,
+    "incluye":[
+      "All inclusive"
+    ],
+    "foto":"img/hoteles/park.jpg"
+  },
+  {
+    "nombre":"Presidente Intercontinental",
+    "direccion":"Zona Sur  South Zone/ Carretera a Chankanaab Km.6.5",
+    "telefonos":[
+      "(987) 872-9500"
+    ],
+    "fax":"(987) 872-9501",
+    "correo":"henry_walther@grupopresidente.com",
+    "website":"www.intercontinentalcozumel.com",
+    "cuartos":220,
+    "plan":"Plan Europeo",
+    "categoria":5,
+    "foto":"img/hoteles/presidente.jpg"
+  },
+  {
+    "nombre":"Fiesta Americana Dive Resort",
+    "direccion":"Zona Sur  South Zone Carretera a Chankanaab km. 7.5",
+    "telefonos":[
+      "(987) 872-9600"
+    ],
+    "fax":"(987) 872-2666",
+    "correo":"reservinter@posadas.com",
+    "website":"www.fiestamericana.com",
+    "cuartos":224,
+    "plan":"All inclusive",
+    "categoria":5,
+    "incluye":[
+      "All inclusive"
+    ],
+    "foto":"img/hoteles/fiesta.jpg"
   }
 ]

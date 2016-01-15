@@ -9,6 +9,9 @@
         Cozumel.restaurantes()
           .success(function (data) {
             vm.restaurantes = data;
+
+            vm.estilos = _.groupBy(data,'estilo');
+            console.log(vm.estilos);
           })
           .error(function (err) {
             console.log(err);
