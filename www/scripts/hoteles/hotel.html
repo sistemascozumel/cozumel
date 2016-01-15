@@ -40,16 +40,16 @@
         <a class="item item-icon-left"  ng-if="ctrl.hotel.correo">
           <i class="fa fa-envelope"></i>
           Correo
-          <span class="item-note">
+          <a class="item-note" href="mail:{{::ctrl.hotel.correo}}">
             {{::ctrl.hotel.correo}}
-          </span>
+          </a>
         </a>
         <a class="item item-icon-left"  ng-if="ctrl.hotel.website">
           <i class="fa fa-globe"></i>
           Website
-          <span class="item-note">
+          <a class="item-note" href="http://{{::ctrl.hotel.website}}">
             {{::ctrl.hotel.website}}
-          </span>
+          </a>
         </a>
         <div class="item item-divider">
           Detalles del hotel

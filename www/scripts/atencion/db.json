@@ -1,12 +1,13 @@
 [
   {
-    "nombre":"DIRECCION DE TURISMO MUNICIPAL:",
+    "nombre":"DIRECCIÓN DE TURISMO MUNICIPAL:",
     "responsable":"Lic. Juan E Gonzalez Castelan ",
     "correo":"turismo@cozumel.gob.mx",
     "direccion":"2º Piso-Altos Plaza del Sol",
     "telefonos":[
       "(987)8720966","(987)8690212"
     ],
+    "website":"http://cozumel.gob.mx/turismo/",
     "horarios":"Lunes a Viernes de 8am - 3pm",
     "servicios":[
       "Información, difusión y apoyo a turistas en Cozumel"
@@ -53,15 +54,15 @@
     ]
   },
   {
-    "nombre":"Casa Consular",
-    "direccion":"Zona Hotelera  de Cancún,   Blvd. Kukulkan km 13 .",
-    "teleonos":[
-      "019848034714"
+    "nombre":"Casa Consular en Quintana Roo",
+    "direccion":"Blvd. Kukulcán km. 13, interior edificio de Seguridad Publica, Ministerio Publico y Bomberos México, Cancún, Quintan Roo C.P. 77500",
+    "telefonos":[
+      " (998) 840 60 82"
     ],
     "website":"http://casaconsular.org",
     "horarios":"",
     "servicios":[
-      " Asistencia básica  al visitante,","Contacto con representación consular acreditada  en el Estado"
+      "La  Casa  Consular  es una oficina  de orientación  y  enlace del Cuerpo Consular de Quintana Roo para todo visitante Internacional que se encuentra en la necesidad de interactuar con cualquier autoridad mexicana en el estado."
     ]
   }
 ]

@@ -21,7 +21,6 @@
 - clima en ayuda
 - _Listo_ cambiar foto del icono de Mapa
 - _Listo_ cambiar i minúscula por mayúscula en Isla en la parte de mapa
-- _Pendiente_ **Turismo** breve descripción en atención turística de todos los elementos
 - _Listo_ **Turismo** agregar casa consular en atención turística
 - _Listo_ **Turismo** en historia cambiar foto
 - _Listo_ agregar foto de tortuga en ecología.
@@ -47,6 +46,9 @@
 - _Listo_ Clasificar restaurantes
 - Arrecifes
 - _Listo_ Textos adicionales en hitoria,cultura y ecología
+
+## Viernes
+- dashboard cambiar fuente y tamaño de imagen para resoluciones pequeñas
 
 ## links
 - [http://www.transcaribe.net/](http://www.transcaribe.net/)

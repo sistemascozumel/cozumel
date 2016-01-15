@@ -10,6 +10,9 @@
           .success(function (data) {
             vm.aerolineas = data;
             console.log(data);
+
+            vm.aerolineas = _.groupBy(data,'tipo');
+            
           })
           .error(function (err) {
             alert('Error al cargar las aereolineas');

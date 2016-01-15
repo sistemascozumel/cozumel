@@ -79,11 +79,23 @@
     "foto":"img/atracciones/delfines.jpg"
   },
   {
-    "nombre":"Parque Benito Juárez",
+    "nombre":"Plaza Principal",
     "descripcion":"El Parque Benito Juárez es justamente el corazón de Cozumel, su plaza principal. Este parque es un oasis de tranquilidad, donde te invitamos a descubrir todo lo que él encierra. Encontrarás bancos, jardineras llenas de árboles y plantas de ornato, el reloj municipal fundado en 1910. El parque cada día se viste de fiesta; cientos de turistas lo recorren por ser justamente el centro del corredor turístico de Cozumel. Allí semana tras semana se presentan a tocar bandas en vivo y diversos espectáculos culturales. A unos pasos la iglesia de San Miguel Arcángel, así como comercios, restaurantes y pequeños hoteles. Igualmente encontraran artesanías elaboradas por artesanos locales.",
     "telefono":"",
     "direccion":"",
     "website":"",
     "foto":"img/atracciones/benito.jpg"
+  },
+  {
+    "nombre":"Sea Walls",
+    "descripcion":"Sea Walls: Murals for Oceans es un proyecto de arte urbano inovador creado por los miembros de PangeaSeed con el apoyo de artistas internacionales para ayudar a plasmar la belleza y la difícil situación de los océanos, en las calles de todo el mundo a través del arte y el activismo.",
+    "foto":"img/eventos/seawalls.jpg",
+    "website":"http://cozumel.gob.mx/seawallsx"
+  },
+  {
+    "nombre":"Planetario Cha'An Ka'an",
+    "descripcion":"Sea Walls: Murals for Oceans es un proyecto de arte urbano inovador creado por los miembros de PangeaSeed con el apoyo de artistas internacionales para ayudar a plasmar la belleza y la difícil situación de los océanos, en las calles de todo el mundo a través del arte y el activismo.",
+    "foto":"img/atracciones/planetario.jpg",
+    "website":"http://www.planetariodecozumel.org/"
   }
 ]

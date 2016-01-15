@@ -10,7 +10,20 @@
 
     <div class="list">
 
-      <div class="item item-button-right" ng-repeat="aerolinea in ctrl.aerolineas|orderBy:'nombre'|filter:buscar">
+      <div class="item item-divider">
+        Líneas aéreas nacionales
+      </div>
+      <div class="item item-button-right" ng-repeat="aerolinea in ctrl.aerolineas.Nacional|orderBy:'nombre'|filter:buscar">
+        {{::aerolinea.nombre}}
+        <a class="button button-positive" href="tel:{{::aerolinea.telefono[0]}}">
+          <i class="icon ion-ios-telephone"></i>
+        </a>
+      </div>
+
+      <div class="item item-divider">
+        Líneas aéreas internacionales
+      </div>
+      <div class="item item-button-right" ng-repeat="aerolinea in ctrl.aerolineas.Extranjera|orderBy:'nombre'|filter:buscar">
         {{::aerolinea.nombre}}
         <a class="button button-positive" href="tel:{{::aerolinea.telefono[0]}}">
           <i class="icon ion-ios-telephone"></i>

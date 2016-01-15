@@ -1,30 +1,50 @@
 [
   {
     "nombre":"United Airlnes/Continental Airlines",
+    "tipo":"Extranjera",
     "telefono":[
       "(987) 872-5995","(987) 872-2847"
     ]
   },
   {
     "nombre":"US Airways",
+    "tipo":"Extranjera",
     "telefono":[
       "(987) 869-1831","(987) 869-1830"
     ]
   },
   {
     "nombre":"Delta Airlines",
+    "tipo":"Extranjera",
     "telefono":[
       "(987) 869-0208","(987) 869-0514"
     ]
   },
   {
     "nombre":"American Airlines",
+    "tipo":"Extranjera",
     "telefono":[
       "(987) 878-4308"
     ]
   },
   {
     "nombre":"Frontier Airlines",
+    "tipo":"Extranjera",
     "telefono":"(987) 869-0998"
+  },
+  {
+    "nombre":"Aeroméxico",
+    "tipo":"Nacional",
+    "telefono":""
+  },
+  {
+    "nombre":"Interjet",
+    "tipo":"Nacional",
+    "telefono":"9988861065"
+  },
+  {
+    "nombre":"Mayair",
+    "tipo":"Nacional",
+    "telefono":"9878723609"
   }
 ]

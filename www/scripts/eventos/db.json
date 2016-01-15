@@ -3,7 +3,8 @@
     "nombre":"Carnaval",
     "mes":"Febrero",
     "descripcion":"Isla Cozumel es reconocida por su famoso Carnaval, tradición iniciada en 1872, hace más de 140 años; su honda raíz en la comunidad contagia a todos los habitantes a participar en ella, haciendo de calles y plazas auténticas salas de diversión. Son especialmente notables los grupos conocidos como comparsas, bailando por las calles e integrados por gente de todas las edades; se realizan desfiles, donde intervienen comparsas y carros alegóricos a lo largo del malecón de la Isla. En el carnaval participan abuelitos, papás, jóvenes y niños de todas las edades que se reúnen para formar parte de una gran fiesta llena de color, alegría y música. Juntos locales y turismo celebran cinco días de magia y diversión.",
-    "foto":"img/eventos/carnaval.png"
+    "foto":"img/eventos/carnaval.png",
+    "website":"http://www.carnavalcozumel.com.mx"
   },
   {
     "nombre":"El Cedral",
@@ -24,28 +25,34 @@
     "foto":"img/eventos/travesia.png"
   },
   {
+    "nombre":"AeroShow 2017",
+    "mes":"Abril",
+    "descripcion":"If you love airplanes, enjoy watching aerobatic stunts performed high in the sky, enjoy a day in the sun in the jungle, then you do not want to miss the annual Cozumel Air Show (Aero Show Cozumel)",
+    "foto":"img/eventos/aeroshow.jpg"
+  },
+  {
     "nombre":"Independencia de México",
     "mes":"Septiembre",
     "descripcion":"La noche del 15 de septiembre México se convierte en una enorme fiesta teñida de verde, blanco y rojo. Es la celebración a nivel nacional mas importante de Mexico. En el año 1810 el país inició su camino a la independencia de los españoles y esta tradición que condensa toda la mexicanidad.<br>En una secuencia perfectamente planificada, residentes y visitantes acuden al parque Quintana Roo donde el presidente municipal se dispone a lanzar EL GRITO desde el balcon del Palacio Municipal: !Viva Mexico! En la representación entran en juego una bandera, una campana y el himno nacional, seguidos de impresionantes fuegos artificiales, comida tipica Mexicana y conciertos de música Mexicana.",
-    "foto":"img/eventos/independencia.png"
+    "foto":"img/eventos/independencia.jpg"
   },
   {
     "nombre":"Ironman 70.3 Cozumel",
     "mes":"Septiembre",
     "descripcion":"El reto Ironman 70.3 incluye prueba de natación 1.9 km; prueba de ciclismo 90.1 km; prueba de carrera pedestre 21.1 km. Se reciben más de 2,000 atletas de todo el mundo. Es sin duda una gran fiesta deportiva, en el paraíso de los deportistas; Isla Cozumel. Para más información e inscripciones del evento visitar www.ironman703cozumel.com",
-    "foto":"img/eventos/ironman.png"
+    "foto":"img/eventos/ironman1.jpg"
   },
   {
     "nombre":"ITU World Cup Cozumel 2013",
     "mes":"Octubre",
     "descripcion":"Se trata de un triatlón internacional, el evento ocurre a principios del mes de Octubre. El Municipio de Cozumel se complace en invitarte a que disfrutes de uno de los lugares más hermosos de México, Isla Cozumel, en el: ITU World Cup Cozumel. Para mayor información visite www.asdeporte.com",
-    "foto":"img/eventos/itu.png"
+    "foto":"img/eventos/itu.jpg"
   },
   {
     "nombre":"Ironman Cozumel",
-    "mes":"",
+    "mes":"Noviembre",
     "descripcion":"Ironman es el evento deportivo más importante del mundo en cuanto a triatlón se refiere, Isla Cozumel es la sede oficial en México y cada año recibe hasta  2,500 atletas de todo el planeta para atestiguar la prueba de esfuerzo más grande que cualquier deportista puede llevar a cabo. Ironman Cozumel es una gran fiesta deportiva llena de emoción y energía.",
-    "foto":"img/eventos/ironman.png"
+    "foto":"img/eventos/ironman2.jpg"
   },
   {
     "nombre":"Cozumel Scuba Fest",
@@ -55,7 +62,7 @@
   },
   {
     "nombre":"Gran Fondo New York",
-    "mes":"Novimebre",
+    "mes":"Noviembre",
     "descripcion":"GFNY Cozumel te llevará alrededor de toda la isla, mientras disfrutas de las espectaculares vistas de este paraíso Maya. Recorrerás 20 kilómetros de ruta a lado del mar Caribe de color azul turquesa, mientras pedaleas en contra de los vientos desafiantes de la Diosa Ixchel. Prepárate, esta será una carrera desafiante y competitiva con sorprendentes atletas listos para conquistar la isla como lo hicieron los Mayas hace 3000 años. Ven y descubre por qué Cozumel se ha convertido en un destino favorito de los atletas más competitivos del mundo.",
     "foto":"img/eventos/fondo.jpg"
   }

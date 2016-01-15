@@ -116,27 +116,5 @@
     "servicios":[
       "Cambio de Divisas"
     ]
-  },
-  {
-    "nombre":"Caseta telefonica",
-    "direccion":"10 Av. Entre Av. Juarez y Calle 2 Norte",
-    "telefonos":[
-      ""
-    ],
-    "horarios":"Lunes a Sabado de 9 am a 8 pm",
-    "servicios":[
-      "Internet","Teléfono"
-    ]
-  },
-  {
-    "nombre":"Caseta telefonica",
-    "direccion":"Av. Rafael E. Melgar Esquina Calle 3 Sur",
-    "telefonos":[
-      "(987)8721417"
-    ],
-    "horarios":"Lunes a Sabado de 9 am a 8 pm",
-    "servicios":[
-      "Internet","Teléfono"
-    ]
   }
 ]

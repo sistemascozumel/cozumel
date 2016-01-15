@@ -19,20 +19,25 @@
 
       <div class="card" ng-repeat="dependencia in ctrl.dependencias|orderBy:'nombre'|filter:buscar">
           <div class="item item-body">
-            <h2>{{::dependencia.nombre}}</h2>
+            <h2>{{::dependencia.nombre|uppercase}}</h2>
             <p>
               <i class="fa fa-map-marker"></i> {{::dependencia.direccion}}
             </p>
             <p ng-if="dependencia.horarios">
               <i class="fa fa-clock-o"></i> {{::dependencia.horarios}}.</p>
-            <button class="button button-small" ng-repeat="servicio in dependencia.servicios">
+            <p class="" ng-repeat="servicio in dependencia.servicios">
               {{servicio}}
-            </button>
+              <br>
+            </p>
             <p>
-              <a class="button" ng-repeat="telefono in dependencia.telefonos" href="tel:{{::telefono}}">
+              <a class="button button-full" ng-repeat="telefono in dependencia.telefonos" href="tel:{{::telefono}}">
                 <i class="fa fa-phone"></i>
                 {{::telefono}}</a>
             </p>
+            <a ng-if="dependencia.website" href="{{::dependencia.website}}" class="button button-full">
+              <i class="fa fa-link"></i>
+              Ver sitio web
+            </a>
           </div>
       </div>
 
