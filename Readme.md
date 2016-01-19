@@ -54,31 +54,45 @@
 - ✓ Mapa
 - ✓ Historia, cultura y turismo
 
-## Bonus
-- Fuzzy finder
+## Entrega
+- Aprobación de la interfaz
+- Aprobación del Contenido
+- Entrega del Código fuente
+- Capacitación al área de sistemas
+- Cuentas de las tiendas
+  - PlayStore
+  - AppStore
 
-## Instalación
-- Instalar/Actualizar Java: [http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
-- Instalar apache ant [http://ant.apache.org/bindownload.cgi](http://ant.apache.org/bindownload.cgi) (Importante agregar path a las variables de entorno)
-- Descargar Librerías de desarrollo para la plataforma deseada ([SDK Android](http://developer.android.com/sdk/index.html#download))
-- Instalar versión LTS de NodeJS: [http://nodejs.org](http://nodejs.org)
+## Instalación (Android y iOS)
+- Instalar/Actualizar Java: [link](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+- Instalar apache ant [Apache Ant](http://ant.apache.org/bindownload.cgi) (Importante agregar path a /bin a las variables de entorno)
+- Una vez descargado e instalado el archivo anterior abrir el gestor de paquetes y descargar los SDK especficos de las versiones de android que se quiera soportar.
+- Instalar versión LTS de NodeJS: [Página oficial](http://nodejs.org) y aregar variable de entorno (C:\Program Files\nodejs\bin.)
 - instalar cordova: abrir terminal y ejecutar el comando: npm install -g cordova
 - Instalar ionic: abrir terminal y ejecutar el comando: npm install -g ionic
 
-## Desarrollo
-- Linux: export ANDROID_HOME="/home/cedric/Android/Sdk"
-  - Instalar SDK /home/cedric/Android/Sdk/tools/android
-  - Instalar Emuladores /home/cedric/Android/Sdk/tools/android avd
+### Android
+- Para el caso de Android descargar el SDK (No es necesario descargar Android Studio, ya que ese es el IDE para desarrollo en Java) [SDK Android](http://developer.android.com/sdk/index.html#download)). Agregar las variables de entorno de "adt-bundle/sdk/platform-tools/" y () "adt-bundle/sdk/tools/"
+- [Video tutorial para Android](https://www.youtube.com/watch?v=RNrNIHQ9cWo)
 
+### iOS
+- Instalar XCode para tener acceso a los SDK y emuladores de iOS
+- [Video tutorial](https://www.youtube.com/watch?v=1RQCjwnlTRk)
+
+## Desarrollo Linux
+- Linux: export ANDROID_HOME="/home/cedric/Android/Sdk"
+- Instalar SDK /home/cedric/Android/Sdk/tools/android
+- Instalar Emuladores /home/cedric/Android/Sdk/tools/android avd
 - Windows: Agregar ruta del SDK a las variables de entorno
 - Correr server local y ver cambios en tiempo real: ionic serve
 
-## Pasos para compilar la aplicacinón
-- Agregar plataforma deseada: ionic platform android|ios|blackberry
-- Compilar: ionic build
-- Correr aplicación en un emulador: ionic emulate
+## Compilar la aplicación / Generar archivo para tiendas
+- Navegar hasta el directorio donde esté alojada la aplicación
+- Agregar plataforma deseada: ionic platform android|ios
+- Compilar/empaquetar aplicación para instalarla en un celular o subirla a las tiendas: ionic build . La ruta al archivo ejecutable estará indicada al terminal la ejecución del comando, para el caso de Android será un archivo android-debug.apk, para el caso de iOS será un ios-debug.app
+- Correr aplicación en un emulador: ionic emulate, esto generará un dispositivo virtual en el que se instalará una versión idéntica a la que se genera al correr el comando ionic build
 - Correr la aplicación en el dispositivo que esté conectado ionic run --device
 
-### ver dispositivos
+### ver dispositivos android conectados
 - adb devices
-- sudo adb kill-server and then sudo adb start-server
+- En el caso de que no detecte ningun dipositivo reiniciar el server con: sudo adb kill-server and then sudo adb start-server

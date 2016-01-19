@@ -56,3 +56,4 @@
 - [https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20(select%20woeid%20from%20geo.places(1)%20where%20text%3D%22cozumel%2C%20mx%22)&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys](https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20(select%20woeid%20from%20geo.places(1)%20where%20text%3D%22cozumel%2C%20mx%22)&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys)
 - Mpas [http://stackoverflow.com/questions/26562150/google-maps-with-ionic](http://stackoverflow.com/questions/26562150/google-maps-with-ionic)
 - [https://www.google.com/finance/converter?a=25&from=USD&to=MXN&meta=ei%3DDcuXVrm3H9a32Abu4ZDIDw](https://www.google.com/finance/converter?a=25&from=USD&to=MXN&meta=ei%3DDcuXVrm3H9a32Abu4ZDIDw)
+- [http://learn.ionicframework.com/videos/windows-android/](http://learn.ionicframework.com/videos/windows-android/)
