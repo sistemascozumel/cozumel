@@ -1,16 +1,42 @@
 <ion-view view-title="Clima">
-  <ion-content class="padding">
 
-    <div class="card">
-      <div class="item item-text-wrap" style="text-align:center">
-        <div ng-bind-html="ctrl.clima"></div>
-        <span ng-if="ctrl.loading" style="padding:50px;">
-          <i class="fa fa-spinner fa-4x fa-spin"></i>
-        </span>
-      </div>
-    </div>
+      <ion-tabs class="tabs-icon-top">
+      <p style="height:130px">&nbsp;</p>
+        <ion-tab title="Temperatura" icon-on="fa fa-sun-o" icon-off="fa fa-sun-o">
+          <ion-content class="padding">
+            <div class="list">
+              <br style="height:80px">
 
-    <iframe src="http://www.ssd.noaa.gov/goes/east/carb/flash-avn.html" width="100%"  height="600px" frameborder="0"></iframe>
+                <div class="item card" style="text-align:center" >
+                  <h1 style="margin:30px" ng-if="!ctrl.loading">
+                    <img src="http://l.yimg.com/a/i/us/we/52/{{ctrl.temperatura.code}}.gif" alt=""><br>
+                    Temperatura actual <br>
+                    {{ctrl.temperatura.f}}°F / {{ctrl.temperatura.c}}°C</h1>
+                  <span ng-if="ctrl.loading" >
+                    <i class="fa fa-spinner fa-4x fa-spin" style="margin:50px;"></i>
+                  </span>
+                </div>
 
-  </ion-content>
+                <a class="item item-thumbnail-left"
+                  ng-repeat="f in ctrl.detalles.forecast">
+                    <img src="http://l.yimg.com/a/i/us/we/52/{{::f.code}}.gif" alt="">
+                    <h2>{{::f.date}}</h2>
+                    <p>{{::f.text}}</p>
+                </a>
+
+            </div>
+          </ion-content>
+        </ion-tab>
+
+        <ion-tab title="Mapa" icon-on="fa fa-map-o" icon-off="fa fa-map-o">
+          <div class="card">
+            <div class="item item-text-wrap" style="text-align:center">
+              <iframe src="http://www.ssd.noaa.gov/goes/east/carb/flash-avn.html" width="100%"  height="600px" frameborder="0"></iframe>
+            </div>
+          </div>
+        </ion-tab>
+
+
+
+
 </ion-view>
