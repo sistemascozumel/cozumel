@@ -128,6 +128,8 @@ git clone https://github.com/uncedric/cozumel.git
 - Instalar Emuladores /home/cedric/Android/Sdk/tools/android avd
 - Windows: Agregar ruta del SDK a las variables de entorno
 - Correr server local y ver cambios en tiempo real: ionic serve
+- Ver dispositivos android conectados adb devices
+- En el caso de que no detecte ningun dipositivo reiniciar el server con: sudo adb kill-server and then sudo adb start-server
 
 ## Compilar la aplicación / Generar archivo para tiendas
 - Navegar hasta el directorio donde esté alojada la aplicación
@@ -135,7 +137,3 @@ git clone https://github.com/uncedric/cozumel.git
 - Compilar/empaquetar aplicación para instalarla en un celular o subirla a las tiendas: ionic build . La ruta al archivo ejecutable estará indicada al terminal la ejecución del comando, para el caso de Android será un archivo android-debug.apk, para el caso de iOS será un ios-debug.app
 - Correr aplicación en un emulador: ionic emulate, esto generará un dispositivo virtual en el que se instalará una versión idéntica a la que se genera al correr el comando ionic build
 - Correr la aplicación en el dispositivo que esté conectado ionic run --device
-
-### ver dispositivos android conectados
-- adb devices
-- En el caso de que no detecte ningun dipositivo reiniciar el server con: sudo adb kill-server and then sudo adb start-server
