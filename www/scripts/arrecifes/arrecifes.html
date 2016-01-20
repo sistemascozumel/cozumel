@@ -1,21 +1,23 @@
 <div class="bar bar-subheader">
   <label class="item-input">
     <i class="icon ion-search placeholder-icon"></i>
-    <input type="text" ng-model="buscar" placeholder="Buscar...">
+    <input type="text" ng-model="buscarArrecife" placeholder="Buscar...">
   </label>
 </div>
 <ion-view view-title="Arrecifes">
   <ion-content class="padding">
   <hr style="height:20px">
+  <!-- <iframe src="img/arrecifes/mapa.jpg" width="100%" height="400px"></iframe> -->
+  <img src="img/arrecifes/mapa.jpg" width="100%">
     <div class="list">
 
-      <div class="card" ng-repeat="arrecife in ctrl.arrecifes|orderBy:'nombre'|filter:buscar">
+      <div class="card" ng-repeat="arrecife in ctrl.arrecifes|orderBy:'nombre'|filter:buscarArrecife">
         <div class="item item-text-wrap">
-            <h2>{{::arrecife.nombre|uppercase}}</h2>
+            <h2>{{::arrecife.nombre}}</h2>
           </div>
-          <div class="item item-body">
+          <!-- <div class="item item-body">
             <img class="full-image" src="{{::arrecife.foto}}">
-          </div>
+          </div> -->
       </div>
 
     </div>

@@ -12,7 +12,7 @@
           <img src="{{::ctrl.historia.foto}}" alt="">
         </div>
         <div class="item item-body">
-          <p>{{::ctrl.historia.texto}}</p>
+          <p ng-bind-html="ctrl.historia.texto"></p>
         </div>
     </div>
 

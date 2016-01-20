@@ -1,24 +1,23 @@
 # AppCozumel
 ## Secciones
 - Servicios turísticos
-  - ? Ferry pasajeros
-  - ? Ferry carga
-  - Taxi aereo
-  - Aeropuerto
-  - hoteles
+  - Ferry pasajeros **listo**
+  - Ferry carga **listo**
+  - Taxi aereo **listo**
+  - Aeropuerto **listo**
+  - hoteles **listo**
   - ✓ agencias **listo**
   - ✓ rentadoras **listo**
   - ✓ bancos **listo**
-  - ✓ restaurantes
-  - ✓ tours  
+  - ✓ restaurantes **listo**
 
 - Atracciones turísticas
-  - ✓ playas
+  - ✓ playas **listo**
   - ✓ arrecifes
-  - ✓ parques y museos
-  - ✓ Otras atracciones
+  - ✓ parques y museos **listo**
+  - ✓ Otras atracciones **listo**
 
-- ✓ Eventos y espectculos
+- ✓ Eventos y espectáculos **listo**
   - ✓ Carnaval - Febrero
   - ✓ El Cedral - Mayo
   - ✓ Rodeo de lanchas mexicanas - Mayo
@@ -37,7 +36,7 @@
   - ✓ S.R.E.
 
 - Clima
-- Tipo de cambio
+- Tipo de cambio **listo**
 - ✓ Servicios de emergencia **listo**
   - ✓ Emergencia
   - ✓ Seguridad Publica
@@ -51,8 +50,8 @@
 
 - ✓ Bienvenida **listo**
 - ✓ Cozumel → [http://cozumel.gob.mx](http://cozumel.gob.mx) **listo**
-- ✓ Mapa
-- ✓ Historia, cultura y turismo
+- ✓ Mapa **listo**
+- ✓ Historia, cultura y ecología **listo**
 
 ## Entrega
 - Aprobación de la interfaz
