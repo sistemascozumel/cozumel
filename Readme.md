@@ -14,7 +14,7 @@
 
 - Atracciones turísticas
   - ✓ playas
-  - ? arrecifes
+  - ✓ arrecifes
   - ✓ parques y museos
   - ✓ Otras atracciones
 
@@ -73,10 +73,12 @@
 
 ### Android
 - Para el caso de Android descargar el SDK (No es necesario descargar Android Studio, ya que ese es el IDE para desarrollo en Java) [SDK Android](http://developer.android.com/sdk/index.html#download)). Agregar las variables de entorno de "adt-bundle/sdk/platform-tools/" y () "adt-bundle/sdk/tools/"
+- [Documentación de Ionic](http://learn.ionicframework.com/videos/windows-android/)
 - [Video tutorial para Android](https://www.youtube.com/watch?v=RNrNIHQ9cWo)
 
 ### iOS
 - Instalar XCode para tener acceso a los SDK y emuladores de iOS
+- Instalar simulador de ios: npm install -g ios-sim
 - [Video tutorial](https://www.youtube.com/watch?v=1RQCjwnlTRk)
 
 ## Desarrollo Linux

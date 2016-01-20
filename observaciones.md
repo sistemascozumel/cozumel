@@ -18,7 +18,7 @@
 - ✓ Cambiar historia, usar las tres secciones que hay en la página de turismo
 
 ## Miércoles
-- clima en ayuda
+- _Listo_ clima en ayuda
 - _Listo_ cambiar foto del icono de Mapa
 - _Listo_ cambiar i minúscula por mayúscula en Isla en la parte de mapa
 - _Listo_ **Turismo** agregar casa consular en atención turística
@@ -44,7 +44,7 @@
 - _Listo_ Fotografías de ferrys
 - _Listo_ Forotografías de restaurantes
 - _Listo_ Clasificar restaurantes
-- Arrecifes
+- _Listo_ Arrecifes
 - _Listo_ Textos adicionales en hitoria,cultura y ecología
 
 ## Viernes
