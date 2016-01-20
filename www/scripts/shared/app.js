@@ -7,6 +7,7 @@
 // 'starter.controllers' is found in controllers.js
 angular.module('starter', [
   'ionic',
+  'pascalprecht.translate',
   'starter.controllers',
   'app.services',
   'app.ferry',
@@ -44,7 +45,21 @@ angular.module('starter', [
   });
 })
 
-.config(function($stateProvider, $urlRouterProvider) {
+.config(function($stateProvider, $urlRouterProvider,$translateProvider) {
+
+  $translateProvider.translations('en', {
+   TITLE: 'Hello',
+   FOO: 'This is a paragraph.',
+   BUTTON_LANG_EN: 'english',
+   BUTTON_LANG_DE: 'german'
+ });
+ $translateProvider.translations('de', {
+   TITLE: 'Hallo',
+   FOO: 'Dies ist ein Paragraph.',
+   BUTTON_LANG_EN: 'englisch',
+   BUTTON_LANG_DE: 'deutsch'
+ });
+ $translateProvider.preferredLanguage('en');
 
   // Ionic uses AngularUI Router which uses the concept of states
   // Learn more here: https://github.com/angular-ui/ui-router

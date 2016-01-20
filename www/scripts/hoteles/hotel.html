@@ -15,9 +15,10 @@
         <div class="item item-divider">
           Información de contacto
         </div>
-        <div class="item item-button-right" >
-            <h2>Teléfono</h2>
-            <p>{{::ctrl.hotel.telefonos[0]}}</p>
+        <div class="item item-icon-left item-button-right" >
+          <i class="fa fa-phone"></i>
+            Teléfono
+            <!-- <p>{{::ctrl.hotel.telefonos[0]}}</p> -->
             <a class="button button-positive" href="tel:{{::ctrl.hotel.telefonos[0]}}">
               <i class="icon ion-ios-telephone"></i>
             </a>
@@ -37,20 +38,20 @@
             {{::ctrl.hotel.fax}}
           </span>
         </a>
-        <a class="item item-icon-left"  ng-if="ctrl.hotel.correo">
+        <span class="item item-icon-left"  ng-if="ctrl.hotel.correo">
           <i class="fa fa-envelope"></i>
-          Correo
+          Email
           <a class="item-note" href="mail:{{::ctrl.hotel.correo}}">
             {{::ctrl.hotel.correo}}
           </a>
-        </a>
-        <a class="item item-icon-left"  ng-if="ctrl.hotel.website">
+        </span>
+        <span class="item item-icon-left"  ng-if="ctrl.hotel.website">
           <i class="fa fa-globe"></i>
           Website
           <a class="item-note" href="http://{{::ctrl.hotel.website}}">
             {{::ctrl.hotel.website}}
           </a>
-        </a>
+        </span>
         <div class="item item-divider">
           Detalles del hotel
         </div>
@@ -87,9 +88,3 @@
 
   </ion-content>
 </ion-view>
-<style>
-  .fa{
-    margin-right:20px;
-    color:#333;
-  }
-</style>

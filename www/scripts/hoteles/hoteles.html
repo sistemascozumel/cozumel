@@ -7,17 +7,19 @@
 <ion-view view-title="Hoteles">
   <ion-content class="padding">
     <hr style="height:30px">
-    <!-- <div class="list list-inset">
-      <label class="item item-input">
-        <i class="icon ion-search placeholder-icon"></i>
-        <input type="text" ng-model="buscarHotel" placeholder="Buscar...">
-      </label>
-    </div> -->
+
+    <div class="card" style="padding:30px">
+      <h2>Categoría del hotel</h2>
+      <select ng-model="buscarCat" style="width:100%">
+        <option value="">Todas</option>
+        <option ng-repeat="estrella in [1,2,3,4,5]" value="{{estrella}}">{{estrella}} </option>
+      </select>
+    </div>
 
 
     <div class="list">
       <a class="item item-thumbnail-left"
-        ng-repeat="hotel in ctrl.hoteles|orderBy:'categoria'|filter:buscarHotel"
+        ng-repeat="hotel in ctrl.hoteles|orderBy:'nombre'|filter:{categoria:buscarCat}|filter:buscarHotel"
         href="#/app/servicios/hoteles/{{::hotel.nombre}}" >
           <img src="{{::hotel.foto}}">
           <h2>{{::hotel.nombre}}</h2>
