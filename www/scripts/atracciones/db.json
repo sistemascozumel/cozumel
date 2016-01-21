@@ -94,5 +94,10 @@
     "descripcion":"Sea Walls: Murals for Oceans es un proyecto de arte urbano inovador creado por los miembros de PangeaSeed con el apoyo de artistas internacionales para ayudar a plasmar la belleza y la difícil situación de los océanos, en las calles de todo el mundo a través del arte y el activismo.",
     "foto":"img/atracciones/planetario.jpg",
     "website":"http://www.planetariodecozumel.org/"
+  },
+  {
+    "nombre":"Mercado Municipal de Isla Cozumel",
+    "descripcion":"El mercado municipal de la Isla es un edificio que data de 1972.   Por su ubicación dentro del primer cuadro de la ciudad es un lugar ameno y agradable para las personas que visitan nuestra insula y para los cozumeleños que se surten de sus productos; muchos ellos orgánicos. Entre sus pasillos encontrarás locales comerciales dedicados a la venta de comida típica de la región y comida de otros países, frutas, verduras, carnes, mariscos, novedades, joyerías, zapaterias, ropa, libros, juguetes entre otros. Con una vida típica llena de coloridos y tradición es un lugar atractivo para conocer.",
+    "foto":"img/atracciones/mercado.jpg"
   }
 ]
