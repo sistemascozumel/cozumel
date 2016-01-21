@@ -99,5 +99,10 @@
     "nombre":"Mercado Municipal de Isla Cozumel",
     "descripcion":"El mercado municipal de la Isla es un edificio que data de 1972.   Por su ubicación dentro del primer cuadro de la ciudad es un lugar ameno y agradable para las personas que visitan nuestra insula y para los cozumeleños que se surten de sus productos; muchos ellos orgánicos. Entre sus pasillos encontrarás locales comerciales dedicados a la venta de comida típica de la región y comida de otros países, frutas, verduras, carnes, mariscos, novedades, joyerías, zapaterias, ropa, libros, juguetes entre otros. Con una vida típica llena de coloridos y tradición es un lugar atractivo para conocer.",
     "foto":"img/atracciones/mercado.jpg"
+  },
+  {
+    "nombre":"Cementerio Municipal de Isla Cozumel",
+    "descripcion":"Los cementerios son una fuente inagotable de información, no sólo por la cantidad de anotaciones históricas grabadas en las criptas, si no porque además reflejan la personalidad de sus moradores, de sus deudos y de la sociedad a la que pertenecieron. La vida cotidiana de los Cozumeleños se expone en las visitas a este cementerio ubicado al final de la 5a. Avenida y que en la mitad del siglo XIX cuando las primeras familias de refugiados de la guerra de castas se estrablecieron en esta Isla; escogieron este lugar como campo de paz. Alberga algunos personajes que se distringuieron por su aportación a la historia de Cozumel en el ámbito político y social. Sin duda alguna un lugar que vale la pena conocer, mientras visitas Cozumel.",
+    "foto":"img/atracciones/cementerio.jpg"
   }
 ]
