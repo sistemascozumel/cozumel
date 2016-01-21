@@ -16,7 +16,7 @@
               {{servicio}}
            </span>
 
-           <a href="{{::ferry.website}}" class="button button-full button-positive">
+           <a href="{{::ferry.website}}" onclick="window.open(this.href, '_system', 'location=yes'); return false;" class="button button-full button-positive">
              <i class="fa fa-link"> Ver sitio web</i>
            </a>
            <a ng-repeat="telefono in ferry.telefono" href="tel:{{telefono}}" class="button button-full">

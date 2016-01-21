@@ -34,7 +34,7 @@
                 <i class="fa fa-phone"></i>
                 {{::telefono}}</a>
             </p>
-            <a ng-if="dependencia.website" href="{{::dependencia.website}}" class="button button-full">
+            <a ng-if="dependencia.website" href="{{::dependencia.website}}" onclick="window.open(this.href, '_system', 'location=yes'); return false;" class="button button-full">
               <i class="fa fa-link"></i>
               Ver sitio web
             </a>

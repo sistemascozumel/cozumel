@@ -19,7 +19,7 @@
           <div class="item item-body" ng-if="texto[atraccion.nombre]">
             <img class="full-image" src="{{::atraccion.foto}}">
             <p ng-bind-html="atraccion.descripcion"></p>
-            <a ng-if="atraccion.website" href="{{::atraccion.website}}" class="button button-full button-positive">
+            <a ng-if="atraccion.website" href="{{::atraccion.website}}" onclick="window.open(this.href, '_system', 'location=yes'); return false;" class="button button-full button-positive">
               <i class="fa fa-link"></i>
               Visitar sitio web</a>
           </div>

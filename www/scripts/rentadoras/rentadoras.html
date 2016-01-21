@@ -31,7 +31,7 @@
               {{item}}
             </button>
             <p>
-              <a href="http://{{::rentadora.website}}" class="button button-full" ng-if="rentadora.website"><i class="fa fa-link"></i> {{::rentadora.website}}</a>
+              <a href="http://{{::rentadora.website}}" onclick="window.open(this.href, '_system', 'location=yes'); return false;" class="button button-full" ng-if="rentadora.website"><i class="fa fa-link"></i> {{::rentadora.website}}</a>
               <a href="tel:{{::rentadora.telefono}}" class="button button-full"><i class="fa fa-phone"></i> {{::rentadora.telefono}}</a>
               <a href="mail:{{::rentadora.correo}}" class="button button-full" ng-if="rentadora.correo"><i class="fa fa-envelope"></i> {{::rentadora.correo}}</a>
             </p>

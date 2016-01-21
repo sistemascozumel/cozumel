@@ -38,9 +38,11 @@
             <p >
               <a href="{{::restaurante.website}}"
                 ng-if="restaurante.website"
+                onclick="window.open(this.href, '_system', 'location=yes'); return false;"
                 class="button button-assertive button-full"><i class="fa fa-link"></i> Ver sitio web</a>
               <a href="{{::restaurante.facebook}}"
                 ng-if="restaurante.facebook"
+                onclick="window.open(this.href, '_system', 'location=yes'); return false;"
                 class="button button-positive button-full"><i class="fa fa-facebook"></i> Ir a la página de facebook</a>
             </p>
             <p>
