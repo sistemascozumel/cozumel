@@ -57,3 +57,4 @@
 - Mpas [http://stackoverflow.com/questions/26562150/google-maps-with-ionic](http://stackoverflow.com/questions/26562150/google-maps-with-ionic)
 - [https://www.google.com/finance/converter?a=25&from=USD&to=MXN&meta=ei%3DDcuXVrm3H9a32Abu4ZDIDw](https://www.google.com/finance/converter?a=25&from=USD&to=MXN&meta=ei%3DDcuXVrm3H9a32Abu4ZDIDw)
 - [http://learn.ionicframework.com/videos/windows-android/](http://learn.ionicframework.com/videos/windows-android/)
+- [https://blog.nraboy.com/2014/07/launch-external-urls-ionicframework/](https://blog.nraboy.com/2014/07/launch-external-urls-ionicframework/)

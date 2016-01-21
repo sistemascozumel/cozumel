@@ -122,6 +122,34 @@ git clone https://github.com/uncedric/cozumel.git
 - Para el caso de imagenes es posibe poner rutas locales (img/restaurante/foto.png) o rutas absolutas que salgan del server del ayuntamiento (o cualquier otro), ejemplo: [http://app.cozumel.gob.mx/restaurantes/foto.jpg](http://app.cozumel.gob.mx/restaurantes/foto.jpg)
 - Guardar los cambios y veriicar que funcionen correctamente en  [http://localhost:8100](http://localhost:8100)
 
+## Guardar cambios en git
+- Se debe de estar trabajando en un repositorio clonado (ver tercer paso de **Dessarrollo**)
+- Modificar, eliminar y/o agregar archivos.
+- Listar archivos modificados cuyos cambios no hayan sido guardados
+
+  ```
+  git status
+  ```
+
+- Agregar archivos al próximo commit, en lugar del "." se puede poner la ruta de cada uno de los archivos modificados independientemente
+
+  ```
+  git add .
+  ```
+
+- Hacer el commit (el equivalente a guardar los cambios)
+
+  ```
+  git commit -
+  m "Mensaje con el que se guardarán los cambios"
+  ```
+
+- Subir los cambios a github
+
+  ```
+  git push origin master
+  ```
+
 ## Desarrollo Linux
 - Linux: export ANDROID_HOME="/home/cedric/Android/Sdk"
 - Instalar SDK /home/cedric/Android/Sdk/tools/android
